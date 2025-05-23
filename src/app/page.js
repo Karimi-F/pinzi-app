@@ -1,12 +1,70 @@
-'use client';
+"use client";
 
 import AuthButton from "@/components/AuthButton";
+import Button from "@/components/Button";
+import About from "./about/page";
 
 export default function Landing() {
+  const handleClick = () => {
+    alert("Button was clicked!");
+  };
+
   return (
-      <main className="flex flex-col items-center justify-center min-h-screen">
-      <h1 className="text-2xl font-bold mb-4">Pinzi App</h1>
-      <AuthButton />
-    </main>
+    <>
+      <nav className="sticky top-0 z-50 bg-white shadow-md text-black px-6 py-4">
+        <div className="flex items-center justify-between">
+          <h1 className="text-2xl font-bold">
+            <span className="text-red-600">汉字</span> Flashcards
+          </h1>
+          <div className="flex justify-end space-x-8">
+            <ul className="flex space-x-6 text-lg">
+              <li className="cursor-pointer hover:text-blue-600">Features</li>
+              <li className="cursor-pointer hover:text-blue-600">About</li>
+              <li className="cursor-pointer hover:text-blue-600">Contact</li>
+              <li className="cursor-pointer hover:text-blue-600">Login</li>
+            </ul>
+
+            <AuthButton />
+          </div>
+        </div>
+      </nav>
+      {/* <main className="flex flex-col justify-center min-h-screen">
+      
+
+      <div className="flex justify-center mt-12">
+        <AuthButton />
+      </div>
+    </main> */}
+      <div className="wrapper flex justify-between items-center h-screen w-full p-3 bg-rose-50 text-black">
+        <div className="w-1/2">
+          <h2 className="text-6xl font-bold">Learn Mandarin the Smart Way!</h2>
+          <p className="text-xl">
+            Master Hanzi with intercative flashcards and track your progress
+            effortlessly.
+          </p>
+          <div className="space-x-4 space-y-8">
+            <Button>Sign up Free</Button>
+            <Button className="bg-white text-black">Log in</Button>
+          </div>
+        </div>
+        <div className="w-1/2 space-y-2">
+          <div className="flex space-x-6 bg-white text-black w-3/5 rounded-md h-20 p-4 m-24 my-auto">
+            <h1 className="text-5xl">学</h1>
+            <div>
+              <p>xué</p>
+              <p className="font-semibold">to learn</p>
+            </div>
+          </div>
+          <div className="flex bg-white text-black space-x-6 w-3/5 rounded-md h-20 p-4 m-24">
+            <h1 className="text-5xl">习</h1>
+            <div>
+              <p>xí</p>
+              <p className="font-semibold">to practice</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <About />
+    </>
   );
 }
