@@ -1,0 +1,24 @@
+{
+  "users": [
+    {
+      "id": "abc123",
+      "email": "kari@example.com",
+      "name": "Kari Sage",
+      "nickname": "kari",
+      "flashcards": [
+        { "hanzi": "你", "pinyin": "nǐ", "meaning": "you" },
+        { "hanzi": "好", "pinyin": "hǎo", "meaning": "good" }
+      ]
+    },
+    {
+      "id": "abcd1234",
+      "email": "karimi@example.com",
+      "name": "Karimi",
+      "nickname": "karimi",
+      "flashcards": [
+        { "hanzi": "我", "pinyin": "wwǒ", "meaning": "me" },
+        { "hanzi": "不", "pinyin": "bbù", "meaning": "not" }
+      ]
+    }
+  ]
+}
