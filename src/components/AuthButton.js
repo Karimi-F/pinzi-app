@@ -9,8 +9,8 @@ export default function AuthButton() {
       Sign out
     </button>
   ) : (
-    <button onClick={() => signIn("google")} className="p-2 bg-blue-500 text-white rounded">
-      Sign in with Google
+    <button onClick={() => signIn("google")} className="p-2 bg-red-500 text-white rounded">
+      Sign up with Google
     </button>
   );
 }
