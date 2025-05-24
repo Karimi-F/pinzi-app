@@ -3,6 +3,9 @@
 import AuthButton from "@/components/AuthButton";
 import Button from "@/components/Button";
 import About from "./about/page";
+import Footer from "./footer/page";
+import Contact from "./contact/page";
+import { ChevronRight } from "lucide-react";
 
 export default function Landing() {
   const handleClick = () => {
@@ -18,10 +21,10 @@ export default function Landing() {
           </h1>
           <div className="flex justify-end space-x-8">
             <ul className="flex space-x-6 text-lg">
-              <li className="cursor-pointer hover:text-blue-600">Features</li>
-              <li className="cursor-pointer hover:text-blue-600">About</li>
-              <li className="cursor-pointer hover:text-blue-600">Contact</li>
-              <li className="cursor-pointer hover:text-blue-600">Login</li>
+              <li className="cursor-pointer hover:text-red-600">Features</li>
+              <li className="cursor-pointer hover:text-red-600">About</li>
+              <li className="cursor-pointer hover:text-red-600">Contact</li>
+              <li className="cursor-pointer hover:text-red-600">Login</li>
             </ul>
 
             <AuthButton />
@@ -42,9 +45,9 @@ export default function Landing() {
             Master Hanzi with intercative flashcards and track your progress
             effortlessly.
           </p>
-          <div className="space-x-4 space-y-8">
-            <Button>Sign up Free</Button>
-            <Button className="bg-white text-black">Log in</Button>
+          <div className=" flex space-x-6">
+            <Button className="!w-1/4 !flex !h-11">Sign up Free <ChevronRight/></Button>
+            <Button className="!bg-white !text-black !w-1/6 !border !border-gray-200">Login</Button>
           </div>
         </div>
         <div className="w-1/2 space-y-2">
@@ -64,7 +67,12 @@ export default function Landing() {
           </div>
         </div>
       </div>
+      <div className="bg-slate-50">
       <About />
+      <Contact />
+      </div>
+      
+      <Footer />
     </>
   );
 }
