@@ -21,23 +21,15 @@ export default function Landing() {
           </h1>
           <div className="flex justify-end space-x-8">
             <ul className="flex space-x-6 text-lg">
-              <li className="cursor-pointer hover:text-red-600">Features</li>
-              <li className="cursor-pointer hover:text-red-600">About</li>
+              <li className="cursor-pointer hover:text-red-600"><a href="/home">Home</a></li>
+              <li className="cursor-pointer hover:text-red-600"><a href="/about">About</a></li>
               <li className="cursor-pointer hover:text-red-600">Contact</li>
               <li className="cursor-pointer hover:text-red-600">Login</li>
             </ul>
-
             <AuthButton />
           </div>
         </div>
       </nav>
-      {/* <main className="flex flex-col justify-center min-h-screen">
-      
-
-      <div className="flex justify-center mt-12">
-        <AuthButton />
-      </div>
-    </main> */}
       <div className="wrapper flex justify-between items-center h-screen w-full p-3 bg-rose-50 text-black">
         <div className="w-1/2">
           <h2 className="text-6xl font-bold">Learn Mandarin the Smart Way!</h2>
@@ -46,8 +38,12 @@ export default function Landing() {
             effortlessly.
           </p>
           <div className=" flex space-x-6">
-            <Button className="!w-1/4 !flex !h-11">Sign up Free <ChevronRight/></Button>
-            <Button className="!bg-white !text-black !w-1/6 !border !border-gray-200">Login</Button>
+            <Button className="!w-1/4 !flex !h-11">
+              Sign up Free <ChevronRight />
+            </Button>
+            <Button className="!bg-white !text-black !w-1/6 !border !border-gray-200">
+              Login
+            </Button>
           </div>
         </div>
         <div className="w-1/2 space-y-2">
@@ -68,10 +64,9 @@ export default function Landing() {
         </div>
       </div>
       <div className="bg-slate-50">
-      <About />
-      <Contact />
+        <About />
+        <Contact />
       </div>
-      
       <Footer />
     </>
   );
