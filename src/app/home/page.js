@@ -3,11 +3,12 @@
 
 import AuthButton from "@/components/AuthButton";
 import Button from "@/components/Button";
-import { FilterIcon, Plus, User, UserCircle } from "lucide-react";
+import { Filter, FilterIcon, Plus, User, UserCircle } from "lucide-react";
 import { useSession } from "next-auth/react";
 import FlashcardGrid from "../flashcard-grid/page";
 import { useState } from "react";
 import Footer from "../footer/page";
+import CreateFlashcardModal from "../createflashcardmodal/page";
 
 const sampleFlashcards = [
   {
@@ -98,7 +99,8 @@ export default function Home() {
   };
 
   return (
-    <div className="text-black">
+    <div className="bg-gray-50 h-screen">
+    <main className="text-black">
       <nav className="sticky top-0 z-50 bg-white shadow-md text-black px-6 py-4">
         <div className="flex items-center justify-between">
           <h1 className="text-2xl font-bold">
@@ -131,28 +133,75 @@ export default function Home() {
           )}
           <p>Master Mandarin with your personalized flashcard collection</p>
         </div>
+
         <div className="flex space-x-6 h-11">
-          <div className="flex">
-            <FilterIcon />
+          <div className="flex items-center">
+            <Filter className="h-5 w-5 mr-1 text-gray-500"/>
             <select
-              value={selectedLevel}
-              onChange={setSelectedLevel}
-              className="border border-gray-200 rounded-md p-2 w-full text-black"
-            >
-              <option value="All Levels">All Levels</option>
-              <option value="beginner">Beginner</option>
-              <option value="intermediate">Intermediate</option>
-              <option value="advanced">Advanced</option>
-            </select>
+  value={selectedLevel}
+  onChange={(e) => setSelectedLevel(e.target.value)}
+  className="border border-gray-200 rounded-md p-2 w-[180px] text-black"
+>
+  {levels.map((level) => (
+    <option key={level} value={level}>
+      {level}
+    </option>
+  ))}
+</select>
           </div>
 
           <Button onClick={() => setIsCreateModalOpen} className="flex">
-            <Plus className="h-4 w-4 mr-2" /> 
+            <Plus className="h-6 w-6 mr-2" /> 
             Create Flashcard
           </Button>
         </div>
       </div>
-      
+
+      <section>
+        <div>
+          {Object.keys(groupedFlashcards).length === 0 ? (
+            <div className="text-center">
+              <div>
+                <div>📚</div>
+              </div>
+              <h3 className="text-xl font-semibold text-gray-600 mb-2">No flashcards found</h3>
+              <p>
+                {selectedLevel === "All Levels"
+                ? "Create your first flashcard to get started!"
+              : `No flashcards found for ${selectedLevel} level.`}
+              </p>
+              <div className="flex justify-center">
+                <Button onClick={() => setIsCreateModalOpen(true)}className="flex items-center">
+                <Plus className="h-6 w-6 mr-2"/>
+                Create Your First Flashcard
+              </Button>
+              </div>
+              
+              
+            </div>
+          ) : (
+            <div className="space-y-8">
+              {Object.entries(groupedFlashcards).map(([level, cards]) => (
+                <div key={level}>
+                  <div className="flex items-center gap-3 mb-6">
+                    <h2 className="text-2xl font-bold text-gray-900">{level}</h2>
+                    <span className="bg-red-100 text-red-800 text-sm font-medium px-3 py-1 rounded-full">
+                      {cards.length} {cards.length === 1 ? "card" : "cards"}</span>
+                  </div>
+                  <FlashcardGrid flashcards={cards} />
+                </div>
+              ))}
+            </div>
+          )}
+        </div>
+      </section>
+    </main>
+
+    <CreateFlashcardModal 
+    isOpen={isCreateModalOpen}
+    onClose={() => setIsCreateModalOpen(false)}
+    onSubmit={handleCreateFlashcard}
+    />
     </div>
   );
 }
