@@ -99,7 +99,7 @@ export default function Home() {
   };
 
   return (
-    <div className="bg-gray-50 h-screen">
+    <div className="bg-gray-200 h-screen">
     <main className="text-black">
       <nav className="sticky top-0 z-50 bg-white shadow-md text-black px-6 py-4">
         <div className="flex items-center justify-between">
@@ -180,11 +180,11 @@ export default function Home() {
               
             </div>
           ) : (
-            <div className="space-y-8">
+            <div className="space-y-8 bg-gray-200">
               {Object.entries(groupedFlashcards).map(([level, cards]) => (
                 <div key={level}>
                   <div className="flex items-center gap-3 mb-6">
-                    <h2 className="text-2xl font-bold text-gray-900">{level}</h2>
+                    <h2 className="text-2xl font-bold text-gray-900 ">{level}</h2>
                     <span className="bg-red-100 text-red-800 text-sm font-medium px-3 py-1 rounded-full">
                       {cards.length} {cards.length === 1 ? "card" : "cards"}</span>
                   </div>
