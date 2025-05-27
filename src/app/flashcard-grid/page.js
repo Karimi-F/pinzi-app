@@ -24,17 +24,17 @@ export default function FlashcardGrid({flashcards}){
     };
 
     return(
-        <div className="Card container bg-gray-200 min-h-screen">
+        <div className="bg-gray-200 min-h-screen">
         {flashcards.map((card) => {
             const isFlipped = flippedCards.has(card.id);
 
             return (
                 <div 
                 key = {card.id}
-                className="cursor-pointer transition-all duration-300 hover:shadow-lg group"
+                className="cursor-pointer transition-all duration-300 hover:shadow-lg group bg-slate-50"
                 onClick={() => toggleFlip(card.id)}
                 >
-                    <div className="p-6 h-48 flex flex-col justify-center items-center relative">
+                    <div className="p-6 m-6 flex flex-col justify-center items-center relative">
                         {!isFlipped ? (
                             <div className="text-center">
                                 <div className="text-4xl font-bold mb-3 text-gray-900">{card.hanzi}</div>
