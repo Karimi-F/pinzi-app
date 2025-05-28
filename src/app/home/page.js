@@ -150,7 +150,7 @@ export default function Home() {
 </select>
           </div>
 
-          <Button onClick={() => setIsCreateModalOpen} className="flex">
+          <Button onClick={() => setIsCreateModalOpen(true)} className="flex">
             <Plus className="h-6 w-6 mr-2" /> 
             Create Flashcard
           </Button>
