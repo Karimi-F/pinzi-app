@@ -6,14 +6,14 @@ export default function AuthButton() {
 
   return session ? (
     <button
-      onClick={() => signOut()}
+      onClick={() => signOut({callbackUrl: "/"}) }
       className="p-2 bg-red-500 text-white rounded"
     >
       Sign out
     </button>
   ) : (
     <button
-      onClick={() => signIn("google")}
+      onClick={() => signIn("google", {callbackUrl: "/home"})}
       className="p-2 bg-red-500 text-white rounded"
     >
       Sign up with Google
