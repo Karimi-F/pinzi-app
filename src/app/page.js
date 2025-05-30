@@ -23,8 +23,8 @@ export default function Landing() {
             <ul className="flex space-x-6 text-lg">
               <li className="cursor-pointer hover:text-red-600"><a href="/home">Home</a></li>
               <li className="cursor-pointer hover:text-red-600"><a href="/about">About</a></li>
-              <li className="cursor-pointer hover:text-red-600">Contact</li>
-              <li className="cursor-pointer hover:text-red-600">Login</li>
+              <li className="cursor-pointer hover:text-red-600"><a href="/contact">Contact</a></li>
+              {/* <li className="cursor-pointer hover:text-red-600">Login</li> */}
             </ul>
             <AuthButton />
           </div>
