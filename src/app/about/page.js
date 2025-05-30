@@ -12,6 +12,19 @@ import {
 export default function About() {
   return (
     <div className="bg-white text-black h-screen">
+      <div className="p-4"><h1 className="text-center text-3xl font-bold p-8">About this App</h1>
+      <p className="text-xl"><span className="font-bold">Welcome!</span> This is a space built for Mandarin learners who 
+        want to revise smarter — not harder.
+I created this flashcard web app because I was tired of tools that 
+felt cluttered, overwhelming, or just didn’t work with how I actually 
+learn. If you’ve ever felt like memorizing characters just to forget 
+them the next week — yeah, I’ve been there.
+This app is designed to help you study Hanzi, Pinyin, and English 
+translations in a way that’s clean, simple, and effective.
+Whether you're prepping for an HSK exam or just trying to remember 
+how to say "apple," I hope this tool makes your learning journey a 
+little smoother.</p></div>
+      
       <h1 className="text-center text-3xl font-bold p-8">
         {" "}
         Why Use Pinzi Flashcards?
