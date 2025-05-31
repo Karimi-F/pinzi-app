@@ -19,9 +19,10 @@ export default function Contact() {
         </div>
         <div className="p-4">
           <h4 className="cursor-pointer hover:text-red-500">Home</h4>
-          <h4 className="cursor-pointer hover:text-red-500">Features</h4>
+          {/* <h4 className="cursor-pointer hover:text-red-500">Features</h4> */}
           <h4 className="cursor-pointer hover:text-red-500">About</h4>
           <h4 className="cursor-pointer hover:text-red-500">Contact</h4>
+          
         </div>
       </div>
       <div className="p-4 w-1/4">
