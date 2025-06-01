@@ -1,7 +1,7 @@
 "use client";
 
 import Button from "@/components/Button";
-import { Github, Mail, Twitter } from "lucide-react";
+import { Github, Mail, Map, Twitter } from "lucide-react";
 import { Input } from "postcss";
 
 export default function Contact() {
@@ -50,6 +50,38 @@ export default function Contact() {
           </p>
           <icon>sth</icon>
           <p>start chat</p>
+        </div>
+      </div>
+      <div>
+        <h1>ADD MAP</h1>
+      </div>
+      <div>
+        <div>
+          <h5>FAQ</h5>
+          <h1>Freaquently asked questions</h1>
+        </div>
+        <div>
+          <h4>Culpa amet elit incididunt ipsum exercitation aute dolor elit enim tempor et sunt.</h4>
+          <p>loremCillum voluptate aute proident tempor incididunt elit magna amet officia enim velit do. Elit tempor dolore ipsum aute ullamco esse. Non commodo deserunt nisi quis qui nostrud laborum nostrud. Dolor incididunt pariatur minim occaecat exercitation est amet nisi. Adipisicing aute qui sunt in. Ad incididunt ullamco ex occaecat nulla. Magna laboris veniam ad commodo et.
+
+          </p>
+          <h4>Culpa amet elit incididunt ipsum exercitation aute dolor elit enim tempor et sunt.</h4>
+          <p>loremCillum voluptate aute proident tempor incididunt elit magna amet officia enim velit do. Elit tempor dolore ipsum aute ullamco esse. Non commodo deserunt nisi quis qui nostrud laborum nostrud. Dolor incididunt pariatur minim occaecat exercitation est amet nisi. Adipisicing aute qui sunt in. Ad incididunt ullamco ex occaecat nulla. Magna laboris veniam ad commodo et.
+
+          </p>
+          <h4>Culpa amet elit incididunt ipsum exercitation aute dolor elit enim tempor et sunt.</h4>
+          <p>loremCillum voluptate aute proident tempor incididunt elit magna amet officia enim velit do. Elit tempor dolore ipsum aute ullamco esse. Non commodo deserunt nisi quis qui nostrud laborum nostrud. Dolor incididunt pariatur minim occaecat exercitation est amet nisi. Adipisicing aute qui sunt in. Ad incididunt ullamco ex occaecat nulla. Magna laboris veniam ad commodo et.
+
+          </p>
+          <h4>Culpa amet elit incididunt ipsum exercitation aute dolor elit enim tempor et sunt.</h4>
+          <p>loremCillum voluptate aute proident tempor incididunt elit magna amet officia enim velit do. Elit tempor dolore ipsum aute ullamco esse. Non commodo deserunt nisi quis qui nostrud laborum nostrud. Dolor incididunt pariatur minim occaecat exercitation est amet nisi. Adipisicing aute qui sunt in. Ad incididunt ullamco ex occaecat nulla. Magna laboris veniam ad commodo et.
+
+          </p>
+          <h4>Culpa amet elit incididunt ipsum exercitation aute dolor elit enim tempor et sunt.</h4>
+          <p>loremCillum voluptate aute proident tempor incididunt elit magna amet officia enim velit do. Elit tempor dolore ipsum aute ullamco esse. Non commodo deserunt nisi quis qui nostrud laborum nostrud. Dolor incididunt pariatur minim occaecat exercitation est amet nisi. Adipisicing aute qui sunt in. Ad incididunt ullamco ex occaecat nulla. Magna laboris veniam ad commodo et.
+
+          </p>
+
         </div>
       </div>
       </div>
