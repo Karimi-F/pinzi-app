@@ -1,5 +1,6 @@
 "use client";
 
+import Button from "@/components/Button";
 import { Github, Mail, Twitter } from "lucide-react";
 import { Input } from "postcss";
 
@@ -15,6 +16,13 @@ export default function Contact() {
           <label>Name</label>
           <input className="bg-gray-200" placeholder="First Name"/>
           <input className="bg-gray-200" placeholder="Last Name"/>
+          <label>Email</label>
+          <input className="bg-gray-200" placeholder="Email Address"/>
+          <label>Phone Number</label>
+          <input className="bg-gray-200" placeholder="Phone Number"/>
+          <label>Message</label>
+          <input type="text"className="bg-gray-200" placeholder="Message"/>
+          <Button>Submit</Button>
         </form>
       </div>
 
