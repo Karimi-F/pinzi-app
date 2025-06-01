@@ -9,6 +9,7 @@ export default function Contact() {
     // <div className="flex justify-between border border-gray-100 bg-slate-50 text-black w-full">
     <div className="border border-gray-100 bg-slate-50 text-black w-full">
       <div>
+        <div>
         <h1>Get in touch</h1>
         <form>
           <h4>Send a Message</h4>
@@ -25,6 +26,34 @@ export default function Contact() {
           <Button>Submit</Button>
         </form>
       </div>
+      <div>
+        <div>
+          <h4>Call Us</h4>
+          <p>Laborum amet non cillum labore exercitation labore quis. Do duis amet aliqua excepteur duis ut. Velit commodo laborum id qui. Officia sit consequat Lorem mollit duis. Ex esse consequat nisi commodo irure voluptate eiusmod cupidatat amet cillum pariatur. Eu sint ea consectetur consequat minim dolor duis adipisicing amet. Aute ea veniam est consequat sit.
+
+          </p>
+          <icon>sth</icon>
+          <p>number</p>
+        </div>
+        <div>
+          <h4>Visit Us</h4>
+          <p>Laborum amet non cillum labore exercitation labore quis. Do duis amet aliqua excepteur duis ut. Velit commodo laborum id qui. Officia sit consequat Lorem mollit duis. Ex esse consequat nisi commodo irure voluptate eiusmod cupidatat amet cillum pariatur. Eu sint ea consectetur consequat minim dolor duis adipisicing amet. Aute ea veniam est consequat sit.
+
+          </p>
+          <icon>sth</icon>
+          <p>lokeshen</p>
+        </div>
+        <div>
+          <h4>Live Chat</h4>
+          <p>Laborum amet non cillum labore exercitation labore quis. Do duis amet aliqua excepteur duis ut. Velit commodo laborum id qui. Officia sit consequat Lorem mollit duis. Ex esse consequat nisi commodo irure voluptate eiusmod cupidatat amet cillum pariatur. Eu sint ea consectetur consequat minim dolor duis adipisicing amet. Aute ea veniam est consequat sit.
+
+          </p>
+          <icon>sth</icon>
+          <p>start chat</p>
+        </div>
+      </div>
+      </div>
+      
 
 
 
