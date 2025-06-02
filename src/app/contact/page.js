@@ -2,29 +2,35 @@
 
 import Button from "@/components/Button";
 import { Github, Mail, Map, Twitter } from "lucide-react";
-import { Input } from "postcss";
 
 export default function Contact() {
   return (
     // <div className="flex justify-between border border-gray-100 bg-slate-50 text-black w-full">
     <div className="border border-gray-100 bg-slate-50 text-black w-full">
       <div>
-        
-      <div className="flex w-full">
-        <div className="border border-gray-400">
-        <h1>Get in touch</h1>
-        <form>
-          <h4>Send a Message</h4>
-          <p>lorem</p>
-          <label>Name</label>
+      <div className="flex justify-between space-x-8">
+        <div className="border border-gray-400 p-2 space-y-4">
+        <h1 className="text-black font-bold text-4xl">Get in touch</h1>
+        <form> 
+          <h4 className="text-2xl font-semibold">Send a Message</h4>
+          <p>Lorem</p>
+          <div className="flex space-x-5">
+          <label>Name:</label>
           <input className="bg-gray-200" placeholder="First Name"/>
           <input className="bg-gray-200" placeholder="Last Name"/>
-          <label>Email</label>
+          </div>
+          <div>
+            <label>Email:</label>
           <input className="bg-gray-200" placeholder="Email Address"/>
-          <label>Phone Number</label>
+          </div>
+          <div>
+<label>Phone Number:</label>
           <input className="bg-gray-200" placeholder="Phone Number"/>
-          <label>Message</label>
+          </div>
+          <div>
+            <label>Message</label>
           <input type="text"className="bg-gray-200" placeholder="Message"/>
+          </div>
           <Button>Submit</Button>
         </form>
       </div>
