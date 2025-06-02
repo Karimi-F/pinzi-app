@@ -9,7 +9,9 @@ export default function Contact() {
     // <div className="flex justify-between border border-gray-100 bg-slate-50 text-black w-full">
     <div className="border border-gray-100 bg-slate-50 text-black w-full">
       <div>
-        <div>
+        
+      <div className="flex w-full">
+        <div className="border border-gray-400">
         <h1>Get in touch</h1>
         <form>
           <h4>Send a Message</h4>
@@ -52,13 +54,14 @@ export default function Contact() {
           <p>start chat</p>
         </div>
       </div>
+      </div>
       <div>
         <h1>ADD MAP</h1>
       </div>
       <div>
         <div>
           <h5>FAQ</h5>
-          <h1>Freaquently asked questions</h1>
+          <h1>Frequently asked questions</h1>
         </div>
         <div>
           <h4>Culpa amet elit incididunt ipsum exercitation aute dolor elit enim tempor et sunt.</h4>
