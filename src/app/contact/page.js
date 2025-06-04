@@ -103,10 +103,10 @@ export default function Contact() {
         </div>
       </div>
 
-      <div className="flex">
-        <div className="w-1/3">
+      <div className="flex p-4">
+        <div className="w-1/3 space-y-6">
           <h5 className="text-2xl">FAQ</h5>
-          <h1>Frequently asked questions</h1>
+          <h1 className="font-bold text-4xl">Frequently asked questions</h1>
         </div>
         <div>
           <h4>1. Do I need to create an account to use the flashcards?</h4>
