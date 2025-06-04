@@ -110,67 +110,52 @@ export default function Contact() {
         </div>
         <div>
           <h4>
-            Culpa amet elit incididunt ipsum exercitation aute dolor elit enim
-            tempor et sunt.
+            1. Do I need to create an account to use the flashcards?
           </h4>
           <p>
-            loremCillum voluptate aute proident tempor incididunt elit magna
-            amet officia enim velit do. Elit tempor dolore ipsum aute ullamco
-            esse. Non commodo deserunt nisi quis qui nostrud laborum nostrud.
-            Dolor incididunt pariatur minim occaecat exercitation est amet nisi.
-            Adipisicing aute qui sunt in. Ad incididunt ullamco ex occaecat
-            nulla. Magna laboris veniam ad commodo et.
+           Yes. You’ll need to sign in before you can create or view flashcards. This ensures your progress and content are securely stored and personalized to your learning experience.
           </p>
           <h4>
-            Culpa amet elit incididunt ipsum exercitation aute dolor elit enim
-            tempor et sunt.
+            2. Can I use this without knowing any Mandarin yet?
           </h4>
           <p>
-            loremCillum voluptate aute proident tempor incididunt elit magna
-            amet officia enim velit do. Elit tempor dolore ipsum aute ullamco
-            esse. Non commodo deserunt nisi quis qui nostrud laborum nostrud.
-            Dolor incididunt pariatur minim occaecat exercitation est amet nisi.
-            Adipisicing aute qui sunt in. Ad incididunt ullamco ex occaecat
-            nulla. Magna laboris veniam ad commodo et.
+            Absolutely. The app is designed for learners at all levels, including complete beginners. The included Mandarin Rules page offers foundational guidance to help you get started with pronunciation, character structure, and tone systems.
           </p>
           <h4>
-            Culpa amet elit incididunt ipsum exercitation aute dolor elit enim
-            tempor et sunt.
+            3. How are the flashcards organized?
           </h4>
           <p>
-            loremCillum voluptate aute proident tempor incididunt elit magna
-            amet officia enim velit do. Elit tempor dolore ipsum aute ullamco
-            esse. Non commodo deserunt nisi quis qui nostrud laborum nostrud.
-            Dolor incididunt pariatur minim occaecat exercitation est amet nisi.
-            Adipisicing aute qui sunt in. Ad incididunt ullamco ex occaecat
-            nulla. Magna laboris veniam ad commodo et.
+            Flashcards are organized by learning level, such as HSK levels or custom difficulty categories. This allows you to filter and focus on vocabulary relevant to your current proficiency.
           </p>
           <h4>
-            Culpa amet elit incididunt ipsum exercitation aute dolor elit enim
-            tempor et sunt.
+            4. Can I create my own flashcards?
           </h4>
           <p>
-            loremCillum voluptate aute proident tempor incididunt elit magna
-            amet officia enim velit do. Elit tempor dolore ipsum aute ullamco
-            esse. Non commodo deserunt nisi quis qui nostrud laborum nostrud.
-            Dolor incididunt pariatur minim occaecat exercitation est amet nisi.
-            Adipisicing aute qui sunt in. Ad incididunt ullamco ex occaecat
-            nulla. Magna laboris veniam ad commodo et.
+            Yes. Once logged in, you can create flashcards using a simple form. Each flashcard includes Hanzi (Chinese characters), Pinyin (phonetic spelling), and an English translation. Your custom cards are then categorized under the level you assign them to.
           </p>
           <h4>
-            Culpa amet elit incididunt ipsum exercitation aute dolor elit enim
-            tempor et sunt.
+            5. What if a word has more than one meaning?
           </h4>
           <p>
-            loremCillum voluptate aute proident tempor incididunt elit magna
-            amet officia enim velit do. Elit tempor dolore ipsum aute ullamco
-            esse. Non commodo deserunt nisi quis qui nostrud laborum nostrud.
-            Dolor incididunt pariatur minim occaecat exercitation est amet nisi.
-            Adipisicing aute qui sunt in. Ad incididunt ullamco ex occaecat
-            nulla. Magna laboris veniam ad commodo et.
+            That’s completely normal. If a character or word has multiple meanings, you’re free to create separate flashcards for each definition. As long as the Hanzi, Pinyin, and English fields differ, duplicates will not be flagged.
+          </p>
+          <h4>
+            6. Can I search or filter flashcards?
+          </h4>
+          <p>
+            Yes. You can search for cards by Chinese characters, and filter by level to narrow down your study set. This helps you quickly find the vocabulary that matters most to you.
+          </p>
+          <h4>
+            7. Is there a way to back up or export my cards?
+          </h4>
+          <p>
+            Not yet — but this feature is planned for a future update. For now, your data is stored securely while you're logged in. Stay tuned for future enhancements including backup, export, and progress tracking tools.
           </p>
         </div>
       </div>
+
+      <div className="text-center text-2xl">I’m just one person building this in between learning <span className="text-red-600">汉字</span> and debugging Tailwind classes 😅
+So if I don’t respond right away — I see you. And I appreciate you.</div>
 
 <div className="flex">
 <div className="p-4 w-1/4">
@@ -225,8 +210,7 @@ export default function Contact() {
       </div>
 </div>
       
-      <div className="text-center">I’m just one person building this in between learning <span className="text-red-600">汉字</span> and debugging Tailwind classes 😅
-So if I don’t respond right away — I see you. And I appreciate you.</div>
+      
       <Footer />
     </div>
   );
