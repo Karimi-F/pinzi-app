@@ -103,9 +103,9 @@ export default function Contact() {
         </div>
       </div>
 
-      <div>
-        <div>
-          <h5>FAQ</h5>
+      <div className="flex">
+        <div className="w-1/3">
+          <h5 className="text-2xl">FAQ</h5>
           <h1>Frequently asked questions</h1>
         </div>
         <div>
