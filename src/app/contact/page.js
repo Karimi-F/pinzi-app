@@ -108,10 +108,11 @@ export default function Contact() {
           <h5 className="text-2xl">FAQ</h5>
           <h1 className="font-bold text-4xl">Frequently asked questions</h1>
         </div>
+        
         <div>
           <ul>
             <li>
-              <h4>Do I need to create an account to use the flashcards?</h4>
+              <h4 className="text-xl">Do I need to create an account to use the flashcards?</h4>
               <p>
                 Yes. You’ll need to sign in before you can create or view
                 flashcards. This ensures your progress and content are securely
@@ -119,7 +120,7 @@ export default function Contact() {
               </p>
             </li>
             <li>
-              <h4>2. Can I use this without knowing any Mandarin yet?</h4>
+              <h4 className="text-xl">Can I use this without knowing any Mandarin yet?</h4>
               <p>
                 Absolutely. The app is designed for learners at all levels,
                 including complete beginners. The included Mandarin Rules page
@@ -128,7 +129,7 @@ export default function Contact() {
               </p>
             </li>
             <li>
-              <h4>3. How are the flashcards organized?</h4>
+              <h4 className="text-xl">How are the flashcards organized?</h4>
               <p>
                 Flashcards are organized by learning level, such as HSK levels
                 or custom difficulty categories. This allows you to filter and
@@ -136,7 +137,7 @@ export default function Contact() {
               </p>
             </li>
             <li>
-              <h4>4. Can I create my own flashcards?</h4>
+              <h4 className="text-xl">Can I create my own flashcards?</h4>
               <p>
                 Yes. Once logged in, you can create flashcards using a simple
                 form. Each flashcard includes Hanzi (Chinese characters), Pinyin
@@ -145,7 +146,7 @@ export default function Contact() {
               </p>
             </li>
             <li>
-              <h4>5. What if a word has more than one meaning?</h4>
+              <h4 className="text-xl">What if a word has more than one meaning?</h4>
               <p>
                 That’s completely normal. If a character or word has multiple
                 meanings, you’re free to create separate flashcards for each
@@ -154,7 +155,7 @@ export default function Contact() {
               </p>
             </li>
             <li>
-              <h4>6. Can I search or filter flashcards?</h4>
+              <h4 className="text-xl">Can I search or filter flashcards?</h4>
               <p>
                 Yes. You can search for cards by Chinese characters, and filter
                 by level to narrow down your study set. This helps you quickly
@@ -162,7 +163,7 @@ export default function Contact() {
               </p>
             </li>
             <li>
-              <h4>7. Is there a way to back up or export my cards?</h4>
+              <h4 className="text-xl">Is there a way to back up or export my cards?</h4>
               <p>
                 Not yet — but this feature is planned for a future update. For
                 now, your data is stored securely while you're logged in. Stay
