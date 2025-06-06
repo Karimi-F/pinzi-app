@@ -9,6 +9,7 @@ import FlashcardGrid from "../flashcard-grid/page";
 import { useState } from "react";
 import Footer from "../footer/page";
 import CreateFlashcardModal from "../createflashcardmodal/page";
+import Navbar from "@/components/NavBar";
 
 const sampleFlashcards = [
   {
@@ -101,7 +102,8 @@ export default function Home() {
   return (
     <div className="bg-gray-200 h-screen">
     <main className="text-black">
-      <nav className="sticky top-0 z-50 bg-white shadow-md text-black px-6 py-4">
+      <Navbar />
+      {/* <nav className="">
         <div className="flex items-center justify-between">
           <h1 className="text-2xl font-bold">
             <span className="text-red-600">汉字</span> Flashcards
@@ -119,9 +121,9 @@ export default function Home() {
             <h2> Profile</h2>
           </Button>
 
-          {/* <AuthButton /> */}
+          
         </div>
-      </nav>
+      </nav> */}
       <div className="bg-rose-50 flex justify-between p-12 h-[25vh]">
         <div>
           {session ? (
