@@ -6,6 +6,7 @@ import About from "./about/page";
 import Footer from "./footer/page";
 import Contact from "./contact/page";
 import { BarChart, BookOpen, ChevronRight, Github, Mail, Twitter, User } from "lucide-react";
+import Navbar from "@/components/NavBar";
 
 export default function Landing() {
   const handleClick = () => {
@@ -14,7 +15,8 @@ export default function Landing() {
 
   return (
     <div className="bg-slate-50 text-black">
-      <nav className="sticky top-0 z-50 bg-white shadow-md text-black px-6 py-4">
+      <Navbar />
+      {/* <nav className="sticky top-0 z-50 bg-white shadow-md text-black px-6 py-4">
         <div className="flex items-center justify-between">
           <h1 className="text-2xl font-bold">
             <span className="text-red-600">汉字</span> Flashcards
@@ -24,12 +26,11 @@ export default function Landing() {
               <li className="cursor-pointer hover:text-red-600"><a href="/home">Home</a></li>
               <li className="cursor-pointer hover:text-red-600"><a href="/about">About</a></li>
               <li className="cursor-pointer hover:text-red-600"><a href="/contact">Contact</a></li>
-              {/* <li className="cursor-pointer hover:text-red-600">Login</li> */}
             </ul>
             <AuthButton />
           </div>
         </div>
-      </nav>
+      </nav> */}
       <div className="wrapper flex justify-between items-center h-screen w-full p-3 bg-rose-50 text-black">
         <div className="w-1/2">
           <h2 className="text-6xl font-bold">Learn Mandarin the Smart Way!</h2>
