@@ -1,6 +1,7 @@
 "use client";
 
 import Button from "@/components/Button";
+import Navbar from "@/components/NavBar";
 import {
   ChevronRight,
   BookOpen,
@@ -12,14 +13,7 @@ import {
 export default function About() {
   return (
     <div className="bg-white text-black h-screen">
-      <div className="flex justify-end space-x-8">
-                  <ul className="flex space-x-6 text-lg">
-                    <li className="cursor-pointer hover:text-red-600"><a href="/home">Home</a></li>
-                    <li className="cursor-pointer hover:text-red-600"><a href="/about">About</a></li>
-                    <li className="cursor-pointer hover:text-red-600"><a href="/contact">Contact</a></li>
-                    {/* <li className="cursor-pointer hover:text-red-600">Login</li> */}
-                  </ul>
-                </div>
+      <Navbar />
       <div className="p-4">
         <h1 className="text-center text-3xl font-bold p-8">About this App</h1>
         <p className="text-xl">
