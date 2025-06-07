@@ -204,6 +204,7 @@ export default function Home() {
     onClose={() => setIsCreateModalOpen(false)}
     onSubmit={handleCreateFlashcard}
     />
+    <Footer />
     </div>
   );
 }
