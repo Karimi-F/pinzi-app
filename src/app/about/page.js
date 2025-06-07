@@ -9,6 +9,7 @@ import {
   User,
   CircleUserRound,
 } from "lucide-react";
+import Footer from "../footer/page";
 
 export default function About() {
   return (
@@ -31,14 +32,13 @@ export default function About() {
       </div>
 
       <h1 className="text-center text-3xl font-bold p-8">
-        {" "}
         Why Use Pinzi Flashcards?
       </h1>
       <div className="flex items-center">
         <div className="flex space-x-6 p-3">
           <div className="rounded-md p-6 border border-gray-300">
             <div className="rounded-full bg-rose-300 w-12 h-12 flex items-center justify-center mb-4">
-              <BookOpen className="h-6 w-6 text-red-600 bg-rose 500" />
+              <BookOpen className="h-6 w-6 text-red-600 bg-rose-500" />
             </div>
             <h2 className="font-bold text-2xl">Learn Faster</h2>
             <p>
@@ -71,6 +71,7 @@ export default function About() {
         </p>
         <Button className="">Get Started Now</Button>
       </div>
+      <Footer />
     </div>
   );
 }
