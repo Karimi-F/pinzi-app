@@ -5,8 +5,8 @@ import Footer from "../footer/page";
 import { useState } from "react";
 
 const rules = [
-  "Pinyin",
   "Tones",
+  "Pinyin",
   "Hanzi & Stroke Order",
   "Sentence Structure",
   "Particles",
@@ -19,6 +19,72 @@ const rules = [
 ];
 
 const ruleContent = {
+  Tones: (
+    <div>
+      <h3>
+        Mandarin has five tones. Each one gives a word a different meaning, even
+        if the letters stay the same.
+      </h3>
+      <h1>THE TONE TABLE</h1>
+      <h4>Tone Rules</h4>
+      <ol className="list-decimal pl-6 space-y-4">
+        <li>
+          <div>
+            <span>Tones are not optional.</span>
+            <p>Changing the tone changes the word completely.</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <span>Learn tones with words, not just syllables.</span>
+            <p>
+              Don’t memorize “mǎ” by itself. Learn mǎi dōngxi (buy stuff). Tones
+              stick better with context.
+            </p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <span>Neutral tone = soft, light, unstressed.</span>
+            <p>Often used in particles like 吗 (ma), 呢 (ne), 吧 (ba).</p>
+          </div>
+        </li>
+      </ol>
+      <h3>Tone Change Rules (Tone Sandhi)</h3>
+      <ol className="list-decimal pl-6 space-y-4">
+        <li>
+          <div>
+            <p>Two 3rd tones in a row?</p>
+            <p>First becomes 2nd tone.</p>
+            <span>Examples:</span>
+            <ul>
+              <li>→ nǐ hǎo = ní hǎo</li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <div>
+            <p> “一” (yī) changes tone:</p>
+            <p>First becomes 2nd tone.</p>
+            <span>Examples:</span>
+            <ul>
+              <li>Before 4th tone → becomes 2nd tone → 一样 = yí yàng</li>
+              <li>Before other tones → becomes 4th tone → 一百 = yì bǎi</li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <div>
+            <p> “不” (bù) changes tone:</p>
+            <span>Examples:</span>
+            <ul>
+              <li>Before 4th tone → becomes 2nd tone → 不对 = bú duì</li>
+            </ul>
+          </div>
+        </li>
+      </ol>
+    </div>
+  ),
   Pinyin: (
     <div>
       <h4>What is Pinyin? </h4>
@@ -32,11 +98,11 @@ const ruleContent = {
         <li>
           <div>
             <p>Pinyin syllables = Initial + Final + Tone</p>
-          <span className="italic">Examples:</span>
-          <ul>
-            <li>mā = m (initial) + a (final) + 1st tone</li>
-            <li>xiè = x + ie + 4th tone</li>
-          </ul>
+            <span className="italic">Examples:</span>
+            <ul>
+              <li>mā = m (initial) + a (final) + 1st tone</li>
+              <li>xiè = x + ie + 4th tone</li>
+            </ul>
           </div>
         </li>
         <li>
@@ -54,7 +120,9 @@ const ruleContent = {
           <div>
             <p>Special spelling changes (Pinyin quirks):</p>
             <p>Some letters are just disguises 👀 and they include:</p>
-            <span className="italic">ü → u after j, q, x, y (so "ju" is really "jü")</span>
+            <span className="italic">
+              ü → u after j, q, x, y (so "ju" is really "jü")
+            </span>
             <ul>
               <p>y/w used to represent standalone vowels:</p>
               <li>yi = i</li>
@@ -79,11 +147,10 @@ const ruleContent = {
       </ol>
     </div>
   ),
-  Tones: "Let's call them vowels",
 };
 
 export default function Rules() {
-  const [selected, setSelected] = useState("Pinyin");
+  const [selected, setSelected] = useState("Tones");
   return (
     <div className="text-black bg-slate-50 min-h-screen">
       <Navbar />
