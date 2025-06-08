@@ -4,7 +4,8 @@ import Navbar from "@/components/NavBar";
 import Footer from "../footer/page";
 
 const rules = [
-  "Pinyin & Tones",
+  "Pinyin",
+  "Tones",
   "Hanzi & Stroke Order",
   "Sentence Structure",
   "Particles",
