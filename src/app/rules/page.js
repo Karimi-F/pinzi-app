@@ -57,7 +57,7 @@ const ruleContent = {
             <p>Two 3rd tones in a row?</p>
             <p>First becomes 2nd tone.</p>
             <span>Examples:</span>
-            <ul>
+            <ul className="list-disc">
               <li>→ nǐ hǎo = ní hǎo</li>
             </ul>
           </div>
@@ -67,7 +67,7 @@ const ruleContent = {
             <p> “一” (yī) changes tone:</p>
             <p>First becomes 2nd tone.</p>
             <span>Examples:</span>
-            <ul>
+            <ul className="list-disc">
               <li>Before 4th tone → becomes 2nd tone → 一样 = yí yàng</li>
               <li>Before other tones → becomes 4th tone → 一百 = yì bǎi</li>
             </ul>
@@ -77,7 +77,7 @@ const ruleContent = {
           <div>
             <p> “不” (bù) changes tone:</p>
             <span>Examples:</span>
-            <ul>
+            <ul className="list-disc">
               <li>Before 4th tone → becomes 2nd tone → 不对 = bú duì</li>
             </ul>
           </div>
@@ -99,7 +99,7 @@ const ruleContent = {
           <div>
             <p>Pinyin syllables = Initial + Final + Tone</p>
             <span className="italic">Examples:</span>
-            <ul>
+            <ul className="list-disc">
               <li>mā = m (initial) + a (final) + 1st tone</li>
               <li>xiè = x + ie + 4th tone</li>
             </ul>
@@ -110,7 +110,7 @@ const ruleContent = {
             <p>Spelling Rule: Tone marks always go on the main vowel</p>
             <p>Order of importance: a &gt; o &gt; e &gt; i &gt; u &gt; ü</p>
             <span className="italic">Examples:</span>
-            <ul>
+            <ul className="list-disc">
               <li>hao → hǎo (mark goes on "a")</li>
               <li>xue → xuě (mark goes on "e")</li>
             </ul>
@@ -123,7 +123,7 @@ const ruleContent = {
             <span className="italic">
               ü → u after j, q, x, y (so "ju" is really "jü")
             </span>
-            <ul>
+            <ul className="list-disc">
               <p>y/w used to represent standalone vowels:</p>
               <li>yi = i</li>
               <li>wu = u</li>
@@ -136,7 +136,7 @@ const ruleContent = {
             <p>Pinyin ≠ English pronunciation</p>
             <p>Some letters sound very different:</p>
             <span className="italic">Examples:</span>
-            <ul>
+            <ul className="list-disc">
               <li>c = "ts" (like cats) → cài = tsài</li>
               <li>x = "sh" but with spread lips → xīn = sheen</li>
               <li>q = like "ch" but tighter → qì = chee</li>
@@ -147,7 +147,7 @@ const ruleContent = {
       </ol>
     </div>
   ),
-  "Sentence Structure":(
+  "Sentence Structure": (
     <div>
       <h4>CORE SENTENCE STRUCTURE (SVO)</h4>
       <ol className="list-decimal pl-6 space-y-4">
@@ -159,104 +159,77 @@ const ruleContent = {
             <p>我 昨天 在家 认真地 做 作业。</p>
             <p>wǒ zuótiān zài jiā rènzhēn de zuò zuòyè.</p>
             <p>= I did my homework seriously at home yesterday.</p>
-            <ul>
-              <div><p>🔁 In order:</p></div>
-              <li><div>Time: <span>昨天</span></div></li>
-              <li><div>Place: <span>在家</span></div></li>
-              <li><div>Manner: <span>认真地</span></div></li>
-              <li><div>Verb: <span>做</span></div></li>
-              <li><div>Object: <span>作业</span></div></li>
+            <ul className="list-disc">
+              <div>
+                <p>🔁 In order:</p>
+              </div>
+              <li>
+                <div>
+                  Time: <span>昨天</span>
+                </div>
+              </li>
+              <li>
+                <div>
+                  Place: <span>在家</span>
+                </div>
+              </li>
+              <li>
+                <div>
+                  Manner: <span>认真地</span>
+                </div>
+              </li>
+              <li>
+                <div>
+                  Verb: <span>做</span>
+                </div>
+              </li>
+              <li>
+                <div>
+                  Object: <span>作业</span>
+                </div>
+              </li>
             </ul>
-       </div>
+          </div>
         </li>
         <li>
-          2. Simple SVO
-Subject + Verb + Object
-
-Examples:
-
-我喜欢你。= I like you.
-
-她吃米饭。= She eats rice.
-
-我学中文。= I study Chinese.
-
-🧠 Use this for beginner-level survival phrases.
+          2. Simple SVO Subject + Verb + Object Examples: 我喜欢你。= I like
+          you. 她吃米饭。= She eats rice. 我学中文。= I study Chinese. 🧠 Use
+          this for beginner-level survival phrases.
         </li>
         <li>
-          3. Negation: “不” or “没” comes before the verb
-不 = “not” (general / future / habitual)
-
-没 = “didn’t” (past actions)
-
-Examples:
-
-我不吃肉。= I don't eat meat.
-
-我没去学校。= I didn’t go to school.
+          3. Negation: “不” or “没” comes before the verb 不 = “not” (general /
+          future / habitual) 没 = “didn’t” (past actions) Examples: 我不吃肉。=
+          I don't eat meat. 我没去学校。= I didn’t go to school.
         </li>
         <li>
-          4. Question = Statement + 吗
-Turn any statement into a question by adding 吗 (ma) at the end.
-
-Example:
-
-你喜欢她。→ 你喜欢她吗？ = Do you like her?
-
-OR use question words like:
-
-什么 (what), 谁 (who), 哪 (which), 几 (how many), 怎么 (how)
-
-Example: 你为什么学习汉语？= Why do you study Chinese?
+          4. Question = Statement + 吗 Turn any statement into a question by
+          adding 吗 (ma) at the end. Example: 你喜欢她。→ 你喜欢她吗？ = Do you
+          like her? OR use question words like: 什么 (what), 谁 (who), 哪
+          (which), 几 (how many), 怎么 (how) Example: 你为什么学习汉语？= Why do
+          you study Chinese?
         </li>
         <li>
-          5. “有” for “to have” and “there is”
-我有两个姐姐。= I have two older sisters.
-
-这里有人吗？= Is there someone here?
-
-Use 没有 to negate:
-
-我没有钱。= I don’t have money.
-
-
+          5. “有” for “to have” and “there is” 我有两个姐姐。= I have two older
+          sisters. 这里有人吗？= Is there someone here? Use 没有 to negate:
+          我没有钱。= I don’t have money.
         </li>
         <li>
-          6. Topic-Comment Structure
-Mandarin loves to put the topic first, then describe it.
-
-Example:
-
-这个电影，我不喜欢。= This movie, I don’t like.
-
-中文，很多人觉得难。= Chinese, many people think it’s hard.
+          6. Topic-Comment Structure Mandarin loves to put the topic first, then
+          describe it. Example: 这个电影，我不喜欢。= This movie, I don’t like.
+          中文，很多人觉得难。= Chinese, many people think it’s hard.
         </li>
-        <li>7. Serial Verb Construction
-Back-to-back verbs, no "and" needed.
-
-Example:
-
-我去超市买菜。= I go to the supermarket (to) buy groceries.
-
-他回家做饭。= He goes home (to) cook.</li>
-<li>
-  8. “的 / 得 / 地” Modifiers
-的 (de) = connects noun adjectives
-
-得 (de) = connects verbs to degree complements
-
-地 (de) = connects adverbs to verbs
-
-Examples:
-
-漂亮的女孩 = pretty girl
-
-他跑得很快 = he runs fast
-
-他认真地学习 = he studies seriously
-
-(They all sound the same but are written differently depending on what you're modifying — wild, right?)
-</li>
+        <li>
+          7. Serial Verb Construction Back-to-back verbs, no "and" needed.
+          Example: 我去超市买菜。= I go to the supermarket (to) buy groceries.
+          他回家做饭。= He goes home (to) cook.
+        </li>
+        <li>
+          8. “的 / 得 / 地” Modifiers 的 (de) = connects noun adjectives 得 (de)
+          = connects verbs to degree complements 地 (de) = connects adverbs to
+          verbs Examples: 漂亮的女孩 = pretty girl 他跑得很快 = he runs fast
+          他认真地学习 = he studies seriously (They all sound the same but are
+          written differently depending on what you're modifying — wild, right?)
+        </li>
       </ol>
     </div>
   ),
