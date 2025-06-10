@@ -16,21 +16,6 @@ export default function Landing() {
   return (
     <div className="bg-slate-50 text-black">
       <Navbar />
-      {/* <nav className="sticky top-0 z-50 bg-white shadow-md text-black px-6 py-4">
-        <div className="flex items-center justify-between">
-          <h1 className="text-2xl font-bold">
-            <span className="text-red-600">汉字</span> Flashcards
-          </h1>
-          <div className="flex justify-end space-x-8">
-            <ul className="flex space-x-6 text-lg">
-              <li className="cursor-pointer hover:text-red-600"><a href="/home">Home</a></li>
-              <li className="cursor-pointer hover:text-red-600"><a href="/about">About</a></li>
-              <li className="cursor-pointer hover:text-red-600"><a href="/contact">Contact</a></li>
-            </ul>
-            <AuthButton />
-          </div>
-        </div>
-      </nav> */}
       <div className="wrapper flex justify-between items-center h-screen w-full p-3 bg-rose-50 text-black">
         <div className="w-1/2">
           <h2 className="text-6xl font-bold">Learn Mandarin the Smart Way!</h2>
