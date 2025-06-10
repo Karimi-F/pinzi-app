@@ -67,7 +67,6 @@ export default function Landing() {
               </div>
         
               <h1 className="text-center text-3xl font-bold p-8">
-                {" "}
                 Why Use Pinzi Flashcards?
               </h1>
               <div className="flex items-center">
@@ -122,7 +121,7 @@ export default function Landing() {
                 </div>
                 <div className="p-4">
                   <h4 className="cursor-pointer hover:text-red-500">Home</h4>
-                  {/* <h4 className="cursor-pointer hover:text-red-500">Features</h4> */}
+                  <h4 className="cursor-pointer hover:text-red-500">Rules</h4>
                   <h4 className="cursor-pointer hover:text-red-500">About</h4>
                   <h4 className="cursor-pointer hover:text-red-500">Contact</h4>
                   
