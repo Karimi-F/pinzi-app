@@ -192,14 +192,47 @@ const ruleContent = {
           </div>
         </li>
         <li>
-          2. Simple SVO Subject + Verb + Object Examples: 我喜欢你。= I like
-          you. 她吃米饭。= She eats rice. 我学中文。= I study Chinese. 🧠 Use
-          this for beginner-level survival phrases.
+          <div>
+            <h2>Simple SVO Subject + Verb + Object </h2>
+            <span>Examples: </span>
+            <ul className="list-disc">
+              <li>
+                <div><span>我喜欢你。</span>= I like you.</div>
+              </li>
+              <li>
+                <div><span>她吃米饭。</span>= She eats rice. </div>
+              </li>
+              <li>
+                <div><span>我学中文。</span>= I study Chinese. </div>
+              </li>
+            </ul>
+          </div>
         </li>
         <li>
-          3. Negation: “不” or “没” comes before the verb 不 = “not” (general /
-          future / habitual) 没 = “didn’t” (past actions) Examples: 我不吃肉。=
-          I don't eat meat. 我没去学校。= I didn’t go to school.
+          <div>
+            <h2>Negation: “不” or “没” comes before the verb</h2>
+            <p>不 = “not” (general /
+          future / habitual)</p>
+          <p>没 = “didn’t” (past actions) </p>
+          <span>Examples: </span>
+          <ul>
+            <li>
+              <div>
+                <span>我不吃肉。</span>
+                =
+          I don't eat meat.
+              </div>
+            </li>
+            <li>
+              <div>
+                <span>我没去学校。</span>
+                
+            = I didn’t go to school.
+              </div>
+            </li>
+          </ul>
+          </div>
+    
         </li>
         <li>
           4. Question = Statement + 吗 Turn any statement into a question by
