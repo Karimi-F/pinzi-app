@@ -235,9 +235,18 @@ const ruleContent = {
     
         </li>
         <li>
-          4. Question = Statement + 吗 Turn any statement into a question by
-          adding 吗 (ma) at the end. Example: 你喜欢她。→ 你喜欢她吗？ = Do you
-          like her? OR use question words like: 什么 (what), 谁 (who), 哪
+          <div>
+            <h2>Question = Statement + 吗 Turn any statement into a question by
+          adding 吗 (ma) at the end.</h2>
+          <span>Example: </span>
+          <span>你喜欢她。→ 你喜欢她吗？</span>
+          <p>= Do you
+          like her?</p>
+          <h2>OR use question words like:</h2>
+          <span></span>
+          <p></p>
+          </div>
+              什么 (what), 谁 (who), 哪
           (which), 几 (how many), 怎么 (how) Example: 你为什么学习汉语？= Why do
           you study Chinese?
         </li>
