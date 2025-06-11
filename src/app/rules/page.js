@@ -197,13 +197,19 @@ const ruleContent = {
             <span>Examples: </span>
             <ul className="list-disc">
               <li>
-                <div><span>我喜欢你。</span>= I like you.</div>
+                <div>
+                  <span>我喜欢你。</span>= I like you.
+                </div>
               </li>
               <li>
-                <div><span>她吃米饭。</span>= She eats rice. </div>
+                <div>
+                  <span>她吃米饭。</span>= She eats rice.{" "}
+                </div>
               </li>
               <li>
-                <div><span>我学中文。</span>= I study Chinese. </div>
+                <div>
+                  <span>我学中文。</span>= I study Chinese.{" "}
+                </div>
               </li>
             </ul>
           </div>
@@ -211,66 +217,118 @@ const ruleContent = {
         <li>
           <div>
             <h2>Negation: “不” or “没” comes before the verb</h2>
-            <p>不 = “not” (general /
-          future / habitual)</p>
-          <p>没 = “didn’t” (past actions) </p>
-          <span>Examples: </span>
-          <ul>
-            <li>
-              <div>
-                <span>我不吃肉。</span>
-                =
-          I don't eat meat.
-              </div>
-            </li>
-            <li>
-              <div>
-                <span>我没去学校。</span>
-                
-            = I didn’t go to school.
-              </div>
-            </li>
-          </ul>
+            <p>不 = “not” (general / future / habitual)</p>
+            <p>没 = “didn’t” (past actions) </p>
+            <span>Examples: </span>
+            <ul>
+              <li>
+                <div>
+                  <span>我不吃肉。</span>= I don't eat meat.
+                </div>
+              </li>
+              <li>
+                <div>
+                  <span>我没去学校。</span>= I didn’t go to school.
+                </div>
+              </li>
+            </ul>
           </div>
-    
         </li>
         <li>
           <div>
-            <h2>Question = Statement + 吗 Turn any statement into a question by
-          adding 吗 (ma) at the end.</h2>
-          <span>Example: </span>
-          <span>你喜欢她。→ 你喜欢她吗？</span>
-          <p>= Do you
-          like her?</p>
-          <h2>OR use question words like:</h2>
-          <span></span>
-          <p></p>
+            <h2>
+              Question = Statement + 吗 Turn any statement into a question by
+              adding 吗 (ma) at the end.
+            </h2>
+            <span>Example: </span>
+            <span>你喜欢她。→ 你喜欢她吗？</span>
+            <p>= Do you like her?</p>
+            <h2>OR use question words like:</h2>
+            <span>
+              什么 (what), 谁 (who), 哪 (which), 几 (how many), 怎么 (how){" "}
+            </span>
+            <span>Example:</span>
+            <span>你为什么学习汉语？</span>
+            <p>= Why do you study Chinese?</p>
           </div>
-              什么 (what), 谁 (who), 哪
-          (which), 几 (how many), 怎么 (how) Example: 你为什么学习汉语？= Why do
-          you study Chinese?
         </li>
+
         <li>
-          5. “有” for “to have” and “there is” 我有两个姐姐。= I have two older
-          sisters. 这里有人吗？= Is there someone here? Use 没有 to negate:
-          我没有钱。= I don’t have money.
+          <div>
+            <h2>“有” for “to have” and “there is”</h2>
+            <span>我有两个姐姐。</span>
+            <p>= I have two older sisters.</p>
+            <span>这里有人吗？</span>
+            <p>= Is there someone here? </p>
+            <h2>Use 没有 to negate:</h2>
+            <span>我没有钱。</span>
+            <p>= I don’t have money.</p>
+          </div>
         </li>
+
         <li>
-          6. Topic-Comment Structure Mandarin loves to put the topic first, then
-          describe it. Example: 这个电影，我不喜欢。= This movie, I don’t like.
-          中文，很多人觉得难。= Chinese, many people think it’s hard.
+          <div>
+            <h2>
+              Topic-Comment Structure Mandarin loves to put the topic first,
+              then describe it.
+            </h2>
+            <span>Example: </span>
+            <span>这个电影，我不喜欢。</span>
+            <p>= This movie, I don’t like.</p>
+            <span>中文，很多人觉得难。</span>
+            <p>= Chinese, many people think it’s hard.</p>
+          </div>
         </li>
+
         <li>
-          7. Serial Verb Construction Back-to-back verbs, no "and" needed.
-          Example: 我去超市买菜。= I go to the supermarket (to) buy groceries.
-          他回家做饭。= He goes home (to) cook.
+          <div>
+            <h2>
+              Serial Verb Construction Back-to-back verbs, no "and" needed.
+            </h2>
+            <span>Example: </span>
+            <span>我去超市买菜。</span>
+            <p>= I go to the supermarket (to) buy groceries.</p>
+            <span>他回家做饭。</span>
+            <p>= He goes home (to) cook.</p>
+          </div>
         </li>
+
         <li>
-          8. “的 / 得 / 地” Modifiers 的 (de) = connects noun adjectives 得 (de)
-          = connects verbs to degree complements 地 (de) = connects adverbs to
-          verbs Examples: 漂亮的女孩 = pretty girl 他跑得很快 = he runs fast
-          他认真地学习 = he studies seriously (They all sound the same but are
-          written differently depending on what you're modifying — wild, right?)
+          <div>
+            <h2><span className="font-semibold">的 / 得 / 地</span> Modifiers</h2>
+            
+            <ul className="list-square">
+              <li><div><p>
+              <span> 的 (de)</span>= connects noun adjectives
+            </p></div></li>
+              <li><div><p>
+              <span>得 (de)</span>= connects verbs to degree complements
+            </p></div></li>
+              <li><div><p>
+              <span>地 (de)</span>= connects adverbs to verbs
+            </p></div></li>
+              </ul>
+            
+            
+            
+            <span>Examples:</span>
+            <ul className="list-disc">
+              <li><div className="flex"><span>漂亮的女孩</span>
+            <p>= pretty girl</p></div></li>
+              <li><div className="flex"><span>他跑得很快</span>
+            <p>= he runs fast</p></div></li>
+              <li><div className="flex"><span>他认真地学习</span>
+            <p>
+              = he studies seriously (They all sound the same but are written
+              differently depending on what you're modifying)
+            </p></div></li>
+            </ul>
+            
+            
+            
+            
+            
+          </div>
         </li>
       </ol>
     </div>
