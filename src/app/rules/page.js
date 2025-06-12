@@ -147,7 +147,7 @@ const ruleContent = {
       </ol>
     </div>
   ),
-  "Hanzi & Stroke Order":(
+  "Hanzi & Stroke Order": (
     <div>Talks about the stroke order when writing Hanzi</div>
   ),
   "Sentence Structure": (
@@ -298,57 +298,93 @@ const ruleContent = {
 
         <li>
           <div>
-            <h2><span className="font-semibold">的 / 得 / 地</span> Modifiers</h2>
+            <h2>
+              <span className="font-semibold">的 / 得 / 地</span> Modifiers
+            </h2>
             <ol className="list-decimal pl-6 space-y-4">
-              <li><div><p>
-              <span> 的 (de)</span>= connects noun adjectives
-            </p></div></li>
-              <li><div><p>
-              <span>得 (de)</span>= connects verbs to degree complements
-            </p></div></li>
-              <li><div><p>
-              <span>地 (de)</span>= connects adverbs to verbs
-            </p></div></li>
-              </ol>
-                        
+              <li>
+                <div>
+                  <p>
+                    <span> 的 (de)</span>= connects noun adjectives
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <p>
+                    <span>得 (de)</span>= connects verbs to degree complements
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <p>
+                    <span>地 (de)</span>= connects adverbs to verbs
+                  </p>
+                </div>
+              </li>
+            </ol>
+
             <span>Examples:</span>
             <ul className="list-disc">
-              <li><div className="flex"><span>漂亮的女孩</span>
-            <p>= pretty girl</p></div></li>
-              <li><div className="flex"><span>他跑得很快</span>
-            <p>= he runs fast</p></div></li>
-              <li><div className="flex"><span>他认真地学习</span>
-            <p>
-              = he studies seriously (They all sound the same but are written
-              differently depending on what you're modifying)
-            </p></div></li>
+              <li>
+                <div className="flex">
+                  <span>漂亮的女孩</span>
+                  <p>= pretty girl</p>
+                </div>
+              </li>
+              <li>
+                <div className="flex">
+                  <span>他跑得很快</span>
+                  <p>= he runs fast</p>
+                </div>
+              </li>
+              <li>
+                <div className="flex">
+                  <span>他认真地学习</span>
+                  <p>
+                    = he studies seriously (They all sound the same but are
+                    written differently depending on what you're modifying)
+                  </p>
+                </div>
+              </li>
             </ul>
           </div>
         </li>
       </ol>
     </div>
   ),
-  "Particles":(
+  Particles: (
     <div>
       <h1>Mandarin Particles (助词 zhùcí)</h1>
-      <p>Particles are function words. They don’t have standalone meaning but affect the tone, grammar, or structure of a sentence.</p>
+      <p>
+        Particles are function words. They don’t have standalone meaning but
+        affect the tone, grammar, or structure of a sentence.
+      </p>
       <ol className="list-decimal pl-6 space-y-4">
         <p>Particles fall into 3 main categories</p>
-        <li><div>Modal (语气助词)<p>Affect tone/attitude of sentence</p><span className="font-semibold">吗, 呢, 吧, 啊, 呀, 嘛</span></div></li>
         <li>
-          <div>Aspect (动态助词)
-            <p>	Indicate verb tense/aspect</p>
+          <div>
+            Modal (语气助词)<p>Affect tone/attitude of sentence</p>
+            <span className="font-semibold">吗, 呢, 吧, 啊, 呀, 嘛</span>
+          </div>
+        </li>
+        <li>
+          <div>
+            Aspect (动态助词)
+            <p> Indicate verb tense/aspect</p>
             <span className="font-semibold">了, 过, 着</span>
           </div>
         </li>
         <li>
-          <div>Structural (结构助词)
+          <div>
+            Structural (结构助词)
             <p>Show grammatical relationships</p>
             <span className="font-semibold">的, 得, 地</span>
           </div>
         </li>
       </ol>
-      
+
       <h2>Modal Particles (Change Tone/Attitude)</h2>
       <ol className="list-decimal pl-6 space-y-4">
         <li>
@@ -360,92 +396,100 @@ const ruleContent = {
                 <div>
                   <span>你喜欢汉语。</span>
                   <p>= You like Chinese.</p>
-                  </div>
+                </div>
               </li>
               <li>
                 <div>
                   <span>你喜欢汉语吗？</span>
                   <p>= Do you like Chinese?</p>
-                  </div>
+                </div>
               </li>
             </ul>
           </div>
         </li>
       </ol>
-      <h2><span className="font-semibold">Note: </span>Add it at the end of a sentence.
-       Never used with question words like 谁 (who), 什么 
-       (what).</h2>
+      <h2>
+        <span className="font-semibold">Note: </span>Add it at the end of a
+        sentence. Never used with question words like 谁 (who), 什么 (what).
+      </h2>
 
-        <li>
-          <div>
-            <span>呢 (ne)</span> – bounce-back question or soft continuation
-            <span>Examples:</span>
-            <ul className="list-disc">
-              <li>
-                <div>
-                  <span>我喜欢你，你呢？</span>
-                  <p>= I like you. What about you?</p>
-                  </div>
-              </li>
-              <li>
-                <div>
-                  <span>他在吃饭呢。</span>
-                  <p>= He’s eating (right now).</p>
-                  </div>
-              </li>
-            </ul>
-          </div>
-        </li>
-      <h2><span className="font-semibold">Note: </span>Used when asking "what about...?"
-       or describing ongoing action with verbs..</h2>
-       
-        <li>
-          <div>
-            <span>吧 (ba)</span>  – suggests a suggestion, assumption, or soft command
-            <span>Examples:</span>
-            <ul className="list-disc">
-              <li>
-                <div>
-                  <span>我们走吧！</span>
-                  <p>= Let’s go!</p>
-                  </div>
-              </li>
-              <li>
-                <div>
-                  <span>你是新生吧？</span>
-                  <p>= You’re a new student, right?</p>
-                  </div>
-              </li>
-            </ul>
-          </div>
-        </li>
-      <h2><span className="font-semibold">Note: </span>Makes things more casual, polite,
-       or tentative.</h2>
-       
-        <li>
-          <div>
-            <span>啊(a)/呀(ya)/嘛(ma)/</span>  – suggests a suggestion, assumption, or soft command
-            <span>Examples:</span>
-            <ul className="list-disc">
-              <li>
-                <div>
-                  <span>好啊！</span>
-                  <p>= Great!</p>
-                  </div>
-              </li>
-              <li>
-                <div>
-                  <span>快点儿嘛</span>
-                  <p>= Come on, hurry up!</p>
-                  </div>
-              </li>
-            </ul>
-          </div>
-        </li>
-      <h2><span className="font-semibold">Note: </span>Mostly emotional — expressing 
-      excitement, emphasis, persuasion, etc.
-"呀" is a soft "ah" used after vowels. "嘛" adds a little 
-sassy reasoning or insistence.</h2>
+      <li>
+        <div>
+          <span>呢 (ne)</span> – bounce-back question or soft continuation
+          <span>Examples:</span>
+          <ul className="list-disc">
+            <li>
+              <div>
+                <span>我喜欢你，你呢？</span>
+                <p>= I like you. What about you?</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <span>他在吃饭呢。</span>
+                <p>= He’s eating (right now).</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <h2>
+        <span className="font-semibold">Note: </span>Used when asking "what
+        about...?" or describing ongoing action with verbs..
+      </h2>
+
+      <li>
+        <div>
+          <span>吧 (ba)</span> – suggests a suggestion, assumption, or soft
+          command
+          <span>Examples:</span>
+          <ul className="list-disc">
+            <li>
+              <div>
+                <span>我们走吧！</span>
+                <p>= Let’s go!</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <span>你是新生吧？</span>
+                <p>= You’re a new student, right?</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <h2>
+        <span className="font-semibold">Note: </span>Makes things more casual,
+        polite, or tentative.
+      </h2>
+
+      <li>
+        <div>
+          <span>啊(a)/呀(ya)/嘛(ma)/</span> – suggests a suggestion, assumption,
+          or soft command
+          <span>Examples:</span>
+          <ul className="list-disc">
+            <li>
+              <div>
+                <span>好啊！</span>
+                <p>= Great!</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <span>快点儿嘛</span>
+                <p>= Come on, hurry up!</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <h2>
+        <span className="font-semibold">Note: </span>Mostly emotional —
+        expressing excitement, emphasis, persuasion, etc. "呀" is a soft "ah"
+        used after vowels. "嘛" adds a little sassy reasoning or insistence.
+      </h2>
 
       <h2>Aspect Particles (Verb Tense / Completion)</h2>
       <ol className="list-decimal pl-6 space-y-4">
@@ -458,94 +502,102 @@ sassy reasoning or insistence.</h2>
                 <div>
                   <span>我吃了饭。</span>
                   <p>= I ate.</p>
-                  </div>
+                </div>
               </li>
               <li>
                 <div>
                   <span>天气冷了。</span>
                   <p>= It’s gotten cold.</p>
-                  </div>
+                </div>
               </li>
             </ul>
           </div>
         </li>
       </ol>
-      <h2><span className="font-semibold">Note: </span>Add it at the end of a sentence.
-       Never used with question words like 谁 (who), 什么 
-       (what).</h2>
+      <h2>
+        <span className="font-semibold">Note: </span>Add it at the end of a
+        sentence. Never used with question words like 谁 (who), 什么 (what).
+      </h2>
 
-        <li>
-          <div>
-            <span>呢 (ne)</span> – bounce-back question or soft continuation
-            <span>Examples:</span>
-            <ul className="list-disc">
-              <li>
-                <div>
-                  <span>我喜欢你，你呢？</span>
-                  <p>= I like you. What about you?</p>
-                  </div>
-              </li>
-              <li>
-                <div>
-                  <span>他在吃饭呢。</span>
-                  <p>= He’s eating (right now).</p>
-                  </div>
-              </li>
-            </ul>
-          </div>
-        </li>
-      <h2><span className="font-semibold">Note: </span>Used when asking "what about...?"
-       or describing ongoing action with verbs..</h2>
-       
-        <li>
-          <div>
-            <span>吧 (ba)</span>  – suggests a suggestion, assumption, or soft command
-            <span>Examples:</span>
-            <ul className="list-disc">
-              <li>
-                <div>
-                  <span>我们走吧！</span>
-                  <p>= Let’s go!</p>
-                  </div>
-              </li>
-              <li>
-                <div>
-                  <span>你是新生吧？</span>
-                  <p>= You’re a new student, right?</p>
-                  </div>
-              </li>
-            </ul>
-          </div>
-        </li>
-      <h2><span className="font-semibold">Note: </span>Makes things more casual, polite,
-       or tentative.</h2>
-       
-        <li>
-          <div>
-            <span>啊(a)/呀(ya)/嘛(ma)/</span>  – suggests a suggestion, assumption, or soft command
-            <span>Examples:</span>
-            <ul className="list-disc">
-              <li>
-                <div>
-                  <span>好啊！</span>
-                  <p>= Great!</p>
-                  </div>
-              </li>
-              <li>
-                <div>
-                  <span>快点儿嘛</span>
-                  <p>= Come on, hurry up!</p>
-                  </div>
-              </li>
-            </ul>
-          </div>
-        </li>
-      <h2><span className="font-semibold">Note: </span>Mostly emotional — expressing 
-      excitement, emphasis, persuasion, etc.
-"呀" is a soft "ah" used after vowels. "嘛" adds a little 
-sassy reasoning or insistence.</h2>
+      <li>
+        <div>
+          <span>呢 (ne)</span> – bounce-back question or soft continuation
+          <span>Examples:</span>
+          <ul className="list-disc">
+            <li>
+              <div>
+                <span>我喜欢你，你呢？</span>
+                <p>= I like you. What about you?</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <span>他在吃饭呢。</span>
+                <p>= He’s eating (right now).</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <h2>
+        <span className="font-semibold">Note: </span>Used when asking "what
+        about...?" or describing ongoing action with verbs..
+      </h2>
+
+      <li>
+        <div>
+          <span>吧 (ba)</span> – suggests a suggestion, assumption, or soft
+          command
+          <span>Examples:</span>
+          <ul className="list-disc">
+            <li>
+              <div>
+                <span>我们走吧！</span>
+                <p>= Let’s go!</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <span>你是新生吧？</span>
+                <p>= You’re a new student, right?</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <h2>
+        <span className="font-semibold">Note: </span>Makes things more casual,
+        polite, or tentative.
+      </h2>
+
+      <li>
+        <div>
+          <span>啊(a)/呀(ya)/嘛(ma)/</span> – suggests a suggestion, assumption,
+          or soft command
+          <span>Examples:</span>
+          <ul className="list-disc">
+            <li>
+              <div>
+                <span>好啊！</span>
+                <p>= Great!</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <span>快点儿嘛</span>
+                <p>= Come on, hurry up!</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <h2>
+        <span className="font-semibold">Note: </span>Mostly emotional —
+        expressing excitement, emphasis, persuasion, etc. "呀" is a soft "ah"
+        used after vowels. "嘛" adds a little sassy reasoning or insistence.
+      </h2>
     </div>
-  )
+  ),
 };
 
 export default function Rules() {
