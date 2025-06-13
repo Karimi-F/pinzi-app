@@ -598,6 +598,65 @@ const ruleContent = {
       </h2>
     </div>
   ),
+  "Verb Tense Markers":(
+    <div>
+      <p>Mandarin cares more about whether an action is complete, ongoing, repeated, or 
+        experienced — not when exactly it happened.
+So instead of changing the verb itself, Chinese uses particles and time words.
+</p>
+<h2>Main Verb Aspect Markers</h2>
+<p>Here are the main 3 tense-like markers every learner needs to know:</p>
+<ul className="list-disc">
+  <li>了 (le) - Completed action / change</li>
+  <li>过 (guo) - Past experience</li>
+  <li>着 (zhe) - Ongoing state</li>
+</ul>
+<ol className="list-decimal pl-6 space-y-4">
+  <li>
+    <div>
+      <h4><span>了 (le)</span> – Completion or Change</h4>
+      <h5>Action is done:</h5>
+      <p><span>我吃了饭。</span>= I ate.</p>
+      <h5>Change in state:</h5>
+      <p><span>天气冷了。</span>= It’s gotten cold.</p>
+      <span>Note: </span>
+      <ul>
+        <li>Goes after the verb for completed action.</li>
+        <li>Goes at sentence end for state change.</li>
+        <li>Don’t overuse "了"! You don’t need it with every past action — only when you're emphasizing completion.</li>
+      </ul> 
+    </div>
+  </li>
+  <li>
+    <div>
+      <h4><span>过 (guo) </span> – Life Experience / "Ever Done It"</h4>
+      <h5>Describes something you’ve done at least once:</h5>
+      <p><span>我看过那部电影。</span>= I’ve seen that movie.</p>
+      <span>Note: </span>
+      <ul>
+        <li>Goes after the verb.</li>
+        <li>Often used with 曾经 (céngjīng) or 以前 (yǐqián) for extra clarity.</li>
+        <li>It’s not about when you did it — just that you have.</li>
+      </ul> 
+    </div>
+  </li>
+  <li>
+    <div>
+      <h4><span>着 (zhe)</span> – Ongoing Action / State</h4>
+      <h5>Describes a current state or something in progress:</h5>
+      <p><span>他笑着说话。</span>= He spoke while smiling.</p>
+      <p><span>门开着。</span>= The door is open.</p>
+      <span>Note: </span>
+      <ul>
+        <li>Goes after the verb.</li>
+        <li>Often pairs with another verb to show parallel actions.</li>
+        <li>Think of it like “-ing” in English, but static: the thing is just happening/staying.</li>
+      </ul> 
+    </div>
+  </li>
+</ol>
+    </div>
+  )
 };
 
 export default function Rules() {
