@@ -656,6 +656,11 @@ So instead of changing the verb itself, Chinese uses particles and time words.
   </li>
 </ol>
     </div>
+  ),
+  "Negation":(
+    <div>
+      
+    </div>
   )
 };
 
