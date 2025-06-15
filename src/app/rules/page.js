@@ -659,7 +659,7 @@ So instead of changing the verb itself, Chinese uses particles and time words.
   ),
   "Negation":(
     <div>
-      
+      <p>Mandarin doesn’t use “not” or “no” like English — it uses specific negative words depending on tense, verb type, and tone.</p>
     </div>
   )
 };
