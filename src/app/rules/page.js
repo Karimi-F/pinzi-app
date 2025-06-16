@@ -668,22 +668,34 @@ So instead of changing the verb itself, Chinese uses particles and time words.
               <span>Usage Examples:</span>
               <ul>
                 <li>
-                  <p><span>我不吃肉。</span></p>
+                  <div>
+                  <p><span>我不吃肉。</span>= I don’t eat meat.</p></div>
+                </li>
+                <li>
+                  <div>
+                    <p><span>我不想去。</span>= I don’t want to go.</p>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <p><span>明天我不上班。</span>= I won’t work tomorrow.</p>
+                  </div>
                 </li>
               </ul>
+              <p><span>Rules:</span></p>
             </div>
           </li>
         </ol>
         1. 
 💬 
 
-= I don’t eat meat.
 
-我不想去。= I don’t want to go.
 
-明天我不上班。= I won’t work tomorrow.
 
-📌 Rules:
+
+
+
+📌 
 
 Always goes before the verb.
 
