@@ -659,7 +659,37 @@ So instead of changing the verb itself, Chinese uses particles and time words.
   ),
   "Negation":(
     <div>
-      <p>Mandarin doesn’t use “not” or “no” like English — it uses specific negative words depending on tense, verb type, and tone.</p>
+      <p>Mandarin doesn’t use “not” or “no” like English — it uses specific negative words depending 
+        on tense, verb type, and tone.</p>
+        <ol>
+          <li>
+            <div>
+              <h2>Use 不 (bù) for General, Habitual, or Future Negation</h2>
+              <span>Usage Examples:</span>
+              <ul>
+                <li>
+                  <p><span>我不吃肉。</span></p>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ol>
+        1. 
+💬 
+
+= I don’t eat meat.
+
+我不想去。= I don’t want to go.
+
+明天我不上班。= I won’t work tomorrow.
+
+📌 Rules:
+
+Always goes before the verb.
+
+Used for present/future habits, refusals, or permanent truths.
+
+🧠 Pro Tip: "不" is flat, almost firm — like drawing a boundary.
     </div>
   )
 };
