@@ -682,26 +682,15 @@ So instead of changing the verb itself, Chinese uses particles and time words.
                   </div>
                 </li>
               </ul>
-              <p><span>Rules:</span></p>
+              <p><span>Note:</span></p>
+              <ul>
+                <li>Always goes before the verb.</li>
+                <li>Used for present/future habits, refusals, or permanent truths.</li>
+                <li><span>Pro Tip: </span>"不" is flat, almost firm — like drawing a boundary.</li>
+              </ul>
             </div>
           </li>
         </ol>
-        1. 
-💬 
-
-
-
-
-
-
-
-📌 
-
-Always goes before the verb.
-
-Used for present/future habits, refusals, or permanent truths.
-
-🧠 Pro Tip: "不" is flat, almost firm — like drawing a boundary.
     </div>
   )
 };
