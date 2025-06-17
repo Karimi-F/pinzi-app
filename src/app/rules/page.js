@@ -16,6 +16,7 @@ const rules = [
   "Pronouns",
   "Question Words",
   "Numbers & Counting",
+  "Time & Dates"
 ];
 
 const ruleContent = {
