@@ -897,7 +897,160 @@ So instead of changing the verb itself, Chinese uses particles and time words.
         </div>
     </div>
   ),
-  
+  "Pronouns": (
+  <div className="space-y-6 text-gray-800 text-sm leading-relaxed">
+    <h2 className="text-xl font-semibold text-gray-900">📘 Grammar Rules → Pronouns (代词 dàicí)</h2>
+    <p>Mandarin pronouns don’t change based on case like in English (I/me/my/mine). They stay the same form — context does the heavy lifting.</p>
+
+    <h3 className="text-lg font-semibold">👤 Personal Pronouns</h3>
+    <table className="min-w-full border border-gray-300 text-left">
+      <thead className="bg-gray-100">
+        <tr>
+          <th className="px-4 py-2 border">English</th>
+          <th className="px-4 py-2 border">Mandarin</th>
+          <th className="px-4 py-2 border">Pinyin</th>
+          <th className="px-4 py-2 border">Notes</th>
+        </tr>
+      </thead>
+      <tbody>
+        {[
+          ["I / me", "我", "wǒ", "Used for both subject & object"],
+          ["You", "你", "nǐ", "Informal “you”"],
+          ["He / him", "他", "tā", "Male"],
+          ["She / her", "她", "tā", "Female — same pronunciation as 他"],
+          ["It", "它", "tā", "For animals/things"],
+          ["We / us", "我们", "wǒmen", "Plural of 'I'"],
+          ["You all", "你们", "nǐmen", "Plural of 'you'"],
+          ["They", "他们", "tāmen", "All males or mixed gender group"],
+          ["They (fem.)", "她们", "tāmen", "Group of only females"],
+          ["They (things)", "它们", "tāmen", "Group of things/animals"],
+        ].map(([eng, hanzi, pinyin, note], idx) => (
+          <tr key={idx}>
+            <td className="px-4 py-2 border">{eng}</td>
+            <td className="px-4 py-2 border">{hanzi}</td>
+            <td className="px-4 py-2 border">{pinyin}</td>
+            <td className="px-4 py-2 border">{note}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+
+    <h3 className="text-lg font-semibold">🔁 Pronoun Rules</h3>
+    <div className="space-y-4">
+      <div>
+        <h4 className="font-medium">1. No Case Changes</h4>
+        <p>我 = I / me / mine — one form fits all.</p>
+        <p className="italic">Example: 他爱我。= He loves me.</p>
+      </div>
+
+      <div>
+        <h4 className="font-medium">2. Plural = Add “们” (men)</h4>
+        <ul className="list-disc pl-5">
+          <li>我 ➝ 我们 = we</li>
+          <li>你 ➝ 你们 = you all</li>
+          <li>他 ➝ 他们 = they</li>
+        </ul>
+        <p className="italic">Only used for people — not objects/animals.</p>
+      </div>
+
+      <div>
+        <h4 className="font-medium">3. Gender is Only Written</h4>
+        <p>他, 她, 它 all sound like “tā”. You’ll know the meaning from context.</p>
+      </div>
+
+      <div>
+        <h4 className="font-medium">4. Used With Verbs Without Changing</h4>
+        <p>Example: 我喜欢你。= I like you. / 他们帮我们。= They help us.</p>
+      </div>
+
+      <div>
+        <h4 className="font-medium">5. Polite “You” = 您 (nín)</h4>
+        <p>Use this to show respect. Example: 您好 = polite “hello”</p>
+      </div>
+
+      <div>
+        <h4 className="font-medium">6. Possessives = Add 的 (de)</h4>
+        <table className="min-w-full border text-left mt-2">
+          <thead className="bg-gray-100">
+            <tr>
+              <th className="px-4 py-2 border">English</th>
+              <th className="px-4 py-2 border">Mandarin</th>
+              <th className="px-4 py-2 border">Note</th>
+            </tr>
+          </thead>
+          <tbody>
+            {[
+              ["My", "我的", "wǒ de = my/mine"],
+              ["Your", "你的", "nǐ de = your/yours"],
+              ["His", "他的", "tā de = his"],
+              ["Our", "我们的", "wǒmen de = our/ours"],
+            ].map(([eng, hanzi, note], i) => (
+              <tr key={i}>
+                <td className="px-4 py-2 border">{eng}</td>
+                <td className="px-4 py-2 border">{hanzi}</td>
+                <td className="px-4 py-2 border">{note}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+        <p className="italic mt-1">Drop 的 in casual settings: 我妈妈 = my mom</p>
+      </div>
+
+      <div>
+        <h4 className="font-medium">📦 Reflexive Pronouns = 自己 (zìjǐ)</h4>
+        <table className="min-w-full border text-left mt-2">
+          <thead className="bg-gray-100">
+            <tr>
+              <th className="px-4 py-2 border">Phrase</th>
+              <th className="px-4 py-2 border">Meaning</th>
+            </tr>
+          </thead>
+          <tbody>
+            {[
+              ["我自己", "myself"],
+              ["你自己", "yourself"],
+              ["他们自己", "themselves"],
+            ].map(([phrase, meaning], i) => (
+              <tr key={i}>
+                <td className="px-4 py-2 border">{phrase}</td>
+                <td className="px-4 py-2 border">{meaning}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+        <p className="italic mt-1">Example: 我自己做的。= I did it myself.</p>
+      </div>
+    </div>
+
+    <h3 className="text-lg font-semibold">👀 Pronoun Summary Chart</h3>
+    <table className="min-w-full border border-gray-300 text-left">
+      <thead className="bg-gray-100">
+        <tr>
+          <th className="px-4 py-2 border">Pronoun</th>
+          <th className="px-4 py-2 border">Plural</th>
+          <th className="px-4 py-2 border">Possessive</th>
+          <th className="px-4 py-2 border">Polite</th>
+        </tr>
+      </thead>
+      <tbody>
+        {[
+          ["我 (wǒ)", "我们", "我的", "—"],
+          ["你 (nǐ)", "你们", "你的", "您 (nín)"],
+          ["他 (tā)", "他们", "他的", "—"],
+          ["她 (tā)", "她们", "她的", "—"],
+          ["它 (tā)", "它们", "它的", "—"],
+        ].map(([p, pl, pos, pol], idx) => (
+          <tr key={idx}>
+            <td className="px-4 py-2 border">{p}</td>
+            <td className="px-4 py-2 border">{pl}</td>
+            <td className="px-4 py-2 border">{pos}</td>
+            <td className="px-4 py-2 border">{pol}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+)
 };
 
 export default function Rules() {
