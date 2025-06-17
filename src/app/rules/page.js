@@ -798,9 +798,106 @@ So instead of changing the verb itself, Chinese uses particles and time words.
               <p><span> Note: </span>"不" is the go-to for verbs that express intent, possibility, or identity.</p>
             </div>       
           </li>
+          <li>
+            <div>
+              <h2>Double Negatives = Positive or Emphasis</h2>
+              <span>Example:</span>
+              <ul>
+                <li>
+                  <div>
+                    <p><span>我不是不知道。</span>= “It’s not that I don’t know.” (aka "Of course I know.")</p>
+                  </div>
+                </li>
+              </ul>
+              <p><span>Note:</span>Double negatives exist for dramatic or emotional emphasis.</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <h2>"了" + Negation = Tricky</h2>
+              <p>“了” shows completed action, but you can’t use 没 + 了 together.</p>
+              <ul>
+                <li>❌ 我没吃了 (WRONG)</li>
+                <li>✅ 我没吃 (CORRECT)</li>
+                <li>✅ 我吃了 (CORRECT)</li>
+              </ul>
+            </div>
+          </li>
         </ol>
+        <div>
+        <h2>BONUS: Other Negative Words</h2>
+        <table>
+          <thead>
+            <tr>
+              <th className="px-4 py-2 border border-gray-300">Word</th>
+              <th className="px-4 py-2 border border-gray-300">Meaning</th>
+              <th className="px-4 py-2 border border-gray-300">Example</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td className="px-4 py-2 border border-gray-300">别 (bié)</td>
+              <td className="px-4 py-2 border border-gray-300">Don’t (command)</td>
+              <td className="px-4 py-2 border border-gray-300">别说话！= Don’t speak!</td>
+            </tr>
+            <tr>
+              <td className="px-4 py-2 border border-gray-300">不行</td>
+              <td className="px-4 py-2 border border-gray-300">Not okay / won’t do</td>
+              <td className="px-4 py-2 border border-gray-300">这样不行！= This won’t do!</td>
+            </tr>
+            <tr>
+              <td className="px-4 py-2 border border-gray-300">不要</td>
+              <td className="px-4 py-2 border border-gray-300">Don’t want / Stop</td>
+              <td className="px-4 py-2 border border-gray-300">不要笑！= Don’t laugh!</td>
+            </tr>
+            <tr>
+              <td className="px-4 py-2 border border-gray-300">没事</td>
+              <td className="px-4 py-2 border border-gray-300">It’s nothing / I’m good</td>
+              <td className="px-4 py-2 border border-gray-300">没事，我没受伤。= I’m fine.</td>
+            </tr>
+          </tbody>
+        </table>		
+        </div>
+        <div>
+          <h2>Negation Cheat Sheet:</h2>
+          <table>
+            <thead>
+              <tr>
+                <th className="px-4 py-2 border border-gray-300">Scenario</th>
+                <th className="px-4 py-2 border border-gray-300">Use</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td className="px-4 py-2 border border-gray-300">Habit / Future / General</td>
+                <td className="px-4 py-2 border border-gray-300">不</td>
+              </tr>
+              <tr>
+                <td className="px-4 py-2 border border-gray-300">Past / Not happened yet</td>
+                <td className="px-4 py-2 border border-gray-300">没</td>
+              </tr>
+              <tr>
+                <td className="px-4 py-2 border border-gray-300">Don’t have</td>
+                <td className="px-4 py-2 border border-gray-300">(有)	没有</td>
+              </tr>
+              <tr>
+                <td className="px-4 py-2 border border-gray-300">“Don’t do that!”</td>
+                <td className="px-4 py-2 border border-gray-300">别</td>
+              </tr>
+              <tr>
+                <td className="px-4 py-2 border border-gray-300">Negative commands</td>
+                <td className="px-4 py-2 border border-gray-300">不要 / 别</td>
+              </tr>
+              <tr>
+                <td className="px-4 py-2 border border-gray-300">Polite refusal</td>
+                <td className="px-4 py-2 border border-gray-300">不好意思 (excuse me / no thanks)</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
     </div>
-  )
+  ),
+  
 };
 
 export default function Rules() {
