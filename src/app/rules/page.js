@@ -1132,6 +1132,72 @@ const ruleContent = {
     </ul>
   </div>
 ),
+"Time and Dates":(
+  <div>
+    <h1>日期和时间 (Dates & Time)</h1>
+    <p>Mandarin expresses time and dates from largest to smallest: year → month → day. It’s structured and simple.</p>
+
+    <h2>📅 Dates: Year, Month, Day</h2>
+    <h3>Years</h3>
+    <p>Say each digit separately, followed by 年 (nián):</p>
+    <ul className="list-disc pl-6 space-y-2">
+      <li>2025年 = 二零二五年 (èr líng èr wǔ nián)</li>
+      <li>1989年 = 一九八九年 (yī jiǔ bā jiǔ nián)</li>
+    </ul>
+
+    <h3>Months</h3>
+    <p>Add 月 (yuè) after the number:</p>
+    <ul className="list-disc pl-6 space-y-2">
+      <li>一月 = January</li>
+      <li>十二月 = December</li>
+    </ul>
+
+    <h3>Days</h3>
+    <p>Add 日 (rì, written) or 号 (hào, spoken):</p>
+    <ul className="list-disc pl-6 space-y-2">
+      <li>一日 = 1st (formal)</li>
+      <li>十五号 = 15th (spoken)</li>
+    </ul>
+
+    <h3>Full Date Example</h3>
+    <p>今天是 2025年6月11日。= Today is June 11, 2025</p>
+
+    <h2>📆 Days of the Week</h2>
+    <p>Pattern: 星期 + number</p>
+    <ul className="list-disc pl-6 space-y-2">
+      <li>星期一 = Monday</li>
+      <li>星期二 = Tuesday</li>
+      <li>星期三 = Wednesday</li>
+      <li>星期四 = Thursday</li>
+      <li>星期五 = Friday</li>
+      <li>星期六 = Saturday</li>
+      <li>星期天 / 星期日 = Sunday</li>
+    </ul>
+    <p><strong>Note:</strong> Sunday is irregular — uses 天 (tiān) or 日 (rì)</p>
+
+    <h2>⏰ Time Expressions</h2>
+    <ul className="list-disc pl-6 space-y-2">
+      <li>点 (diǎn) = o’clock</li>
+      <li>分 (fēn) = minutes</li>
+      <li>半 (bàn) = half past</li>
+      <li>上午 / 下午 = AM / PM</li>
+    </ul>
+    <p>Examples:</p>
+    <ul className="list-disc pl-6 space-y-2">
+      <li>现在三点半。= It’s 3:30.</li>
+      <li>上午十点 = 10 AM</li>
+      <li>下午五点十分 = 5:10 PM</li>
+    </ul>
+
+    <h2>📌 Summary</h2>
+    <ul className="list-disc pl-6 space-y-2">
+      <li>Dates go from year → month → day (no slashes or commas).</li>
+      <li>Say years digit-by-digit.</li>
+      <li>Weekdays follow 星期 + number (Sunday is irregular).</li>
+      <li>For time: use 点 (hour), 分 (minute), 半 (half), 上午/下午 for AM/PM.</li>
+    </ul>
+  </div>
+)
 };
 
 export default function Rules() {
