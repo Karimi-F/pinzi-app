@@ -354,309 +354,197 @@ const ruleContent = {
       </ol>
     </div>
   ),
-  Particles: (
-    <div>
-      <h1>Mandarin Particles (助词 zhùcí)</h1>
-      <p>
-        Particles are function words. They don’t have standalone meaning but
-        affect the tone, grammar, or structure of a sentence.
-      </p>
-      <ol className="list-decimal pl-6 space-y-4">
-        <p>Particles fall into 3 main categories</p>
-        <li>
-          <div>
-            Modal (语气助词)<p>Affect tone/attitude of sentence</p>
-            <span className="font-semibold">吗, 呢, 吧, 啊, 呀, 嘛</span>
-          </div>
-        </li>
-        <li>
-          <div>
-            Aspect (动态助词)
-            <p> Indicate verb tense/aspect</p>
-            <span className="font-semibold">了, 过, 着</span>
-          </div>
-        </li>
-        <li>
-          <div>
-            Structural (结构助词)
-            <p>Show grammatical relationships</p>
-            <span className="font-semibold">的, 得, 地</span>
-          </div>
-        </li>
-      </ol>
+"Particles": (
+  <div className="space-y-6">
+    <h1 className="text-lg font-bold">Mandarin Particles (助词 zhùcí)</h1>
+    <p>
+      Particles are function words. They don’t hold standalone meaning but affect the <strong>tone</strong>, <strong>grammar</strong>, or <strong>structure</strong> of a sentence.
+    </p>
 
-      <h2>Modal Particles (Change Tone/Attitude)</h2>
-      <ol className="list-decimal pl-6 space-y-4">
-        <li>
-          <div>
-            <span>吗 (ma)</span> – turns a statement into a yes/no question
-            <span>Examples:</span>
-            <ul className="list-disc">
-              <li>
-                <div>
-                  <span>你喜欢汉语。</span>
-                  <p>= You like Chinese.</p>
-                </div>
-              </li>
-              <li>
-                <div>
-                  <span>你喜欢汉语吗？</span>
-                  <p>= Do you like Chinese?</p>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </li>
-      </ol>
-      <h2>
-        <span className="font-semibold">Note: </span>Add it at the end of a
-        sentence. Never used with question words like 谁 (who), 什么 (what).
-      </h2>
+    <h2 className="font-semibold text-base">3 Types of Particles</h2>
+    <ol className="list-decimal pl-6 space-y-3">
+      <li>
+        <div>
+          <strong>Modal (语气助词)</strong> – affect tone/attitude  
+          <p className="mt-1">Examples: <span className="font-semibold text-red-500">吗, 呢, 吧, 啊, 呀, 嘛</span></p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <strong>Aspect (动态助词)</strong> – indicate verb aspect
+          <p className="mt-1">Examples: <span className="font-semibold text-red-500">了, 过, 着</span></p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <strong>Structural (结构助词)</strong> – show grammatical relationship
+          <p className="mt-1">Examples: <span className="font-semibold text-red-500">的, 得, 地</span></p>
+        </div>
+      </li>
+    </ol>
+
+    <h2 className="text-base font-bold">Modal Particles – Change Tone / Attitude</h2>
+    <ol className="list-decimal pl-6 space-y-6">
+      <li>
+        <div>
+          <p><strong>吗 (ma)</strong> – Yes/No question marker</p>
+          <ul className="list-disc pl-6 mt-2">
+            <li><span className="text-red-500">你喜欢汉语。</span> = You like Chinese.</li>
+            <li><span className="text-red-500">你喜欢汉语吗？</span> = Do you like Chinese?</li>
+          </ul>
+          <p className="mt-2 font-medium">Note:</p>
+          <p>Add it at the end of a statement. <strong>Not used with question words</strong> like <span className="text-red-500">谁</span> (who), <span className="text-red-500">什么</span> (what).</p>
+        </div>
+      </li>
 
       <li>
         <div>
-          <span>呢 (ne)</span> – bounce-back question or soft continuation
-          <span>Examples:</span>
-          <ul className="list-disc">
-            <li>
-              <div>
-                <span>我喜欢你，你呢？</span>
-                <p>= I like you. What about you?</p>
-              </div>
-            </li>
-            <li>
-              <div>
-                <span>他在吃饭呢。</span>
-                <p>= He’s eating (right now).</p>
-              </div>
-            </li>
+          <p><strong>呢 (ne)</strong> – Bounce-back question or ongoing action marker</p>
+          <ul className="list-disc pl-6 mt-2">
+            <li><span className="text-red-500">我喜欢你，你呢？</span> = I like you. What about you?</li>
+            <li><span className="text-red-500">他在吃饭呢。</span> = He’s eating (right now).</li>
           </ul>
+          <p className="mt-2 font-medium">Note:</p>
+          <p>Used to bounce back a question ("what about…?") or show something ongoing.</p>
         </div>
       </li>
-      <h2>
-        <span className="font-semibold">Note: </span>Used when asking "what
-        about...?" or describing ongoing action with verbs..
-      </h2>
 
       <li>
         <div>
-          <span>吧 (ba)</span> – suggests a suggestion, assumption, or soft
-          command
-          <span>Examples:</span>
-          <ul className="list-disc">
-            <li>
-              <div>
-                <span>我们走吧！</span>
-                <p>= Let’s go!</p>
-              </div>
-            </li>
-            <li>
-              <div>
-                <span>你是新生吧？</span>
-                <p>= You’re a new student, right?</p>
-              </div>
-            </li>
+          <p><strong>吧 (ba)</strong> – Suggestion, assumption, or soft command</p>
+          <ul className="list-disc pl-6 mt-2">
+            <li><span className="text-red-500">我们走吧！</span> = Let’s go!</li>
+            <li><span className="text-red-500">你是新生吧？</span> = You’re a new student, right?</li>
           </ul>
+          <p className="mt-2 font-medium">Note:</p>
+          <p>Makes the sentence more casual, polite, or tentative.</p>
         </div>
       </li>
-      <h2>
-        <span className="font-semibold">Note: </span>Makes things more casual,
-        polite, or tentative.
-      </h2>
 
       <li>
         <div>
-          <span>啊(a)/呀(ya)/嘛(ma)/</span> – suggests a suggestion, assumption,
-          or soft command
-          <span>Examples:</span>
-          <ul className="list-disc">
-            <li>
-              <div>
-                <span>好啊！</span>
-                <p>= Great!</p>
-              </div>
-            </li>
-            <li>
-              <div>
-                <span>快点儿嘛</span>
-                <p>= Come on, hurry up!</p>
-              </div>
-            </li>
+          <p><strong>啊 (a) / 呀 (ya) / 嘛 (ma)</strong> – Emotive emphasis</p>
+          <ul className="list-disc pl-6 mt-2">
+            <li><span className="text-red-500">好啊！</span> = Great!</li>
+            <li><span className="text-red-500">快点儿嘛！</span> = Come on, hurry up!</li>
           </ul>
+          <p className="mt-2 font-medium">Note:</p>
+          <p>
+            These add <strong>emotion</strong> — excitement, emphasis, or persuasion. <span className="text-red-500">呀</span> is a soft “ah” after vowels. <span className="text-red-500">嘛</span> adds a sassy or insistent tone.
+          </p>
         </div>
       </li>
-      <h2>
-        <span className="font-semibold">Note: </span>Mostly emotional —
-        expressing excitement, emphasis, persuasion, etc. "呀" is a soft "ah"
-        used after vowels. "嘛" adds a little sassy reasoning or insistence.
-      </h2>
+    </ol>
 
-      <h2>Aspect Particles (Verb Tense / Completion)</h2>
-      <ol className="list-decimal pl-6 space-y-4">
-        <li>
-          <div>
-            <span>了 (le)</span> – action completed or a change in state
-            <span>Examples:</span>
-            <ul className="list-disc">
-              <li>
-                <div>
-                  <span>我吃了饭。</span>
-                  <p>= I ate.</p>
-                </div>
-              </li>
-              <li>
-                <div>
-                  <span>天气冷了。</span>
-                  <p>= It’s gotten cold.</p>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </li>
-      </ol>
-      <h2>
-        <span className="font-semibold">Note: </span>Add it at the end of a
-        sentence. Never used with question words like 谁 (who), 什么 (what).
-      </h2>
+    <h2 className="text-base font-bold">Aspect Particles – Indicate Verb Completion or Experience</h2>
+    <ol className="list-decimal pl-6 space-y-6">
+      <li>
+        <div>
+          <p><strong>了 (le)</strong> – Completed action or change</p>
+          <ul className="list-disc pl-6 mt-2">
+            <li><span className="text-red-500">我吃了饭。</span> = I ate.</li>
+            <li><span className="text-red-500">天气冷了。</span> = It’s gotten cold.</li>
+          </ul>
+          <p className="mt-2 font-medium">Note:</p>
+          <p>Goes after the verb (for completed action) or at the sentence end (for change).</p>
+        </div>
+      </li>
 
       <li>
         <div>
-          <span>呢 (ne)</span> – bounce-back question or soft continuation
-          <span>Examples:</span>
-          <ul className="list-disc">
-            <li>
-              <div>
-                <span>我喜欢你，你呢？</span>
-                <p>= I like you. What about you?</p>
-              </div>
-            </li>
-            <li>
-              <div>
-                <span>他在吃饭呢。</span>
-                <p>= He’s eating (right now).</p>
-              </div>
-            </li>
+          <p><strong>过 (guo)</strong> – Indicates life experience</p>
+          <ul className="list-disc pl-6 mt-2">
+            <li><span className="text-red-500">我去过中国。</span> = I’ve been to China.</li>
           </ul>
+          <p className="mt-2 font-medium">Note:</p>
+          <p>Goes after the verb. Doesn’t say *when* — just that it happened before.</p>
         </div>
       </li>
-      <h2>
-        <span className="font-semibold">Note: </span>Used when asking "what
-        about...?" or describing ongoing action with verbs..
-      </h2>
 
       <li>
         <div>
-          <span>吧 (ba)</span> – suggests a suggestion, assumption, or soft
-          command
-          <span>Examples:</span>
-          <ul className="list-disc">
-            <li>
-              <div>
-                <span>我们走吧！</span>
-                <p>= Let’s go!</p>
-              </div>
-            </li>
-            <li>
-              <div>
-                <span>你是新生吧？</span>
-                <p>= You’re a new student, right?</p>
-              </div>
-            </li>
+          <p><strong>着 (zhe)</strong> – Ongoing state or result</p>
+          <ul className="list-disc pl-6 mt-2">
+            <li><span className="text-red-500">门开着。</span> = The door is open.</li>
+            <li><span className="text-red-500">他笑着说话。</span> = He spoke while smiling.</li>
+          </ul>
+          <p className="mt-2 font-medium">Note:</p>
+          <p>Goes after the verb. Often paired with another verb for parallel actions.</p>
+        </div>
+      </li>
+    </ol>
+
+    <h2 className="text-base font-bold">Structural Particles – Grammar Glue</h2>
+    <ul className="list-disc pl-6 space-y-2">
+      <li><strong>的 (de)</strong> – Links nouns to adjectives (e.g., <span className="text-red-500">漂亮的女孩</span> = pretty girl)</li>
+      <li><strong>得 (de)</strong> – Links verbs to adverbs (e.g., <span className="text-red-500">跑得快</span> = run fast)</li>
+      <li><strong>地 (de)</strong> – Turns adjectives into adverbs (e.g., <span className="text-red-500">认真地听</span> = listen attentively)</li>
+    </ul>
+  </div>
+),
+  "Verb Tense Markers": (
+  <div className="space-y-6">
+    <p>
+      Mandarin cares more about whether an action is <strong>complete, ongoing, repeated, or experienced</strong> —
+      not when exactly it happened. Instead of changing the verb itself, Chinese uses particles and time words.
+    </p>
+
+    <h2 className="text-lg font-semibold">Main Verb Aspect Markers</h2>
+    <p>Here are the 3 tense-like markers every learner should know:</p>
+    <ul className="list-disc pl-6 space-y-1">
+      <li><strong>了 (le)</strong> – Completed action / change</li>
+      <li><strong>过 (guo)</strong> – Past experience</li>
+      <li><strong>着 (zhe)</strong> – Ongoing state</li>
+    </ul>
+
+    <ol className="list-decimal pl-6 space-y-6">
+      <li>
+        <div>
+          <h3 className="font-bold text-base mb-1">了 (le) – Completion or Change</h3>
+          <p className="font-medium">Action is done:</p>
+          <p><span className="text-red-500">我吃了饭。</span> = I ate.</p>
+          <p className="font-medium mt-2">Change in state:</p>
+          <p><span className="text-red-500">天气冷了。</span> = It’s gotten cold.</p>
+          <p className="mt-2 font-semibold">Note:</p>
+          <ul className="list-disc pl-6">
+            <li>Goes <strong>after the verb</strong> for completed actions.</li>
+            <li>Goes <strong>at sentence end</strong> for state change.</li>
+            <li><span className="italic">Don’t overuse "了" — only use when emphasizing completion or change.</span></li>
           </ul>
         </div>
       </li>
-      <h2>
-        <span className="font-semibold">Note: </span>Makes things more casual,
-        polite, or tentative.
-      </h2>
 
       <li>
         <div>
-          <span>啊(a)/呀(ya)/嘛(ma)/</span> – suggests a suggestion, assumption,
-          or soft command
-          <span>Examples:</span>
-          <ul className="list-disc">
-            <li>
-              <div>
-                <span>好啊！</span>
-                <p>= Great!</p>
-              </div>
-            </li>
-            <li>
-              <div>
-                <span>快点儿嘛</span>
-                <p>= Come on, hurry up!</p>
-              </div>
-            </li>
+          <h3 className="font-bold text-base mb-1">过 (guo) – Life Experience / “Ever Done It”</h3>
+          <p className="font-medium">Used to show past experiences you’ve had:</p>
+          <p><span className="text-red-500">我看过那部电影。</span> = I’ve seen that movie.</p>
+          <p className="mt-2 font-semibold">Note:</p>
+          <ul className="list-disc pl-6">
+            <li>Placed <strong>after the verb</strong>.</li>
+            <li>Often paired with <span className="text-red-500">曾经</span> (céngjīng) or <span className="text-red-500">以前</span> (yǐqián) for clarity.</li>
+            <li>It emphasizes experience, not time.</li>
           </ul>
         </div>
       </li>
-      <h2>
-        <span className="font-semibold">Note: </span>Mostly emotional —
-        expressing excitement, emphasis, persuasion, etc. "呀" is a soft "ah"
-        used after vowels. "嘛" adds a little sassy reasoning or insistence.
-      </h2>
-    </div>
-  ),
-  "Verb Tense Markers":(
-    <div>
-      <p>Mandarin cares more about whether an action is complete, ongoing, repeated, or 
-        experienced — not when exactly it happened.
-So instead of changing the verb itself, Chinese uses particles and time words.
-</p>
-<h2>Main Verb Aspect Markers</h2>
-<p>Here are the main 3 tense-like markers every learner needs to know:</p>
-<ul className="list-disc">
-  <li>了 (le) - Completed action / change</li>
-  <li>过 (guo) - Past experience</li>
-  <li>着 (zhe) - Ongoing state</li>
-</ul>
-<ol className="list-decimal pl-6 space-y-4">
-  <li>
-    <div>
-      <h4><span>了 (le)</span> – Completion or Change</h4>
-      <h5>Action is done:</h5>
-      <p><span>我吃了饭。</span>= I ate.</p>
-      <h5>Change in state:</h5>
-      <p><span>天气冷了。</span>= It’s gotten cold.</p>
-      <span>Note: </span>
-      <ul>
-        <li>Goes after the verb for completed action.</li>
-        <li>Goes at sentence end for state change.</li>
-        <li>Don’t overuse "了"! You don’t need it with every past action — only when you're emphasizing completion.</li>
-      </ul> 
-    </div>
-  </li>
-  <li>
-    <div>
-      <h4><span>过 (guo) </span> – Life Experience / "Ever Done It"</h4>
-      <h5>Describes something you’ve done at least once:</h5>
-      <p><span>我看过那部电影。</span>= I’ve seen that movie.</p>
-      <span>Note: </span>
-      <ul>
-        <li>Goes after the verb.</li>
-        <li>Often used with 曾经 (céngjīng) or 以前 (yǐqián) for extra clarity.</li>
-        <li>It’s not about when you did it — just that you have.</li>
-      </ul> 
-    </div>
-  </li>
-  <li>
-    <div>
-      <h4><span>着 (zhe)</span> – Ongoing Action / State</h4>
-      <h5>Describes a current state or something in progress:</h5>
-      <p><span>他笑着说话。</span>= He spoke while smiling.</p>
-      <p><span>门开着。</span>= The door is open.</p>
-      <span>Note: </span>
-      <ul>
-        <li>Goes after the verb.</li>
-        <li>Often pairs with another verb to show parallel actions.</li>
-        <li>Think of it like “-ing” in English, but static: the thing is just happening/staying.</li>
-      </ul> 
-    </div>
-  </li>
-</ol>
-    </div>
-  ),
+
+      <li>
+        <div>
+          <h3 className="font-bold text-base mb-1">着 (zhe) – Ongoing Action / State</h3>
+          <p className="font-medium">Describes ongoing or static states:</p>
+          <p><span className="text-red-500">他笑着说话。</span> = He spoke while smiling.</p>
+          <p><span className="text-red-500">门开着。</span> = The door is open.</p>
+          <p className="mt-2 font-semibold">Note:</p>
+          <ul className="list-disc pl-6">
+            <li>Placed <strong>after the verb</strong>.</li>
+            <li>Often combines with another verb to show ongoing action with something else happening.</li>
+            <li>It’s like “-ing,” but passive: describing the state of something as it stays that way.</li>
+          </ul>
+        </div>
+      </li>
+    </ol>
+  </div>
+),
 "Negation": (
   <div className="space-y-8">
     <p>
