@@ -1073,6 +1073,65 @@ const ruleContent = {
     </table>
   </div>
 ),
+"Numbers and Counting" :(
+  <div>
+    <h1>数字 (Numbers & Counting)</h1>
+    <p>Mandarin numbers are logical, base-10, and super regular. Once you get the hang of it, you can count anything.</p>
+
+    <h2>🔢 Basic Numbers (0–10)</h2>
+    <ul className="list-disc pl-6 space-y-2">
+      <li>0 = 零 (líng)</li>
+      <li>1 = 一 (yī)</li>
+      <li>2 = 二 (èr)</li>
+      <li>3 = 三 (sān)</li>
+      <li>4 = 四 (sì)</li>
+      <li>5 = 五 (wǔ)</li>
+      <li>6 = 六 (liù)</li>
+      <li>7 = 七 (qī)</li>
+      <li>8 = 八 (bā)</li>
+      <li>9 = 九 (jiǔ)</li>
+      <li>10 = 十 (shí)</li>
+    </ul>
+
+    <h2>✅ Numbers 11–99</h2>
+    <p>Pattern: [Tens digit] + 十 + [Ones digit]</p>
+    <ul className="list-disc pl-6 space-y-2">
+      <li>11 = 十一 (shí yī)</li>
+      <li>24 = 二十四 (èr shí sì)</li>
+      <li>39 = 三十九 (sān shí jiǔ)</li>
+      <li>99 = 九十九 (jiǔ shí jiǔ)</li>
+    </ul>
+    <p className="mt-2"><strong>Rule:</strong> If there’s no ones digit, just drop it. (e.g. 40 = 四十)</p>
+
+    <h2>✅ Special Case: 两 (liǎng)</h2>
+    <p>Use 两 instead of 二 when referring to quantities, measure words, or time.</p>
+    <ul className="list-disc pl-6 space-y-2">
+      <li>两个人 = Two people</li>
+      <li>两点 = Two o’clock</li>
+      <li>二楼 = Second floor</li>
+    </ul>
+    <p><strong>Rule:</strong> Use 二 when counting or listing numbers, 两 when measuring or quantifying.</p>
+
+    <h2>✅ Hundreds, Thousands, Ten-Thousands</h2>
+    <ul className="list-disc pl-6 space-y-2">
+      <li>100 = 一百 (yī bǎi)</li>
+      <li>101 = 一百零一 (yī bǎi líng yī)</li>
+      <li>215 = 二百一十五 (èr bǎi yī shí wǔ)</li>
+      <li>1,000 = 一千 (yī qiān)</li>
+      <li>10,000 = 一万 (yī wàn)</li>
+    </ul>
+    <p>
+      <strong>Rules:</strong> Use 零 (líng) to fill in missing digits. Numbers group by ten-thousands — e.g., 100,000 = 十万 (shí wàn), not “a hundred thousand”.
+    </p>
+
+    <h2>🧾 Quick Summary</h2>
+    <ul className="list-disc pl-6 space-y-2">
+      <li>零 is used to skip digits (e.g. 105 = 一百零五).</li>
+      <li>两 is used for quantities and time, 二 is for counting.</li>
+      <li>Chinese uses 10,000 as a base unit, not 1,000 like English.</li>
+    </ul>
+  </div>
+),
 };
 
 export default function Rules() {
