@@ -657,246 +657,223 @@ So instead of changing the verb itself, Chinese uses particles and time words.
 </ol>
     </div>
   ),
-  "Negation":(
-    <div>
-      <p>Mandarin doesn’t use “not” or “no” like English — it uses specific negative words depending 
-        on tense, verb type, and tone.</p>
-        <ol>
-          <li>
-            <div>
-              <h2>Use 不 (bù) for General, Habitual, or Future Negation</h2>
-              <span>Usage Examples:</span>
-              <ul>
-                <li>
-                  <div>
-                  <p><span>我不吃肉。</span>= I don’t eat meat.</p></div>
-                </li>
-                <li>
-                  <div>
-                    <p><span>我不想去。</span>= I don’t want to go.</p>
-                  </div>
-                </li>
-                <li>
-                  <div>
-                    <p><span>明天我不上班。</span>= I won’t work tomorrow.</p>
-                  </div>
-                </li>
-              </ul>
-              <p><span>Note:</span></p>
-              <ul>
-                <li>Always goes before the verb.</li>
-                <li>Used for present/future habits, refusals, or permanent truths.</li>
-                <li><span>Pro Tip: </span>"不" is flat, almost firm — like drawing a boundary.</li>
-              </ul>
-            </div>
-          </li>
-          <li>
-            <div>
-              <h2>Use 没 (méi) for Past or Nonexistence</h2>
-              <span>Usage Examples:</span>
-              <ul>
-                <li>
-                  <p><span>我没吃饭。</span>= I didn’t eat.</p>
-                </li>
-                <li><p><span>她没来。</span>= She didn’t come.</p></li>
-                <li>
-                  <p><span>我没有钱。</span>= I don’t have money.</p>
-                </li>
-              </ul>
-              <span>Note:</span>
-              <ul>
-                <li>Always goes before the verb.</li>
-                <li>"没有" (méi yǒu) is the negative of "有" (have).</li>
-                <li>Think of 没 as the past-tense "nope" or “haven’t done it yet.”</li>
-              </ul>
-            </div>
-          </li>
-          <li>
-            <div><h2>Don’t Mix 不 and 没 Interchangeably</h2>
-            <table className="min-w-full border border-gray-300 text-sm text-left text-gray-700">
-              <thead className="space-x-6">
+"Negation": (
+  <div className="space-y-8">
+    <p>
+      Mandarin doesn’t use “not” or “no” like English — it uses specific negative words depending 
+      on tense, verb type, and tone.
+    </p>
+
+    <ol className="list-decimal pl-6 space-y-8">
+      {/* 1. 不 */}
+      <li>
+        <h2 className="text-lg font-semibold">Use 不 (bù) for General, Habitual, or Future Negation</h2>
+        <p className="font-medium">Usage Examples:</p>
+        <ul className="list-disc pl-6 space-y-1">
+          <li>我不吃肉。= I don’t eat meat.</li>
+          <li>我不想去。= I don’t want to go.</li>
+          <li>明天我不上班。= I won’t work tomorrow.</li>
+        </ul>
+        <p className="mt-2 font-medium">Notes:</p>
+        <ul className="list-disc pl-6 space-y-1">
+          <li>Always goes before the verb.</li>
+          <li>Used for present/future habits, refusals, or permanent truths.</li>
+          <li><strong>Pro Tip:</strong> "不" is flat, almost firm — like drawing a boundary.</li>
+        </ul>
+      </li>
+
+      {/* 2. 没 */}
+      <li>
+        <h2 className="text-lg font-semibold">Use 没 (méi) for Past or Nonexistence</h2>
+        <p className="font-medium">Usage Examples:</p>
+        <ul className="list-disc pl-6 space-y-1">
+          <li>我没吃饭。= I didn’t eat.</li>
+          <li>她没来。= She didn’t come.</li>
+          <li>我没有钱。= I don’t have money.</li>
+        </ul>
+        <p className="mt-2 font-medium">Notes:</p>
+        <ul className="list-disc pl-6 space-y-1">
+          <li>Always goes before the verb.</li>
+          <li>"没有" (méi yǒu) is the negative of "有" (have).</li>
+          <li>Think of 没 as the past-tense "nope" or “haven’t done it yet.”</li>
+        </ul>
+      </li>
+
+      {/* 3. 不 vs 没 */}
+      <li>
+        <h2 className="text-lg font-semibold">Don’t Mix 不 and 没 Interchangeably</h2>
+        <div className="overflow-x-auto">
+          <table className="min-w-full border text-sm text-left">
+            <thead className="bg-gray-100 dark:bg-gray-800">
               <tr>
-                <th className="px-4 py-2 border border-gray-300">Sentence</th>
-              <th className="px-4 py-2 border border-gray-300">Correct?	</th>
-              <th className="px-4 py-2 border border-gray-300">Why</th></tr>
-              
-            </thead>
-            <tbody>
-              <tr>
-                <td className="px-4 py-2 border border-gray-300">我没吃饭。= I didn’t eat</td>
-                <td className="px-4 py-2 border border-gray-300">✅</td>
-                <td className="px-4 py-2 border border-gray-300">Past negation</td>
-              </tr>
-              <tr>
-                <td className="px-4 py-2 border border-gray-300">我不吃饭。= I don’t eat</td>
-                <td className="px-4 py-2 border border-gray-300">✅</td>
-                <td className="px-4 py-2 border border-gray-300">General/habitual</td>
-              </tr>
-              <tr>
-                <td className="px-4 py-2 border border-gray-300">我不有钱。</td>
-                <td className="px-4 py-2 border border-gray-300">❌</td>
-                <td className="px-4 py-2 border border-gray-300">“有” must use 没/没有</td>
-              </tr>
-            </tbody>
-            </table>	
-		</div>            
-          </li>
-          <li>
-            <div>
-              <h2>The Verb 有 (yǒu) is Always Negated with 没</h2>
-              <span>Usage Examples:</span>
-              <ul>
-                <li>
-                  <div>
-                    <p><span>我没有时间。</span>= I don’t have time.</p>
-                    </div>
-                </li>
-                <li>
-                  <div>
-                    <p>
-                      <span>他没有女朋友。</span>
-                      = He doesn’t have a girlfriend.
-                    </p>
-                  </div>
-                </li>
-              </ul>
-              <p>
-              <span>Note:</span>
-              Never use 不有 ❌. It’s not a thing.
-              </p>  
-            </div>
-          </li>
-          <li>
-            <div>
-              <h2>Use 不 with Adjectives and Modal Verbs</h2>
-              <table className="min-w-full border border-gray-300 text-sm text-left text-gray-700">
-                <thead>
-                  <tr>
-                    <th className="px-4 py-2 border border-gray-300">Word</th>
-                    <th className="px-4 py-2 border border-gray-300">Use Like</th>
-                    <th className="px-4 py-2 border border-gray-300">Example</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td className="px-4 py-2 border border-gray-300">会</td>
-                    <td className="px-4 py-2 border border-gray-300">can/will</td>
-                    <td className="px-4 py-2 border border-gray-300">我不会说法语。= I can’t speak French.</td>
-                    </tr>
-                    <tr>
-                      <td className="px-4 py-2 border border-gray-300">想</td>
-                      <td className="px-4 py-2 border border-gray-300">want</td>
-                      <td className="px-4 py-2 border border-gray-300">我不想去。= I don’t want to go.</td>
-                    </tr>
-                    <tr>
-                      <td className="px-4 py-2 border border-gray-300">是</td>
-                      <td className="px-4 py-2 border border-gray-300">to be</td>
-                      <td className="px-4 py-2 border border-gray-300">他不是老师。= He’s not a teacher.</td>
-                    </tr>
-                </tbody>
-              </table>
-              <p><span> Note: </span>"不" is the go-to for verbs that express intent, possibility, or identity.</p>
-            </div>       
-          </li>
-          <li>
-            <div>
-              <h2>Double Negatives = Positive or Emphasis</h2>
-              <span>Example:</span>
-              <ul>
-                <li>
-                  <div>
-                    <p><span>我不是不知道。</span>= “It’s not that I don’t know.” (aka "Of course I know.")</p>
-                  </div>
-                </li>
-              </ul>
-              <p><span>Note:</span>Double negatives exist for dramatic or emotional emphasis.</p>
-            </div>
-          </li>
-          <li>
-            <div>
-              <h2>"了" + Negation = Tricky</h2>
-              <p>“了” shows completed action, but you can’t use 没 + 了 together.</p>
-              <ul>
-                <li>❌ 我没吃了 (WRONG)</li>
-                <li>✅ 我没吃 (CORRECT)</li>
-                <li>✅ 我吃了 (CORRECT)</li>
-              </ul>
-            </div>
-          </li>
-        </ol>
-        <div>
-        <h2>BONUS: Other Negative Words</h2>
-        <table>
-          <thead>
-            <tr>
-              <th className="px-4 py-2 border border-gray-300">Word</th>
-              <th className="px-4 py-2 border border-gray-300">Meaning</th>
-              <th className="px-4 py-2 border border-gray-300">Example</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td className="px-4 py-2 border border-gray-300">别 (bié)</td>
-              <td className="px-4 py-2 border border-gray-300">Don’t (command)</td>
-              <td className="px-4 py-2 border border-gray-300">别说话！= Don’t speak!</td>
-            </tr>
-            <tr>
-              <td className="px-4 py-2 border border-gray-300">不行</td>
-              <td className="px-4 py-2 border border-gray-300">Not okay / won’t do</td>
-              <td className="px-4 py-2 border border-gray-300">这样不行！= This won’t do!</td>
-            </tr>
-            <tr>
-              <td className="px-4 py-2 border border-gray-300">不要</td>
-              <td className="px-4 py-2 border border-gray-300">Don’t want / Stop</td>
-              <td className="px-4 py-2 border border-gray-300">不要笑！= Don’t laugh!</td>
-            </tr>
-            <tr>
-              <td className="px-4 py-2 border border-gray-300">没事</td>
-              <td className="px-4 py-2 border border-gray-300">It’s nothing / I’m good</td>
-              <td className="px-4 py-2 border border-gray-300">没事，我没受伤。= I’m fine.</td>
-            </tr>
-          </tbody>
-        </table>		
-        </div>
-        <div>
-          <h2>Negation Cheat Sheet:</h2>
-          <table>
-            <thead>
-              <tr>
-                <th className="px-4 py-2 border border-gray-300">Scenario</th>
-                <th className="px-4 py-2 border border-gray-300">Use</th>
+                <th className="px-4 py-2 border">Sentence</th>
+                <th className="px-4 py-2 border">Correct?</th>
+                <th className="px-4 py-2 border">Why</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td className="px-4 py-2 border border-gray-300">Habit / Future / General</td>
-                <td className="px-4 py-2 border border-gray-300">不</td>
+                <td className="px-4 py-2 border">我没吃饭。</td>
+                <td className="px-4 py-2 border">✅</td>
+                <td className="px-4 py-2 border">Past negation</td>
               </tr>
               <tr>
-                <td className="px-4 py-2 border border-gray-300">Past / Not happened yet</td>
-                <td className="px-4 py-2 border border-gray-300">没</td>
+                <td className="px-4 py-2 border">我不吃饭。</td>
+                <td className="px-4 py-2 border">✅</td>
+                <td className="px-4 py-2 border">General/habitual</td>
               </tr>
               <tr>
-                <td className="px-4 py-2 border border-gray-300">Don’t have</td>
-                <td className="px-4 py-2 border border-gray-300">(有)	没有</td>
-              </tr>
-              <tr>
-                <td className="px-4 py-2 border border-gray-300">“Don’t do that!”</td>
-                <td className="px-4 py-2 border border-gray-300">别</td>
-              </tr>
-              <tr>
-                <td className="px-4 py-2 border border-gray-300">Negative commands</td>
-                <td className="px-4 py-2 border border-gray-300">不要 / 别</td>
-              </tr>
-              <tr>
-                <td className="px-4 py-2 border border-gray-300">Polite refusal</td>
-                <td className="px-4 py-2 border border-gray-300">不好意思 (excuse me / no thanks)</td>
+                <td className="px-4 py-2 border">我不有钱。</td>
+                <td className="px-4 py-2 border">❌</td>
+                <td className="px-4 py-2 border">“有” must use 没/没有</td>
               </tr>
             </tbody>
           </table>
         </div>
+      </li>
+
+      {/* 4. 有 always uses 没 */}
+      <li>
+        <h2 className="text-lg font-semibold">The Verb 有 (yǒu) is Always Negated with 没</h2>
+        <ul className="list-disc pl-6 space-y-1">
+          <li>我没有时间。= I don’t have time.</li>
+          <li>他没有女朋友。= He doesn’t have a girlfriend.</li>
+        </ul>
+        <p className="mt-2"><strong>Note:</strong> Never use 不有 ❌. It’s not a thing.</p>
+      </li>
+
+      {/* 5. 不 + adjectives / modals */}
+      <li>
+        <h2 className="text-lg font-semibold">Use 不 with Adjectives and Modal Verbs</h2>
+        <div className="overflow-x-auto">
+          <table className="min-w-full border text-sm text-left">
+            <thead className="bg-gray-100 dark:bg-gray-800">
+              <tr>
+                <th className="px-4 py-2 border">Word</th>
+                <th className="px-4 py-2 border">Use Like</th>
+                <th className="px-4 py-2 border">Example</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td className="px-4 py-2 border">会</td>
+                <td className="px-4 py-2 border">can/will</td>
+                <td className="px-4 py-2 border">我不会说法语。</td>
+              </tr>
+              <tr>
+                <td className="px-4 py-2 border">想</td>
+                <td className="px-4 py-2 border">want</td>
+                <td className="px-4 py-2 border">我不想去。</td>
+              </tr>
+              <tr>
+                <td className="px-4 py-2 border">是</td>
+                <td className="px-4 py-2 border">to be</td>
+                <td className="px-4 py-2 border">他不是老师。</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="mt-2"><strong>Note:</strong> "不" is the go-to for verbs that express intent, possibility, or identity.</p>
+      </li>
+
+      {/* 6. Double Negatives */}
+      <li>
+        <h2 className="text-lg font-semibold">Double Negatives = Positive or Emphasis</h2>
+        <p>我不是不知道。= “It’s not that I don’t know.” (aka "Of course I know.")</p>
+        <p className="mt-2"><strong>Note:</strong> Double negatives exist for dramatic or emotional emphasis.</p>
+      </li>
+
+      {/* 7. Negation + 了 */}
+      <li>
+        <h2 className="text-lg font-semibold">"了" + Negation = Tricky</h2>
+        <ul className="list-disc pl-6 space-y-1">
+          <li>❌ 我没吃了</li>
+          <li>✅ 我没吃</li>
+          <li>✅ 我吃了</li>
+        </ul>
+      </li>
+    </ol>
+
+    {/* BONUS Section */}
+    <div className="space-y-4">
+      <h2 className="text-lg font-semibold">BONUS: Other Negative Words</h2>
+      <div className="overflow-x-auto">
+        <table className="min-w-full border text-sm text-left">
+          <thead className="bg-gray-100 dark:bg-gray-800">
+            <tr>
+              <th className="px-4 py-2 border">Word</th>
+              <th className="px-4 py-2 border">Meaning</th>
+              <th className="px-4 py-2 border">Example</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td className="px-4 py-2 border">别</td>
+              <td className="px-4 py-2 border">Don’t (command)</td>
+              <td className="px-4 py-2 border">别说话！</td>
+            </tr>
+            <tr>
+              <td className="px-4 py-2 border">不行</td>
+              <td className="px-4 py-2 border">Not okay / won’t do</td>
+              <td className="px-4 py-2 border">这样不行！</td>
+            </tr>
+            <tr>
+              <td className="px-4 py-2 border">不要</td>
+              <td className="px-4 py-2 border">Don’t want / Stop</td>
+              <td className="px-4 py-2 border">不要笑！</td>
+            </tr>
+            <tr>
+              <td className="px-4 py-2 border">没事</td>
+              <td className="px-4 py-2 border">It’s nothing / I’m good</td>
+              <td className="px-4 py-2 border">没事，我没受伤。</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
-  ),
+
+    {/* Cheat Sheet */}
+    <div className="space-y-4">
+      <h2 className="text-lg font-semibold">Negation Cheat Sheet:</h2>
+      <div className="overflow-x-auto">
+        <table className="min-w-full border text-sm text-left">
+          <thead className="bg-gray-100 dark:bg-gray-800">
+            <tr>
+              <th className="px-4 py-2 border">Scenario</th>
+              <th className="px-4 py-2 border">Use</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td className="px-4 py-2 border">Habit / Future / General</td>
+              <td className="px-4 py-2 border">不</td>
+            </tr>
+            <tr>
+              <td className="px-4 py-2 border">Past / Not happened yet</td>
+              <td className="px-4 py-2 border">没</td>
+            </tr>
+            <tr>
+              <td className="px-4 py-2 border">Don’t have</td>
+              <td className="px-4 py-2 border">没有</td>
+            </tr>
+            <tr>
+              <td className="px-4 py-2 border">“Don’t do that!”</td>
+              <td className="px-4 py-2 border">别</td>
+            </tr>
+            <tr>
+              <td className="px-4 py-2 border">Negative commands</td>
+              <td className="px-4 py-2 border">不要 / 别</td>
+            </tr>
+            <tr>
+              <td className="px-4 py-2 border">Polite refusal</td>
+              <td className="px-4 py-2 border">不好意思</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+),
   "Pronouns": (
   <div className="space-y-6 text-gray-800 text-sm leading-relaxed">
     <h2 className="text-xl font-semibold text-gray-900">📘 Grammar Rules → Pronouns (代词 dàicí)</h2>
