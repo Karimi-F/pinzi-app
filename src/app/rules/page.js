@@ -915,7 +915,7 @@ const ruleContent = {
       </tbody>
     </table>
   </div>
-)
+),
 };
 
 export default function Rules() {
