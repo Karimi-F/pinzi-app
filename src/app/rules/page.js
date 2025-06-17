@@ -916,6 +916,163 @@ const ruleContent = {
     </table>
   </div>
 ),
+"Question Words":(
+  <div className="space-y-6">
+    <h1 className="text-lg font-bold">Mandarin Question Words (疑问词 yíwèncí)</h1>
+    <p>
+      In Mandarin, question words replace the part of the sentence you're asking about — the rest of the sentence structure stays mostly the same.
+    </p>
+
+    <h2 className="font-semibold text-base">Core Sentence Structure</h2>
+    <p>
+      Mandarin uses a normal statement structure even in questions: <br />
+      <strong>Subject + Time + Place + [Question Word] + Verb + Object</strong>
+    </p>
+    <p>
+      You just drop the question word in where the answer would normally go. No need to move stuff around like in English.
+    </p>
+
+    <h2 className="text-base font-bold">Essential Question Words</h2>
+    <ul className="list-disc pl-6 space-y-2">
+      <li><strong>什么 (shénme)</strong> – What (e.g., <span className="text-red-500">你在看什么？</span> = What are you watching?)</li>
+      <li><strong>谁 (shéi)</strong> – Who (e.g., <span className="text-red-500">谁是你的老师？</span> = Who is your teacher?)</li>
+      <li><strong>哪里 / 哪儿 (nǎlǐ / nǎr)</strong> – Where (e.g., <span className="text-red-500">你要去哪里？</span> = Where are you going?)</li>
+      <li><strong>什么时候 (shénme shíhou)</strong> – When (e.g., <span className="text-red-500">你什么时候来？</span> = When are you coming?)</li>
+      <li><strong>为什么 (wèishénme)</strong> – Why (e.g., <span className="text-red-500">你为什么哭？</span> = Why are you crying?)</li>
+      <li><strong>怎么 (zěnme)</strong> – How / Why (e.g., <span className="text-red-500">你怎么去学校？</span> = How do you get to school?)</li>
+      <li><strong>哪 / 哪个 (nǎ / nǎge)</strong> – Which (e.g., <span className="text-red-500">你喜欢哪个电影？</span> = Which movie do you like?)</li>
+      <li><strong>哪些 (nǎxiē)</strong> – Which ones (plural) (e.g., <span className="text-red-500">你看过哪些电影？</span> = Which movies have you seen?)</li>
+    </ul>
+
+    <h2 className="text-base font-bold">Quick Rules & Tips</h2>
+    <ol className="list-decimal pl-6 space-y-6">
+      <li>
+        <div>
+          <p><strong>Don’t change the word order</strong> – Just insert the question word where the answer would go.</p>
+          <ul className="list-disc pl-6 mt-2">
+            <li><span className="text-red-500">你在看电影。</span> → <span className="text-red-500">你在看什么？</span></li>
+          </ul>
+        </div>
+      </li>
+
+      <li>
+        <div>
+          <p><strong>Question words don’t mix with 吗</strong> – That’s a redundancy error.</p>
+          <ul className="list-disc pl-6 mt-2">
+            <li><span className="line-through text-gray-500">你喜欢什么吗？</span></li>
+            <li><span className="text-red-500">你喜欢什么？</span> ✅</li>
+          </ul>
+        </div>
+      </li>
+
+      <li>
+        <div>
+          <p><strong>怎么 (zěnme)</strong> has 3 uses:</p>
+          <ul className="list-disc pl-6 mt-2">
+            <li>How (manner) → <span className="text-red-500">你怎么写这个字？</span></li>
+            <li>Why (casual) → <span className="text-red-500">你怎么不说话？</span></li>
+            <li>How come (vibe check) → <span className="text-red-500">你怎么来了？</span></li>
+          </ul>
+        </div>
+      </li>
+
+      <li>
+        <div>
+          <p><strong>谁 (shéi)</strong> can be subject or object</p>
+          <ul className="list-disc pl-6 mt-2">
+            <li><span className="text-red-500">谁是老师？</span> = Who is the teacher?</li>
+            <li><span className="text-red-500">你看见谁了？</span> = Who did you see?</li>
+          </ul>
+        </div>
+      </li>
+
+      <li>
+        <div>
+          <p><strong>什么时候 (shénme shíhou)</strong> always refers to time — just place it where a time phrase would go.</p>
+          <ul className="list-disc pl-6 mt-2">
+            <li><span className="text-red-500">你什么时候去？</span></li>
+            <li><span className="text-red-500">老师什么时候来？</span></li>
+          </ul>
+        </div>
+      </li>
+    </ol>
+
+    <h2 className="text-base font-bold">Combo Questions</h2>
+    <ul className="list-disc pl-6 space-y-2">
+      <li><span className="text-red-500">你为什么想去那个地方？</span> = Why do you want to go to that place?</li>
+      <li><span className="text-red-500">谁在什么时候打电话给你？</span> = Who called you and when?</li>
+    </ul>
+
+    <h2 className="text-base font-bold">Common Mistakes to Avoid</h2>
+    <ul className="list-disc pl-6 space-y-2 text-red-500">
+      <li>❌ 你喜欢什么吗？ → ✅ 你喜欢什么？</li>
+      <li>❌ 什么是你吃的？ → ✅ 你吃的是什么？</li>
+      <li>❌ 哪里你去？ → ✅ 你去哪里？</li>
+    </ul>
+
+    <h2 className="text-base font-bold">Summary Table</h2>
+    <table className="table-auto border mt-4 text-sm">
+      <thead>
+        <tr>
+          <th className="border px-2 py-1">Word</th>
+          <th className="border px-2 py-1">Pinyin</th>
+          <th className="border px-2 py-1">Meaning</th>
+          <th className="border px-2 py-1">Example</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td className="border px-2 py-1">什么</td>
+          <td className="border px-2 py-1">shénme</td>
+          <td className="border px-2 py-1">What</td>
+          <td className="border px-2 py-1">你吃什么？</td>
+        </tr>
+        <tr>
+          <td className="border px-2 py-1">谁</td>
+          <td className="border px-2 py-1">shéi</td>
+          <td className="border px-2 py-1">Who</td>
+          <td className="border px-2 py-1">谁在说话？</td>
+        </tr>
+        <tr>
+          <td className="border px-2 py-1">哪里 / 哪儿</td>
+          <td className="border px-2 py-1">nǎlǐ / nǎr</td>
+          <td className="border px-2 py-1">Where</td>
+          <td className="border px-2 py-1">他住在哪儿？</td>
+        </tr>
+        <tr>
+          <td className="border px-2 py-1">什么时候</td>
+          <td className="border px-2 py-1">shénme shíhou</td>
+          <td className="border px-2 py-1">When</td>
+          <td className="border px-2 py-1">你什么时候来？</td>
+        </tr>
+        <tr>
+          <td className="border px-2 py-1">为什么</td>
+          <td className="border px-2 py-1">wèishénme</td>
+          <td className="border px-2 py-1">Why</td>
+          <td className="border px-2 py-1">你为什么不说？</td>
+        </tr>
+        <tr>
+          <td className="border px-2 py-1">怎么</td>
+          <td className="border px-2 py-1">zěnme</td>
+          <td className="border px-2 py-1">How / Why</td>
+          <td className="border px-2 py-1">你怎么知道的？</td>
+        </tr>
+        <tr>
+          <td className="border px-2 py-1">哪个</td>
+          <td className="border px-2 py-1">nǎge</td>
+          <td className="border px-2 py-1">Which (one)</td>
+          <td className="border px-2 py-1">你喜欢哪个？</td>
+        </tr>
+        <tr>
+          <td className="border px-2 py-1">哪些</td>
+          <td className="border px-2 py-1">nǎxiē</td>
+          <td className="border px-2 py-1">Which (ones)</td>
+          <td className="border px-2 py-1">你看过哪些电影？</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+),
 };
 
 export default function Rules() {
