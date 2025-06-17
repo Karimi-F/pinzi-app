@@ -690,6 +690,71 @@ So instead of changing the verb itself, Chinese uses particles and time words.
               </ul>
             </div>
           </li>
+          <li>
+            <div>
+              <h2>Use 没 (méi) for Past or Nonexistence</h2>
+              <span>Usage Examples:</span>
+              <ul>
+                <li>
+                  <p><span>我没吃饭。</span>= I didn’t eat.</p>
+                </li>
+                <li><p><span>她没来。</span>= She didn’t come.</p></li>
+                <li>
+                  <p><span>我没有钱。</span>= I don’t have money.</p>
+                </li>
+              </ul>
+              <span>Note:</span>
+              <ul>
+                <li>Always goes before the verb.</li>
+                <li>"没有" (méi yǒu) is the negative of "有" (have).</li>
+                <li>Think of 没 as the past-tense "nope" or “haven’t done it yet.”</li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div><h2>Don’t Mix 不 and 没 Interchangeably</h2>
+            <table className="min-w-full border border-gray-300 text-sm text-left text-gray-700">
+              <thead className="space-x-6">
+              <tr>
+                <th className="px-4 py-2 border border-gray-300">Sentence</th>
+              <th className="px-4 py-2 border border-gray-300">Correct?	</th>
+              <th className="px-4 py-2 border border-gray-300">Why</th></tr>
+              
+            </thead>
+            <tbody>
+              <tr>
+                <td className="px-4 py-2 border border-gray-300">我没吃饭。= I didn’t eat</td>
+                <td className="px-4 py-2 border border-gray-300">✅</td>
+                <td className="px-4 py-2 border border-gray-300">Past negation</td>
+              </tr>
+              <tr>
+                <td className="px-4 py-2 border border-gray-300">我不吃饭。= I don’t eat</td>
+                <td className="px-4 py-2 border border-gray-300">✅</td>
+                <td className="px-4 py-2 border border-gray-300">General/habitual</td>
+              </tr>
+              <tr>
+                <td className="px-4 py-2 border border-gray-300">我不有钱。</td>
+                <td className="px-4 py-2 border border-gray-300">❌</td>
+                <td className="px-4 py-2 border border-gray-300">“有” must use 没/没有</td>
+              </tr>
+            </tbody>
+            </table>	
+		</div>            
+          </li>
+          <li>
+            <div>
+              <h2>The Verb 有 (yǒu) is Always Negated with 没</h2>
+              <span>Usage Examples:</span>
+              4. 
+💬 
+
+我没有时间。= I don’t have time.
+
+他没有女朋友。= He doesn’t have a girlfriend.
+
+🧠 Rule: Never use 不有 ❌. It’s not a thing.
+            </div>
+          </li>
         </ol>
     </div>
   )
