@@ -1074,7 +1074,7 @@ const ruleContent = {
     </table>
   </div>
 ),
-"Numbers and Counting" :(
+"Numbers & Counting" :(
   <div>
     <h1>数字 (Numbers & Counting)</h1>
     <p>Mandarin numbers are logical, base-10, and super regular. Once you get the hang of it, you can count anything.</p>
@@ -1133,7 +1133,7 @@ const ruleContent = {
     </ul>
   </div>
 ),
-"Time and Dates":(
+"Time & Dates":(
   <div>
     <h1>日期和时间 (Dates & Time)</h1>
     <p>Mandarin expresses time and dates from largest to smallest: year → month → day. It’s structured and simple.</p>
