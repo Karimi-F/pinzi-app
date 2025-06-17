@@ -1073,12 +1073,13 @@ const ruleContent = {
       </tbody>
     </table>
   </div>
-),"Numbers & Counting": (
+),
+"Numbers & Counting": (
   <div className="space-y-6">
     <h1 className="text-lg font-bold">数字 (Numbers & Counting)</h1>
     <p>Mandarin numbers are logical and based on a regular base-10 system. Once you learn the patterns, you can count almost anything.</p>
 
-    <h2 className="font-semibold text-base">🔢 Basic Numbers (0–10)</h2>
+    <h2 className="font-semibold text-base">Basic Numbers (0–10)</h2>
     <ul className="list-disc pl-6 space-y-1">
       <li><span className="text-red-500">0</span> = 零 (líng)</li>
       <li><span className="text-red-500">1</span> = 一 (yī)</li>
@@ -1093,7 +1094,7 @@ const ruleContent = {
       <li><span className="text-red-500">10</span> = 十 (shí)</li>
     </ul>
 
-    <h2 className="font-semibold text-base">✅ Numbers 11–99</h2>
+    <h2 className="font-semibold text-base">Numbers 11–99</h2>
     <p>Pattern: <strong>[Tens digit] + 十 + [Ones digit]</strong></p>
     <ul className="list-disc pl-6 space-y-1 mt-1">
       <li><span className="text-red-500">11</span> = 十一 (shí yī)</li>
@@ -1112,7 +1113,7 @@ const ruleContent = {
     </ul>
     <p><strong>Rule:</strong> Use <span className="text-red-500">二</span> for counting, <span className="text-red-500">两</span> for quantifying.</p>
 
-    <h2 className="font-semibold text-base">💯 Hundreds, Thousands, Ten-Thousands</h2>
+    <h2 className="font-semibold text-base">Hundreds, Thousands, Ten-Thousands</h2>
     <ul className="list-disc pl-6 space-y-1">
       <li><span className="text-red-500">100</span> = 一百 (yī bǎi)</li>
       <li><span className="text-red-500">101</span> = 一百零一 (yī bǎi líng yī)</li>
@@ -1124,7 +1125,7 @@ const ruleContent = {
       <strong>Rules:</strong> Use <span className="text-red-500">零</span> to fill in missing digits. Numbers are grouped by ten-thousands — e.g., <span className="text-red-500">100,000</span> = 十万 (shí wàn), not "a hundred thousand".
     </p>
 
-    <h2 className="font-bold text-base">📌 Summary</h2>
+    <h2 className="font-bold text-base">Summary</h2>
     <ul className="list-disc pl-6 space-y-1">
       <li><span className="text-red-500">零</span> is used to skip digits (e.g. 105 = 一百零五).</li>
       <li><span className="text-red-500">两</span> is for quantities; <span className="text-red-500">二</span> is for counting.</li>
@@ -1132,7 +1133,7 @@ const ruleContent = {
     </ul>
 
     <div className="space-y-2">
-      <h2 className="text-base font-semibold">📞 Pronouncing 1 as “yāo” in Phone Numbers</h2>
+      <h2 className="text-base font-semibold">Pronouncing 1 as “yāo” in Phone Numbers</h2>
       <p>In spoken strings of digits like phone numbers or security codes, 一 (1) is pronounced <strong>yāo</strong> — not yī.</p>
       <p><strong>Why?</strong> "Yī" sounds too similar to "qī" (7), especially over bad connections. "Yāo" is clearer and sharper.</p>
       <p><strong>Used in:</strong></p>
@@ -1147,7 +1148,7 @@ const ruleContent = {
     </div>
 
     <div className="space-y-2">
-      <h2 className="text-base font-bold">📌 Quick Summary</h2>
+      <h2 className="text-base font-bold">Quick Summary</h2>
       <ul className="list-disc pl-6 space-y-1">
         <li><strong>零</strong> fills gaps in numbers (e.g. 105 = 一百零五).</li>
         <li><strong>两</strong> = quantities/time, <strong>二</strong> = counting/listing.</li>
