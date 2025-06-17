@@ -1073,64 +1073,88 @@ const ruleContent = {
       </tbody>
     </table>
   </div>
-),
-"Numbers & Counting" :(
-  <div>
-    <h1>数字 (Numbers & Counting)</h1>
-    <p>Mandarin numbers are logical, base-10, and super regular. Once you get the hang of it, you can count anything.</p>
+),"Numbers & Counting": (
+  <div className="space-y-6">
+    <h1 className="text-lg font-bold">数字 (Numbers & Counting)</h1>
+    <p>Mandarin numbers are logical and based on a regular base-10 system. Once you learn the patterns, you can count almost anything.</p>
 
-    <h2>🔢 Basic Numbers (0–10)</h2>
-    <ul className="list-disc pl-6 space-y-2">
-      <li>0 = 零 (líng)</li>
-      <li>1 = 一 (yī)</li>
-      <li>2 = 二 (èr)</li>
-      <li>3 = 三 (sān)</li>
-      <li>4 = 四 (sì)</li>
-      <li>5 = 五 (wǔ)</li>
-      <li>6 = 六 (liù)</li>
-      <li>7 = 七 (qī)</li>
-      <li>8 = 八 (bā)</li>
-      <li>9 = 九 (jiǔ)</li>
-      <li>10 = 十 (shí)</li>
+    <h2 className="font-semibold text-base">🔢 Basic Numbers (0–10)</h2>
+    <ul className="list-disc pl-6 space-y-1">
+      <li><span className="text-red-500">0</span> = 零 (líng)</li>
+      <li><span className="text-red-500">1</span> = 一 (yī)</li>
+      <li><span className="text-red-500">2</span> = 二 (èr)</li>
+      <li><span className="text-red-500">3</span> = 三 (sān)</li>
+      <li><span className="text-red-500">4</span> = 四 (sì)</li>
+      <li><span className="text-red-500">5</span> = 五 (wǔ)</li>
+      <li><span className="text-red-500">6</span> = 六 (liù)</li>
+      <li><span className="text-red-500">7</span> = 七 (qī)</li>
+      <li><span className="text-red-500">8</span> = 八 (bā)</li>
+      <li><span className="text-red-500">9</span> = 九 (jiǔ)</li>
+      <li><span className="text-red-500">10</span> = 十 (shí)</li>
     </ul>
 
-    <h2>✅ Numbers 11–99</h2>
-    <p>Pattern: [Tens digit] + 十 + [Ones digit]</p>
-    <ul className="list-disc pl-6 space-y-2">
-      <li>11 = 十一 (shí yī)</li>
-      <li>24 = 二十四 (èr shí sì)</li>
-      <li>39 = 三十九 (sān shí jiǔ)</li>
-      <li>99 = 九十九 (jiǔ shí jiǔ)</li>
+    <h2 className="font-semibold text-base">✅ Numbers 11–99</h2>
+    <p>Pattern: <strong>[Tens digit] + 十 + [Ones digit]</strong></p>
+    <ul className="list-disc pl-6 space-y-1 mt-1">
+      <li><span className="text-red-500">11</span> = 十一 (shí yī)</li>
+      <li><span className="text-red-500">24</span> = 二十四 (èr shí sì)</li>
+      <li><span className="text-red-500">39</span> = 三十九 (sān shí jiǔ)</li>
+      <li><span className="text-red-500">99</span> = 九十九 (jiǔ shí jiǔ)</li>
     </ul>
-    <p className="mt-2"><strong>Rule:</strong> If there’s no ones digit, just drop it. (e.g. 40 = 四十)</p>
+    <p className="mt-2"><strong>Rule:</strong> If there's no ones digit, drop it. e.g. <span className="text-red-500">40</span> = 四十</p>
 
-    <h2>✅ Special Case: 两 (liǎng)</h2>
-    <p>Use 两 instead of 二 when referring to quantities, measure words, or time.</p>
-    <ul className="list-disc pl-6 space-y-2">
-      <li>两个人 = Two people</li>
-      <li>两点 = Two o’clock</li>
-      <li>二楼 = Second floor</li>
+    <h2 className="font-semibold text-base">🔁 Special Case: 两 (liǎng)</h2>
+    <p>Use <span className="text-red-500">两</span> instead of 二 when talking about quantities, time, or measure words.</p>
+    <ul className="list-disc pl-6 mt-1 space-y-1">
+      <li><span className="text-red-500">两个人</span> = Two people</li>
+      <li><span className="text-red-500">两点</span> = Two o'clock</li>
+      <li><span className="text-red-500">二楼</span> = Second floor</li>
     </ul>
-    <p><strong>Rule:</strong> Use 二 when counting or listing numbers, 两 when measuring or quantifying.</p>
+    <p><strong>Rule:</strong> Use <span className="text-red-500">二</span> for counting, <span className="text-red-500">两</span> for quantifying.</p>
 
-    <h2>✅ Hundreds, Thousands, Ten-Thousands</h2>
-    <ul className="list-disc pl-6 space-y-2">
-      <li>100 = 一百 (yī bǎi)</li>
-      <li>101 = 一百零一 (yī bǎi líng yī)</li>
-      <li>215 = 二百一十五 (èr bǎi yī shí wǔ)</li>
-      <li>1,000 = 一千 (yī qiān)</li>
-      <li>10,000 = 一万 (yī wàn)</li>
+    <h2 className="font-semibold text-base">💯 Hundreds, Thousands, Ten-Thousands</h2>
+    <ul className="list-disc pl-6 space-y-1">
+      <li><span className="text-red-500">100</span> = 一百 (yī bǎi)</li>
+      <li><span className="text-red-500">101</span> = 一百零一 (yī bǎi líng yī)</li>
+      <li><span className="text-red-500">215</span> = 二百一十五 (èr bǎi yī shí wǔ)</li>
+      <li><span className="text-red-500">1,000</span> = 一千 (yī qiān)</li>
+      <li><span className="text-red-500">10,000</span> = 一万 (yī wàn)</li>
     </ul>
-    <p>
-      <strong>Rules:</strong> Use 零 (líng) to fill in missing digits. Numbers group by ten-thousands — e.g., 100,000 = 十万 (shí wàn), not “a hundred thousand”.
+    <p className="mt-2">
+      <strong>Rules:</strong> Use <span className="text-red-500">零</span> to fill in missing digits. Numbers are grouped by ten-thousands — e.g., <span className="text-red-500">100,000</span> = 十万 (shí wàn), not "a hundred thousand".
     </p>
 
-    <h2>🧾 Quick Summary</h2>
-    <ul className="list-disc pl-6 space-y-2">
-      <li>零 is used to skip digits (e.g. 105 = 一百零五).</li>
-      <li>两 is used for quantities and time, 二 is for counting.</li>
-      <li>Chinese uses 10,000 as a base unit, not 1,000 like English.</li>
+    <h2 className="font-bold text-base">📌 Summary</h2>
+    <ul className="list-disc pl-6 space-y-1">
+      <li><span className="text-red-500">零</span> is used to skip digits (e.g. 105 = 一百零五).</li>
+      <li><span className="text-red-500">两</span> is for quantities; <span className="text-red-500">二</span> is for counting.</li>
+      <li>Chinese uses <strong>10,000</strong> as a base unit, not 1,000 like English.</li>
     </ul>
+
+    <div className="space-y-2">
+      <h2 className="text-base font-semibold">📞 Pronouncing 1 as “yāo” in Phone Numbers</h2>
+      <p>In spoken strings of digits like phone numbers or security codes, 一 (1) is pronounced <strong>yāo</strong> — not yī.</p>
+      <p><strong>Why?</strong> "Yī" sounds too similar to "qī" (7), especially over bad connections. "Yāo" is clearer and sharper.</p>
+      <p><strong>Used in:</strong></p>
+      <ul className="list-disc pl-6 space-y-1">
+        <li>Phone numbers</li>
+        <li>ID numbers</li>
+        <li>Security codes</li>
+        <li>Addresses with digit strings</li>
+      </ul>
+      <p><strong>Not used in:</strong> Math, dates, or regular counting.</p>
+      <p><strong>Example:</strong> 131-4151-7189 → <span className="text-red-500">yāo sān yāo – sì yāo wǔ yāo – qī yāo bā jiǔ</span></p>
+    </div>
+
+    <div className="space-y-2">
+      <h2 className="text-base font-bold">📌 Quick Summary</h2>
+      <ul className="list-disc pl-6 space-y-1">
+        <li><strong>零</strong> fills gaps in numbers (e.g. 105 = 一百零五).</li>
+        <li><strong>两</strong> = quantities/time, <strong>二</strong> = counting/listing.</li>
+        <li>Chinese groups large numbers by 10,000s (not 1,000s).</li>
+        <li><strong>一</strong> becomes <strong>yāo</strong> when clarity is needed in digit strings.</li>
+      </ul>
+    </div>
   </div>
 ),
 "Time & Dates": (
