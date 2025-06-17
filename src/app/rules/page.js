@@ -745,15 +745,58 @@ So instead of changing the verb itself, Chinese uses particles and time words.
             <div>
               <h2>The Verb 有 (yǒu) is Always Negated with 没</h2>
               <span>Usage Examples:</span>
-              4. 
-💬 
-
-我没有时间。= I don’t have time.
-
-他没有女朋友。= He doesn’t have a girlfriend.
-
-🧠 Rule: Never use 不有 ❌. It’s not a thing.
+              <ul>
+                <li>
+                  <div>
+                    <p><span>我没有时间。</span>= I don’t have time.</p>
+                    </div>
+                </li>
+                <li>
+                  <div>
+                    <p>
+                      <span>他没有女朋友。</span>
+                      = He doesn’t have a girlfriend.
+                    </p>
+                  </div>
+                </li>
+              </ul>
+              <p>
+              <span>Note:</span>
+              Never use 不有 ❌. It’s not a thing.
+              </p>  
             </div>
+          </li>
+          <li>
+            <div>
+              <h2>Use 不 with Adjectives and Modal Verbs</h2>
+              <table className="min-w-full border border-gray-300 text-sm text-left text-gray-700">
+                <thead>
+                  <tr>
+                    <th className="px-4 py-2 border border-gray-300">Word</th>
+                    <th className="px-4 py-2 border border-gray-300">Use Like</th>
+                    <th className="px-4 py-2 border border-gray-300">Example</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td className="px-4 py-2 border border-gray-300">会</td>
+                    <td className="px-4 py-2 border border-gray-300">can/will</td>
+                    <td className="px-4 py-2 border border-gray-300">我不会说法语。= I can’t speak French.</td>
+                    </tr>
+                    <tr>
+                      <td className="px-4 py-2 border border-gray-300">想</td>
+                      <td className="px-4 py-2 border border-gray-300">want</td>
+                      <td className="px-4 py-2 border border-gray-300">我不想去。= I don’t want to go.</td>
+                    </tr>
+                    <tr>
+                      <td className="px-4 py-2 border border-gray-300">是</td>
+                      <td className="px-4 py-2 border border-gray-300">to be</td>
+                      <td className="px-4 py-2 border border-gray-300">他不是老师。= He’s not a teacher.</td>
+                    </tr>
+                </tbody>
+              </table>
+              <p><span> Note: </span>"不" is the go-to for verbs that express intent, possibility, or identity.</p>
+            </div>       
           </li>
         </ol>
     </div>
