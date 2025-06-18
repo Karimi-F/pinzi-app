@@ -1111,7 +1111,7 @@ const ruleContent = {
       <li><span className="text-red-500">两点</span> = Two o'clock</li>
       <li><span className="text-red-500">二楼</span> = Second floor</li>
     </ul>
-    <p><strong>Rule:</strong> Use <span className="text-red-500">二</span> for counting, <span className="text-red-500">两</span> for quantifying.</p>
+    <p><strong>Note:</strong> Use <span className="text-red-500">二</span> for counting, <span className="text-red-500">两</span> for quantifying.</p>
 
     <h2 className="font-semibold text-base">Hundreds, Thousands, Ten-Thousands</h2>
     <ul className="list-disc pl-6 space-y-1">
@@ -1122,7 +1122,7 @@ const ruleContent = {
       <li><span className="text-red-500">10,000</span> = 一万 (yī wàn)</li>
     </ul>
     <p className="mt-2">
-      <strong>Rules:</strong> Use <span className="text-red-500">零</span> to fill in missing digits. Numbers are grouped by ten-thousands — e.g., <span className="text-red-500">100,000</span> = 十万 (shí wàn), not "a hundred thousand".
+      <strong>Note:</strong> Use <span className="text-red-500">零</span> to fill in missing digits. Numbers are grouped by ten-thousands — e.g., <span className="text-red-500">100,000</span> = 十万 (shí wàn), not "a hundred thousand".
     </p>
 
     <h2 className="font-bold text-base">Summary</h2>
