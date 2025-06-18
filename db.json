@@ -16,9 +16,308 @@
       "name": "Karimi",
       "nickname": "karimi",
       "flashcards": [
-        { "hanzi": "我", "pinyin": "wwǒ", "meaning": "me" },
-        { "hanzi": "不", "pinyin": "bbù", "meaning": "not" }
+        { "hanzi": "我", "pinyin": "wǒ", "meaning": "me" },
+        { "hanzi": "不", "pinyin": "bù", "meaning": "not" }
       ]
+    }
+  ],
+  "words": [
+    {
+      "hanzi": "我",
+      "pinyin": "wǒ",
+      "english": "I, me"
+    },
+    {
+      "hanzi": "我们",
+      "pinyin": "wǒmen",
+      "english": "we, us"
+    },
+    {
+      "hanzi": "你",
+      "pinyin": "nǐ",
+      "english": "you"
+    },
+    {
+      "hanzi": "他",
+      "pinyin": "tā",
+      "english": "he, him"
+    },
+    {
+      "hanzi": "她",
+      "pinyin": "tā",
+      "english": "she, her"
+    },
+    {
+      "hanzi": "这",
+      "pinyin": "zhè",
+      "english": "this"
+    },
+    {
+      "hanzi": "那",
+      "pinyin": "nà",
+      "english": "that"
+    },
+    {
+      "hanzi": "哪",
+      "pinyin": "nǎ",
+      "english": "which"
+    },
+    {
+      "hanzi": "哪儿",
+      "pinyin": "nǎr",
+      "english": "where"
+    },
+    {
+      "hanzi": "谁",
+      "pinyin": "shéi",
+      "english": "who"
+    },
+    {
+      "hanzi": "什么",
+      "pinyin": "shénme",
+      "english": "what, why"
+    },
+    {
+      "hanzi": "多少",
+      "pinyin": "duōshǎo",
+      "english": "how many, how much"
+    },
+    {
+      "hanzi": "几",
+      "pinyin": "jǐ",
+      "english": "a few, how many"
+    },
+    {
+      "hanzi": "怎么",
+      "pinyin": "zěnme",
+      "english": "how"
+    },
+    {
+      "hanzi": "怎么样",
+      "pinyin": "zěnmeyàng",
+      "english": "how about"
+    },
+    {
+      "hanzi": "一",
+      "pinyin": "yī",
+      "english": "one"
+    },
+    {
+      "hanzi": "二",
+      "pinyin": "èr",
+      "english": "two"
+    },
+    {
+      "hanzi": "三",
+      "pinyin": "sān",
+      "english": "three"
+    },
+    {
+      "hanzi": "四",
+      "pinyin": "sì",
+      "english": "four"
+    },
+    {
+      "hanzi": "五",
+      "pinyin": "wǔ",
+      "english": "five"
+    },
+    {
+      "hanzi": "六",
+      "pinyin": "liù",
+      "english": "six"
+    },
+    {
+      "hanzi": "七",
+      "pinyin": "qī",
+      "english": "seven"
+    },
+    {
+      "hanzi": "八",
+      "pinyin": "bā",
+      "english": "eight"
+    },
+    {
+      "hanzi": "九",
+      "pinyin": "jiǔ",
+      "english": "nine"
+    },
+    {
+      "hanzi": "十",
+      "pinyin": "shí",
+      "english": "ten"
+    },
+    {
+      "hanzi": "个",
+      "pinyin": "gè",
+      "english": "(for normal objects)"
+    },
+    {
+      "hanzi": "岁",
+      "pinyin": "suì",
+      "english": "(for age)"
+    },
+    {
+      "hanzi": "本",
+      "pinyin": "běn",
+      "english": "(for books)"
+    },
+    {
+      "hanzi": "些",
+      "pinyin": "xiē",
+      "english": "some"
+    },
+    {
+      "hanzi": "块",
+      "pinyin": "kuài",
+      "english": "piece, chunk"
+    },
+    {
+      "hanzi": "不",
+      "pinyin": "bù",
+      "english": "no"
+    },
+    {
+      "hanzi": "没",
+      "pinyin": "méi",
+      "english": "no"
+    },
+    {
+      "hanzi": "很",
+      "pinyin": "hěn",
+      "english": "quite, very"
+    },
+    {
+      "hanzi": "太",
+      "pinyin": "tài",
+      "english": "too"
+    },
+    {
+      "hanzi": "都",
+      "pinyin": "dōu",
+      "english": "all"
+    },
+    {
+      "hanzi": "一点儿",
+      "pinyin": "yīdiǎnr",
+      "english": "a little bit"
+    },
+    {
+      "hanzi": "和",
+      "pinyin": "hé",
+      "english": "and"
+    },
+    {
+      "hanzi": "在",
+      "pinyin": "zài",
+      "english": "in, at"
+    },
+    {
+      "hanzi": "喂",
+      "pinyin": "wèi",
+      "english": "hello",
+      "hsk level": "1"
+    },
+    {
+      "hanzi": "您",
+      "pinyin": "nín",
+      "english": "you",
+      "hsk level" : "hsk 2"
+    },
+    {
+      "hanzi": "它",
+      "pinyin": "tā",
+      "english": "it"
+    },
+    {
+      "hanzi": "大家",
+      "pinyin": "dàjiā",
+      "english": "everyone"
+    },
+    {
+      "hanzi": "每",
+      "pinyin": "měi",
+      "english": "every, each"
+    },
+    {
+      "hanzi": "为什么",
+      "pinyin": "wèishénme",
+      "english": "why"
+    },
+    {
+      "hanzi": "零",
+      "pinyin": "líng",
+      "english": "zero"
+    },
+    {
+      "hanzi": "两",
+      "pinyin": "liǎng",
+      "english": "two"
+    },
+    {
+      "hanzi": "百",
+      "pinyin": "bǎi",
+      "english": "hundred"
+    },
+    {
+      "hanzi": "千",
+      "pinyin": "qiān",
+      "english": "thousand"
+    },
+    {
+      "hanzi": "第一",
+      "pinyin": "dìyī",
+      "english": "first"
+    },
+    {
+      "hanzi": "次",
+      "pinyin": "cì",
+      "english": "times"
+    },
+    {
+      "hanzi": "件",
+      "pinyin": "jiàn",
+      "english": "piece"
+    },
+    {
+      "hanzi": "别",
+      "pinyin": "bié",
+      "english": "do not"
+    },
+    {
+      "hanzi": "非常",
+      "pinyin": "fēicháng",
+      "english": "very"
+    },
+    {
+      "hanzi": "也",
+      "pinyin": "yě",
+      "english": "also"
+    },
+    {
+      "hanzi": "还",
+      "pinyin": "hái",
+      "english": "still"
+    },
+    {
+      "hanzi": "最",
+      "pinyin": "zuì",
+      "english": "the most"
+    },
+    {
+      "hanzi": "真",
+      "pinyin": "zhēn",
+      "english": "really"
+    },
+    {
+      "hanzi": "正在",
+      "pinyin": "zhèngzài",
+      "english": "be being"
+    },
+    {
+      "hanzi": "已经",
+      "pinyin": "yǐjīng",
+      "english": "already"
     }
   ]
 }
