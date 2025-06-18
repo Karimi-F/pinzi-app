@@ -29,10 +29,23 @@ const ruleContent = {
 
     <h2 className="font-semibold text-base">The Five Tones</h2>
     <ul className="list-disc pl-6 space-y-2">
-      <li><strong>1st Tone (ˉ):</strong> High and steady → mā (妈 = mother)</li>
-      <li><strong>2nd Tone (ˊ):</strong> Rising → má (麻 = hemp)</li>
-      <li><strong>3rd Tone (ˇ):</strong> Low-dipping → mǎ (马 = horse)</li>
-      <li><strong>4th Tone (ˋ):</strong> Falling and sharp → mà (骂 = scold)</li>
+      <li>
+        <div>
+          <strong>1st Tone (ˉ):</strong> High and steady → mā (妈 = mother)
+      <span className="italic"> As you would say in English(Ah or maybe)</span>
+          </div></li>
+      <li><div><strong>2nd Tone (ˊ):</strong> Rising → má (麻 = hemp)
+      <span> As you would say in English(What)</span></div></li>
+      <li>
+        <div>
+          <strong>3rd Tone (ˇ):</strong> Low-dipping → mǎ (马 = horse)
+          <span> As you would say in English(Well or uh)</span>
+          </div></li>
+      <li>
+        <div>
+          <strong>4th Tone (ˋ):</strong> Falling and sharp → mà (骂 = scold)
+          <span> As you would say in English(Go or no)</span>
+          </div></li>
       <li><strong>Neutral Tone:</strong> Light, quick, and unstressed → ma (吗 = question particle)</li>
     </ul>
 
