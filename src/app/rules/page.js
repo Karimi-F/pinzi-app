@@ -35,16 +35,16 @@ const ruleContent = {
       <span className="italic"> As you would say in English(Ah or maybe)</span>
           </div></li>
       <li><div><strong>2nd Tone (ˊ):</strong> Rising → má (麻 = hemp)
-      <span> As you would say in English(What)</span></div></li>
+      <span className="italic"> As you would say in English(What)</span></div></li>
       <li>
         <div>
           <strong>3rd Tone (ˇ):</strong> Low-dipping → mǎ (马 = horse)
-          <span> As you would say in English(Well or uh)</span>
+          <span className="italic"> As you would say in English(Well or uh)</span>
           </div></li>
       <li>
         <div>
           <strong>4th Tone (ˋ):</strong> Falling and sharp → mà (骂 = scold)
-          <span> As you would say in English(Go or no)</span>
+          <span className="italic"> As you would say in English(Go or no)</span>
           </div></li>
       <li><strong>Neutral Tone:</strong> Light, quick, and unstressed → ma (吗 = question particle)</li>
     </ul>
