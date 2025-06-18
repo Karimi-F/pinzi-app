@@ -45,7 +45,7 @@ const ruleContent = {
             <div> 
               <strong>2nd Tone (ˊ):</strong> Rising → má (麻 = hemp)
             </div>
-            <span className="italic"> As you would say in English(What)</span>
+            <span className="italic"> As you would say in English (What)</span>
           </div>
         </li>
         <li>
@@ -165,7 +165,7 @@ const ruleContent = {
       </ol>
     </div>
   ),
-  Pinyin: (
+  "Pinyin": (
     <div>
       <h4>What is Pinyin? </h4>
       <p>
