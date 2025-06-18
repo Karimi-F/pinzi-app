@@ -20,72 +20,77 @@ const rules = [
 ];
 
 const ruleContent = {
-  Tones: (
-    <div>
-      <h3>
-        Mandarin has five tones. Each one gives a word a different meaning, even
-        if the letters stay the same.
-      </h3>
-      <h1>THE TONE TABLE</h1>
-      <h4>Tone Rules</h4>
-      <ol className="list-decimal pl-6 space-y-4">
-        <li>
-          <div>
-            <span>Tones are not optional.</span>
-            <p>Changing the tone changes the word completely.</p>
-          </div>
-        </li>
-        <li>
-          <div>
-            <span>Learn tones with words, not just syllables.</span>
-            <p>
-              Don’t memorize “mǎ” by itself. Learn mǎi dōngxi (buy stuff). Tones
-              stick better with context.
-            </p>
-          </div>
-        </li>
-        <li>
-          <div>
-            <span>Neutral tone = soft, light, unstressed.</span>
-            <p>Often used in particles like 吗 (ma), 呢 (ne), 吧 (ba).</p>
-          </div>
-        </li>
-      </ol>
-      <h3>Tone Change Rules (Tone Sandhi)</h3>
-      <ol className="list-decimal pl-6 space-y-4">
-        <li>
-          <div>
-            <p>Two 3rd tones in a row?</p>
-            <p>First becomes 2nd tone.</p>
-            <span>Examples:</span>
-            <ul className="list-disc">
-              <li>→ nǐ hǎo = ní hǎo</li>
-            </ul>
-          </div>
-        </li>
-        <li>
-          <div>
-            <p> “一” (yī) changes tone:</p>
-            <p>First becomes 2nd tone.</p>
-            <span>Examples:</span>
-            <ul className="list-disc">
-              <li>Before 4th tone → becomes 2nd tone → 一样 = yí yàng</li>
-              <li>Before other tones → becomes 4th tone → 一百 = yì bǎi</li>
-            </ul>
-          </div>
-        </li>
-        <li>
-          <div>
-            <p> “不” (bù) changes tone:</p>
-            <span>Examples:</span>
-            <ul className="list-disc">
-              <li>Before 4th tone → becomes 2nd tone → 不对 = bú duì</li>
-            </ul>
-          </div>
-        </li>
-      </ol>
-    </div>
-  ),
+"Tones": (
+  <div className="space-y-6">
+    <h1 className="text-lg font-bold">Mandarin Tones (声调 shēngdiào)</h1>
+    <p>
+      Mandarin has <strong>five tones</strong>. Even if the letters stay the same, the tone changes the word’s meaning completely.
+    </p>
+
+    <h2 className="font-semibold text-base">The Five Tones</h2>
+    <ul className="list-disc pl-6 space-y-2">
+      <li><strong>1st Tone (ˉ):</strong> High and steady → mā (妈 = mother)</li>
+      <li><strong>2nd Tone (ˊ):</strong> Rising → má (麻 = hemp)</li>
+      <li><strong>3rd Tone (ˇ):</strong> Low-dipping → mǎ (马 = horse)</li>
+      <li><strong>4th Tone (ˋ):</strong> Falling and sharp → mà (骂 = scold)</li>
+      <li><strong>Neutral Tone:</strong> Light, quick, and unstressed → ma (吗 = question particle)</li>
+    </ul>
+
+    <h2 className="text-base font-bold">Tone Rules – What You Must Know</h2>
+    <ol className="list-decimal pl-6 space-y-4">
+      <li>
+        <div>
+          <strong>Tones are not optional.</strong>
+          <p className="mt-1">Changing the tone = changing the meaning. Example: mā (妈) ≠ mà (骂).</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <strong>Learn tones with whole words, not single syllables.</strong>
+          <p className="mt-1">Don’t just memorize <span className="text-red-500">mǎ</span>. Learn it in phrases like <span className="text-red-500">mǎi dōngxi</span> (买东西 = buy stuff). Context makes tones stick better.</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <strong>Neutral tone = soft and unstressed.</strong>
+          <p className="mt-1">Used in words like <span className="text-red-500">吗, 呢, 吧</span>. It doesn’t have a marked pitch and is lighter than other tones.</p>
+        </div>
+      </li>
+    </ol>
+
+    <h2 className="text-base font-bold">Tone Sandhi – Tone Changes in Context</h2>
+    <ol className="list-decimal pl-6 space-y-4">
+      <li>
+        <div>
+          <p><strong>3rd + 3rd → 2nd + 3rd</strong></p>
+          <p className="mt-1">When two 3rd tones come together, the first one changes to 2nd tone.</p>
+          <ul className="list-disc pl-6 mt-2">
+            <li><span className="text-red-500">nǐ hǎo → ní hǎo</span> (你好 = hello)</li>
+          </ul>
+        </div>
+      </li>
+
+      <li>
+        <div>
+          <p><strong>一 (yī) changes based on following tone:</strong></p>
+          <ul className="list-disc pl-6 mt-2">
+            <li>Before 4th tone → becomes 2nd tone → <span className="text-red-500">yí yàng</span> (一样 = same)</li>
+            <li>Before any other tone → becomes 4th tone → <span className="text-red-500">yì bǎi</span> (一百 = one hundred)</li>
+          </ul>
+        </div>
+      </li>
+
+      <li>
+        <div>
+          <p><strong>不 (bù) changes before 4th tone:</strong></p>
+          <ul className="list-disc pl-6 mt-2">
+            <li><span className="text-red-500">bù → bú</span> before a 4th tone → <span className="text-red-500">bú duì</span> (不对 = incorrect)</li>
+          </ul>
+        </div>
+      </li>
+    </ol>
+  </div>
+),
   Pinyin: (
     <div>
       <h4>What is Pinyin? </h4>
