@@ -76,6 +76,42 @@ const ruleContent = {
           <span className="italic">As you would say in English ("uh" in "uh-huh" (the second syllable))</span>
           </div>
         </li>
+      <table>
+        <thead>
+          <tr>
+            <th className="px-4 py-2 border">Tone</th>
+            <th className="px-4 py-2 border">Name</th>
+            <th className="px-4 py-2 border">Voice Trick / Mnemonic </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td className="px-4 py-2 border">1st</td>
+            <td className="px-4 py-2 border">High</td>
+            <td className="px-4 py-2 border">"Ahhh\~" like singing a note 🎶</td>
+          </tr>
+          <tr>
+            <td className="px-4 py-2 border">2nd </td>
+            <td className="px-4 py-2 border">Rising</td>
+            <td className="px-4 py-2 border">"What?" with questioning tone ❓</td>
+          </tr>
+          <tr>
+            <td className="px-4 py-2 border">3rd </td>
+            <td className="px-4 py-2 border">Low Dip</td>
+            <td className="px-4 py-2 border">"Uh-huh" with a bounce ↘↗</td>
+          </tr>
+          <tr>
+            <td className="px-4 py-2 border">4th</td>
+            <td className="px-4 py-2 border">Falling</td>
+            <td className="px-4 py-2 border">"No!" like you're snapping ✋</td>
+          </tr>
+          <tr>
+            <td className="px-4 py-2 border">**Neutral**</td>
+            <td className="px-4 py-2 border">Light</td>
+            <td className="px-4 py-2 border">"meh..." or fading away 🕊️</td>
+          </tr>
+        </tbody>
+      </table>
       </ul>
       <h2 className="text-base font-bold">Tone Rules – What You Must Know</h2>
       <ol className="list-decimal pl-6 space-y-4">
@@ -83,8 +119,8 @@ const ruleContent = {
           <div>
             <strong>Tones are not optional.</strong>
             <p className="mt-1">
-              Changing the tone = changing the meaning. Example: mā (妈) ≠ mà
-              (骂).
+              Changing the tone = changing the meaning. Example: mā (<span className="text-red-500">妈</span>) ≠ mà
+              (<span className="text-red-500">骂</span>).
             </p>
           </div>
         </li>
@@ -1068,7 +1104,7 @@ const ruleContent = {
           </h2>
           <div className="overflow-x-auto">
             <table className="min-w-full border text-sm text-left">
-              <thead className="bg-gray-100 dark:bg-gray-800">
+              <thead className="bg-gray-100 dark:bg-gray-800 text-white">
                 <tr>
                   <th className="px-4 py-2 border">Sentence</th>
                   <th className="px-4 py-2 border">Correct?</th>
