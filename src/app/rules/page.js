@@ -120,7 +120,7 @@ const ruleContent = {
             <strong>Tones are not optional.</strong>
             <p className="mt-1">
               Changing the tone = changing the meaning. Example: mā (<span className="text-red-500">妈</span>) ≠ mà
-              (<span className="text-red-500">骂</span>).
+              (<span>骂</span>).
             </p>
           </div>
         </li>
@@ -206,66 +206,97 @@ const ruleContent = {
     </div>
   ),
   "Pinyin": (
-    <div>
-      <h4>What is Pinyin? </h4>
-      <p>
-        Pinyin is the Romanized spelling system used to represent Mandarin
-        pronunciation using the Latin alphabet. It's made up of initials
-        (consonants), finals (vowel sounds), and tones.
-      </p>
-      <h4> Pinyin Rules</h4>
-      <ol className="list-decimal pl-6 space-y-4">
-        <li>
-          <div>
-            <p>Pinyin syllables = Initial + Final + Tone</p>
-            <span className="italic">Examples:</span>
-            <ul className="list-disc">
-              <li>mā = m (initial) + a (final) + 1st tone</li>
-              <li>xiè = x + ie + 4th tone</li>
-            </ul>
-          </div>
-        </li>
-        <li>
-          <div>
-            <p>Spelling Rule: Tone marks always go on the main vowel</p>
-            <p>Order of importance: a &gt; o &gt; e &gt; i &gt; u &gt; ü</p>
-            <span className="italic">Examples:</span>
-            <ul className="list-disc">
-              <li>hao → hǎo (mark goes on "a")</li>
-              <li>xue → xuě (mark goes on "e")</li>
-            </ul>
-          </div>
-        </li>
-        <li>
-          <div>
-            <p>Special spelling changes (Pinyin quirks):</p>
-            <p>Some letters are just disguises 👀 and they include:</p>
-            <span className="italic">
-              ü → u after j, q, x, y (so "ju" is really "jü")
-            </span>
-            <ul className="list-disc">
-              <p>y/w used to represent standalone vowels:</p>
-              <li>yi = i</li>
-              <li>wu = u</li>
-              <li>yu = ü</li>
-            </ul>
-          </div>
-        </li>
-        <li>
-          <div>
-            <p>Pinyin ≠ English pronunciation</p>
-            <p>Some letters sound very different:</p>
-            <span className="italic">Examples:</span>
-            <ul className="list-disc">
-              <li>c = "ts" (like cats) → cài = tsài</li>
-              <li>x = "sh" but with spread lips → xīn = sheen</li>
-              <li>q = like "ch" but tighter → qì = chee</li>
-              <li>zh = like "j" → zhōng = jong</li>
-            </ul>
-          </div>
-        </li>
-      </ol>
-    </div>
+    <div className="space-y-6">
+  <h1 className="text-lg font-bold">Mandarin Pinyin (<span>拼音</span> pīnyīn)</h1>
+  <p>
+    Pinyin is the Romanized system used to represent Mandarin pronunciation using the Latin alphabet. 
+    It’s made up of <strong>initials</strong> (consonants), <strong>finals</strong> (vowel sounds), and <strong>tones</strong>.
+  </p>
+
+  <h2 className="text-base font-bold">Core Pinyin Rules</h2>
+  <ol className="list-decimal pl-6 space-y-6">
+    <li>
+      <div>
+        <p>
+          <strong>Structure:</strong> Pinyin syllables = Initial + Final + Tone
+        </p>
+        <p className="mt-1 italic">Examples:</p>
+        <ul className="list-disc pl-6 mt-1">
+          <li>
+            <span className="text-red-500">mā</span> = m (initial) + a (final) + 1st tone
+          </li>
+          <li>
+            <span className="text-red-500">xiè</span> = x + ie + 4th tone
+          </li>
+        </ul>
+      </div>
+    </li>
+
+    <li>
+      <div>
+        <p>
+          <strong>Tone Mark Placement:</strong> Tone marks go on the <strong>main vowel</strong>
+        </p>
+        <p className="mt-1">Priority order: a &gt; o &gt; e &gt; i &gt; u &gt; ü</p>
+        <p className="mt-1 italic">Examples:</p>
+        <ul className="list-disc pl-6 mt-1">
+          <li>
+            <span className="text-red-500">hao → hǎo</span> (mark goes on "a")
+          </li>
+          <li>
+            <span className="text-red-500">xue → xuě</span> (mark goes on "e")
+          </li>
+        </ul>
+      </div>
+    </li>
+
+    <li>
+      <div>
+        <p>
+          <strong>Special Spelling Rules:</strong> Some letters change based on context
+        </p>
+        <p className="mt-1">
+          <span className="italic">ü → u</span> after j, q, x, y (e.g. <span className="text-red-500">ju = jü</span>)
+        </p>
+        <p className="mt-2">Standalone vowels are written with y/w:</p>
+        <ul className="list-disc pl-6 mt-1">
+          <li>
+            <span className="text-red-500">yi = i</span>
+          </li>
+          <li>
+            <span className="text-red-500">wu = u</span>
+          </li>
+          <li>
+            <span className="text-red-500">yu = ü</span>
+          </li>
+        </ul>
+      </div>
+    </li>
+
+    <li>
+      <div>
+        <p>
+          <strong>Don’t Read Pinyin Like English:</strong> Some letters have unique sounds
+        </p>
+        <p className="mt-1 italic">Examples:</p>
+        <ul className="list-disc pl-6 mt-1">
+          <li>
+            <span className="text-red-500">c = "ts"</span> (like "cats") → <span className="text-red-500">cài = tsài</span>
+          </li>
+          <li>
+            <span className="text-red-500">x = "sh"</span> with spread lips → <span className="text-red-500">xīn = sheen</span>
+          </li>
+          <li>
+            <span className="text-red-500">q = "ch"</span> but tighter → <span className="text-red-500">qì = chee</span>
+          </li>
+          <li>
+            <span className="text-red-500">zh = "j"</span> like "jungle" → <span className="text-red-500">zhōng = jong</span>
+          </li>
+        </ul>
+      </div>
+    </li>
+  </ol>
+</div>
   ),
   "Hanzi & Stroke Order": (
       <div className="space-y-6">
