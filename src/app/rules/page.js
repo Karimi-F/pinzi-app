@@ -300,10 +300,10 @@ const ruleContent = {
   ),
   "Hanzi & Stroke Order": (
       <div className="space-y-6">
-  <h1 className="text-lg font-bold">Hanzi & Stroke Order (汉字和笔顺规则 hànzì hé bǐshùn guīzé)</h1>
+  <h1 className="text-lg font-bold">Hanzi & Stroke Order (<span className="text-red-500">汉字和笔顺规则</span> hànzì hé bǐshùn guīzé)</h1>
   <p>
     Writing Chinese characters follows a specific stroke order, not freestyle. These rules help make writing
-    <strong>faster</strong>, <strong>cleaner</strong>, and easier to remember — and they matter for fluency and exams.
+    <strong> faster</strong>, <strong>cleaner</strong>, and easier to remember — and they matter for fluency and exams.
   </p>
 
   <h2 className="font-semibold text-base">Basic Strokes You Need to Know</h2>
@@ -317,17 +317,17 @@ const ruleContent = {
       </tr>
     </thead>
     <tbody>
-      <tr><td className="border px-4 py-2">横</td><td className="border px-4 py-2">一</td><td className="border px-4 py-2">héng</td><td className="border px-4 py-2">Horizontal</td></tr>
-      <tr><td className="border px-4 py-2">竖</td><td className="border px-4 py-2">丨</td><td className="border px-4 py-2">shù</td><td className="border px-4 py-2">Vertical</td></tr>
-      <tr><td className="border px-4 py-2">撇</td><td className="border px-4 py-2">丿</td><td className="border px-4 py-2">piě</td><td className="border px-4 py-2">Left-falling</td></tr>
-      <tr><td className="border px-4 py-2">捺</td><td className="border px-4 py-2">㇏</td><td className="border px-4 py-2">nà</td><td className="border px-4 py-2">Right-falling</td></tr>
-      <tr><td className="border px-4 py-2">点</td><td className="border px-4 py-2">丶</td><td className="border px-4 py-2">diǎn</td><td className="border px-4 py-2">Dot</td></tr>
-      <tr><td className="border px-4 py-2">提</td><td className="border px-4 py-2">提</td><td className="border px-4 py-2">tí</td><td className="border px-4 py-2">Upward</td></tr>
-      <tr><td className="border px-4 py-2">折</td><td className="border px-4 py-2">折</td><td className="border px-4 py-2">zhé</td><td className="border px-4 py-2">Turning</td></tr>
+      <tr><td className="border px-4 py-2"><span className="text-red-500">横</span></td><td className="border px-4 py-2">一</td><td className="border px-4 py-2">héng</td><td className="border px-4 py-2">Horizontal</td></tr>
+      <tr><td className="border px-4 py-2"><span className="text-red-500">竖</span></td><td className="border px-4 py-2">丨</td><td className="border px-4 py-2">shù</td><td className="border px-4 py-2">Vertical</td></tr>
+      <tr><td className="border px-4 py-2"><span className="text-red-500">撇</span></td><td className="border px-4 py-2">丿</td><td className="border px-4 py-2">piě</td><td className="border px-4 py-2">Left-falling</td></tr>
+      <tr><td className="border px-4 py-2"><span className="text-red-500">捺</span></td><td className="border px-4 py-2">㇏</td><td className="border px-4 py-2">nà</td><td className="border px-4 py-2">Right-falling</td></tr>
+      <tr><td className="border px-4 py-2"><span className="text-red-500">点</span></td><td className="border px-4 py-2">丶</td><td className="border px-4 py-2">diǎn</td><td className="border px-4 py-2">Dot</td></tr>
+      <tr><td className="border px-4 py-2"><span className="text-red-500">提</span></td><td className="border px-4 py-2">提</td><td className="border px-4 py-2">tí</td><td className="border px-4 py-2">Upward</td></tr>
+      <tr><td className="border px-4 py-2"><span className="text-red-500">折</span></td><td className="border px-4 py-2">折</td><td className="border px-4 py-2">zhé</td><td className="border px-4 py-2">Turning</td></tr>
     </tbody>
   </table>
 
-  <h2 className="text-base font-bold">Stroke Order Rules (写字规则)</h2>
+  <h2 className="text-base font-bold">Stroke Order Rules (<span className="text-red-500">写字规则</span>)</h2>
   <ol className="list-decimal pl-6 space-y-4">
     <li>
       <div>
@@ -399,7 +399,7 @@ const ruleContent = {
 
   <h2 className="text-base font-bold">Tips for Learners</h2>
   <ul className="list-disc pl-6 space-y-2">
-    <li>Use <strong>田字格</strong> grid paper to balance your characters.</li>
+    <li>Use <strong>田字格</strong> "field character grid" or "Chinese character writing grid" grid paper to balance your characters.</li>
     <li>Practice on Skritter, Pleco, or YellowBridge for real-time stroke feedback.</li>
     <li>Even if you type, <strong>write by hand</strong> to reinforce memory.</li>
   </ul>
