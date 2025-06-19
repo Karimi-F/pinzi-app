@@ -22,7 +22,7 @@ const rules = [
 const ruleContent = {
   "Tones": (
     <div className="space-y-6">
-      <h1 className="text-lg font-bold">Mandarin Tones (声调 shēngdiào)</h1>
+      <h1 className="text-lg font-bold">Mandarin Tones (<span className="text-red-500">声调 shēngdiào</span>)</h1>
       <p>
         Mandarin has <strong>five tones</strong>. Even if the letters stay the
         same, the tone changes the word’s meaning completely.
@@ -33,7 +33,7 @@ const ruleContent = {
         <li>
           <div>
             <div>
-              <strong>1st Tone (ˉ):</strong> High and steady → mā (妈 = mother)
+              <strong className="text-red-500">1st Tone (ˉ):</strong> High and steady → mā (<span className="text-red-500">妈</span> = mother)
             </div>
             <span className="italic">
               As you would say in English (Ah or maybe)
@@ -43,7 +43,7 @@ const ruleContent = {
         <li>
           <div>
             <div> 
-              <strong>2nd Tone (ˊ):</strong> Rising → má (麻 = hemp)
+              <strong className="text-red-500">2nd Tone (ˊ):</strong> Rising → má (<span className="text-red-500">麻</span> = hemp)
             </div>
             <span className="italic"> As you would say in English (What)</span>
           </div>
@@ -51,7 +51,7 @@ const ruleContent = {
         <li>
           <div>
             <div>
-            <strong>3rd Tone (ˇ):</strong> Low-dipping → mǎ (马 = horse)
+            <strong className="text-red-500">3rd Tone (ˇ):</strong> Low-dipping → mǎ (<span className="text-red-500">马</span> = horse)
             </div>
             <span className="italic">
               As you would say in English (Well or uh)
@@ -61,18 +61,22 @@ const ruleContent = {
         <li>
           <div>
             <div>
-            <strong>4th Tone (ˋ):</strong> Falling and sharp → mà (骂 = scold)</div>
+            <strong className="text-red-500">4th Tone (ˋ):</strong> Falling and sharp → mà (<span className="text-red-500">骂</span> = scold)</div>
             <span className="italic">
               As you would say in English (Go or no)
             </span>
           </div>
         </li>
         <li>
-          <strong>Neutral Tone:</strong> Light, quick, and unstressed → ma (吗 =
+          <div>
+            <div>
+          <strong className="text-red-500">Neutral Tone:</strong> Light, quick, and unstressed → ma (<span className="text-red-500">吗</span> =
           question particle)
+          </div>
+          <span className="italic">As you would say in English ("uh" in "uh-huh" (the second syllable))</span>
+          </div>
         </li>
       </ul>
-
       <h2 className="text-base font-bold">Tone Rules – What You Must Know</h2>
       <ol className="list-decimal pl-6 space-y-4">
         <li>
