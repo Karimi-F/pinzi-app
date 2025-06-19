@@ -228,7 +228,111 @@ const ruleContent = {
     </div>
   ),
   "Hanzi & Stroke Order": (
-    <div>Talks about the stroke order when writing Hanzi</div>
+      <div className="space-y-6">
+  <h1 className="text-lg font-bold">Hanzi & Stroke Order (汉字和笔顺规则 hànzì hé bǐshùn guīzé)</h1>
+  <p>
+    Writing Chinese characters follows a specific stroke order, not freestyle. These rules help make writing
+    <strong>faster</strong>, <strong>cleaner</strong>, and easier to remember — and they matter for fluency and exams.
+  </p>
+
+  <h2 className="font-semibold text-base">Basic Strokes You Need to Know</h2>
+  <table className="table-auto border-collapse border border-gray-300">
+    <thead>
+      <tr>
+        <th className="border px-4 py-2">Stroke Name</th>
+        <th className="border px-4 py-2">Hanzi</th>
+        <th className="border px-4 py-2">Pinyin</th>
+        <th className="border px-4 py-2">Meaning</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td className="border px-4 py-2">横</td><td className="border px-4 py-2">一</td><td className="border px-4 py-2">héng</td><td className="border px-4 py-2">Horizontal</td></tr>
+      <tr><td className="border px-4 py-2">竖</td><td className="border px-4 py-2">丨</td><td className="border px-4 py-2">shù</td><td className="border px-4 py-2">Vertical</td></tr>
+      <tr><td className="border px-4 py-2">撇</td><td className="border px-4 py-2">丿</td><td className="border px-4 py-2">piě</td><td className="border px-4 py-2">Left-falling</td></tr>
+      <tr><td className="border px-4 py-2">捺</td><td className="border px-4 py-2">㇏</td><td className="border px-4 py-2">nà</td><td className="border px-4 py-2">Right-falling</td></tr>
+      <tr><td className="border px-4 py-2">点</td><td className="border px-4 py-2">丶</td><td className="border px-4 py-2">diǎn</td><td className="border px-4 py-2">Dot</td></tr>
+      <tr><td className="border px-4 py-2">提</td><td className="border px-4 py-2">提</td><td className="border px-4 py-2">tí</td><td className="border px-4 py-2">Upward</td></tr>
+      <tr><td className="border px-4 py-2">折</td><td className="border px-4 py-2">折</td><td className="border px-4 py-2">zhé</td><td className="border px-4 py-2">Turning</td></tr>
+    </tbody>
+  </table>
+
+  <h2 className="text-base font-bold">Stroke Order Rules (写字规则)</h2>
+  <ol className="list-decimal pl-6 space-y-4">
+    <li>
+      <div>
+        <strong>Top to Bottom:</strong> Write upper parts first.
+        <p className="mt-1">Example: 三 = 一 → 二 → 三</p>
+      </div>
+    </li>
+    <li>
+      <div>
+        <strong>Left to Right:</strong> Do left components before right ones.
+        <p className="mt-1">Example: 他 = 亻 → 也</p>
+      </div>
+    </li>
+    <li>
+      <div>
+        <strong>Horizontal before Vertical:</strong> 横 comes before 竖 if they cross.
+        <p className="mt-1">Example: 十 = 一 → 丨</p>
+      </div>
+    </li>
+    <li>
+      <div>
+        <strong>Center before Sides:</strong> For symmetrical characters, middle first.
+        <p className="mt-1">Example: 小 = 丨 → 丿 → ㇏</p>
+      </div>
+    </li>
+    <li>
+      <div>
+        <strong>Enclosures first:</strong> Draw outer box first, then inside, then close.
+        <p className="mt-1">Example: 回 = ⿴ → 内 → bottom close</p>
+      </div>
+    </li>
+    <li>
+      <div>
+        <strong>Dots and extras last:</strong> Add tiny strokes at the very end.
+        <p className="mt-1">Example: 玉 = 王 + 点</p>
+      </div>
+    </li>
+    <li>
+      <div>
+        <strong>撇 before 捺:</strong> For slants, left-falling before right-falling.
+        <p className="mt-1">Example: 人 = 丿 → ㇏</p>
+      </div>
+    </li>
+    <li>
+      <div>
+        <strong>One Component at a Time:</strong> Complex characters follow order within each part.
+        <p className="mt-1">Example: 谢 = 讠 → 身</p>
+      </div>
+    </li>
+  </ol>
+
+  <h2 className="text-base font-bold">Hanzi Structure Types</h2>
+  <table className="table-auto border-collapse border border-gray-300">
+    <thead>
+      <tr>
+        <th className="border px-4 py-2">Structure</th>
+        <th className="border px-4 py-2">Description</th>
+        <th className="border px-4 py-2">Examples</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td className="border px-4 py-2">Left–Right</td><td className="border px-4 py-2">Two side-by-side parts</td><td className="border px-4 py-2">你, 他</td></tr>
+      <tr><td className="border px-4 py-2">Top–Bottom</td><td className="border px-4 py-2">Stacked components</td><td className="border px-4 py-2">字, 安</td></tr>
+      <tr><td className="border px-4 py-2">Enclosure</td><td className="border px-4 py-2">Outer box around content</td><td className="border px-4 py-2">国, 回</td></tr>
+      <tr><td className="border px-4 py-2">Full-Wrap</td><td className="border px-4 py-2">3-sided wrap around inner</td><td className="border px-4 py-2">医, 厂</td></tr>
+      <tr><td className="border px-4 py-2">Single</td><td className="border px-4 py-2">One-part characters</td><td className="border px-4 py-2">小, 大</td></tr>
+    </tbody>
+  </table>
+
+  <h2 className="text-base font-bold">Tips for Learners</h2>
+  <ul className="list-disc pl-6 space-y-2">
+    <li>Use <strong>田字格</strong> grid paper to balance your characters.</li>
+    <li>Practice on Skritter, Pleco, or YellowBridge for real-time stroke feedback.</li>
+    <li>Even if you type, <strong>write by hand</strong> to reinforce memory.</li>
+  </ul>
+</div>
   ),
   "Sentence Structure": (
     <div>
@@ -434,7 +538,7 @@ const ruleContent = {
       </ol>
     </div>
   ),
-  Particles: (
+  "Particles": (
     <div className="space-y-6">
       <h1 className="text-lg font-bold">Mandarin Particles (助词 zhùcí)</h1>
       <p>
