@@ -766,6 +766,129 @@ const ruleContent = {
       </ul>
     </div>
   ),
+  "Measure Words":(
+    <div className="space-y-6">
+      <h1 className="text-lg font-bold">Mandarin Measure Words (量词 liàngcí)</h1>
+      <p>
+        You <strong>can’t count nouns</strong> directly in Mandarin. You must use a measure word
+        between the number and the noun.
+      </p>
+
+      <h2 className="font-semibold text-base">Basic Pattern</h2>
+      <p>
+        <strong>[Number/Amount] + [Measure Word] + [Noun]</strong>
+      </p>
+      <ul className="list-disc pl-6">
+        <li><span className="text-red-500">一个人</span> = one person</li>
+        <li><span className="text-red-500">三本书</span> = three books</li>
+        <li><span className="text-red-500">五只猫</span> = five cats</li>
+      </ul>
+
+      <h2 className="font-semibold text-base">Key Rules</h2>
+      <ol className="list-decimal pl-6 space-y-6">
+        <li>
+          <div>
+            <p>
+              <strong>Use a measure word between numbers/demonstratives and nouns</strong>
+            </p>
+            <table className="table-auto mt-2">
+              <thead>
+                <tr><th className="pr-6">✅ Correct</th><th>❌ Wrong</th></tr>
+              </thead>
+              <tbody>
+                <tr><td>一个苹果</td><td>一苹果</td></tr>
+                <tr><td>那本书</td><td>那书</td></tr>
+                <tr><td>三条鱼</td><td>三鱼</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </li>
+
+        <li>
+          <div>
+            <p><strong>Different nouns use different measure words</strong></p>
+            <ul className="list-disc pl-6 mt-2 space-y-1">
+              <li>一<span className="text-red-500">个</span>人 (general things)</li>
+              <li>一<span className="text-red-500">本</span>书 (books)</li>
+              <li>一<span className="text-red-500">只</span>狗 (animals)</li>
+              <li>一<span className="text-red-500">条</span>蛇 (long objects)</li>
+              <li>一<span className="text-red-500">件</span>衣服 (clothing)</li>
+              <li>一<span className="text-red-500">台</span>电脑 (machines)</li>
+              <li>一<span className="text-red-500">辆</span>车 (vehicles)</li>
+              <li>一<span className="text-red-500">瓶</span>水 (bottles)</li>
+              <li>一<span className="text-red-500">杯</span>茶 (cups)</li>
+            </ul>
+          </div>
+        </li>
+
+        <li>
+          <div>
+            <p><strong>个 is the default/general measure word</strong></p>
+            <ul className="list-disc pl-6 mt-2">
+              <li>一个朋友</li>
+              <li>那个人</li>
+              <li>哪个学生</li>
+            </ul>
+            <p className="mt-2 text-sm">Use it when unsure, but don’t overuse it.</p>
+          </div>
+        </li>
+
+        <li>
+          <div>
+            <p><strong>Even demonstratives need measure words</strong></p>
+            <ul className="list-disc pl-6 mt-2">
+              <li>这本书 = this book</li>
+              <li>那只猫 = that cat</li>
+              <li>哪辆车 = which car</li>
+            </ul>
+          </div>
+        </li>
+
+        <li>
+          <div>
+            <p><strong>Measure words are also used for verbs/actions</strong></p>
+            <ul className="list-disc pl-6 mt-2">
+              <li>一次 = one time (次 - general)</li>
+              <li>三遍 = three times (遍 - full)</li>
+              <li>两下 = two times casually (下 - quick)</li>
+            </ul>
+          </div>
+        </li>
+      </ol>
+
+      <h2 className="text-base font-bold">Categories of Measure Words</h2>
+      <ul className="list-disc pl-6 space-y-2">
+        <li><strong>Default / General:</strong> 个 (gè)</li>
+        <li><strong>Shape-Based:</strong> 本 (books), 张 (flat), 条 (long)</li>
+        <li><strong>Living Things:</strong> 只 (animals), 匹 (horses)</li>
+        <li><strong>Containers:</strong> 杯 (cups), 瓶 (bottles), 碗 (bowls), 盒 (boxes)</li>
+        <li><strong>Objects:</strong> 台 (machines), 辆 (vehicles), 把 (handle-based)</li>
+        <li><strong>Verbal:</strong> 次, 遍, 下</li>
+      </ul>
+
+      <h2 className="text-base font-bold">Common Mistakes</h2>
+      <table className="table-auto">
+        <thead>
+          <tr><th className="pr-6">Mistake</th><th className="pr-6">Why</th><th>Correction</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>三书</td><td>No measure word</td><td>三本书</td></tr>
+          <tr><td>一狗</td><td>Animals need classifier</td><td>一只狗</td></tr>
+          <tr><td>那苹果</td><td>Missing after demonstrative</td><td>那个苹果</td></tr>
+          <tr><td>我看电影两次</td><td>Wrong word order</td><td>我看了两次电影</td></tr>
+        </tbody>
+      </table>
+
+      <h2 className="text-base font-bold">Recap Rules</h2>
+      <ol className="list-decimal pl-6 space-y-2">
+        <li>Always use a measure word with numbers/demonstratives</li>
+        <li>Choose based on category (shape, usage, etc.)</li>
+        <li>Use 个 when unsure (but avoid overuse)</li>
+        <li>Use MWs with 这 / 那 / 哪</li>
+        <li>Use verbal MWs when describing frequency</li>
+      </ol>
+    </div>
+  ),
   "Verb Tense Markers": (
     <div className="space-y-6">
       <p>
@@ -881,7 +1004,7 @@ const ruleContent = {
       </ol>
     </div>
   ),
-  Negation: (
+  "Negation": (
     <div className="space-y-8">
       <p>
         Mandarin doesn’t use “not” or “no” like English — it uses specific
@@ -1128,7 +1251,7 @@ const ruleContent = {
       </div>
     </div>
   ),
-  Pronouns: (
+  "Pronouns": (
     <div className="space-y-6 text-gray-800 text-sm leading-relaxed">
       <h2 className="text-xl font-semibold text-gray-900">
         📘 Grammar Rules → Pronouns (代词 dàicí)
