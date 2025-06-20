@@ -414,7 +414,7 @@ const ruleContent = {
             <h2>Subject + Time + Place + Manner + Verb + Object</h2>
             <p> It’s how Mandarin flows most naturally.</p>
             <span>Example:</span>
-            <p>我 昨天 在家 认真地 做 作业。</p>
+            <p className="text-red-500">我 昨天 在家 认真地 做 作业。</p>
             <p>wǒ zuótiān zài jiā rènzhēn de zuò zuòyè.</p>
             <p>= I did my homework seriously at home yesterday.</p>
             <ul className="list-disc">
@@ -423,27 +423,27 @@ const ruleContent = {
               </div>
               <li>
                 <div>
-                  Time: <span>昨天</span>
+                  Time: <span className="text-red-500">昨天</span>
                 </div>
               </li>
               <li>
                 <div>
-                  Place: <span>在家</span>
+                  Place: <span className="text-red-500">在家</span>
                 </div>
               </li>
               <li>
                 <div>
-                  Manner: <span>认真地</span>
+                  Manner: <span className="text-red-500">认真地</span>
                 </div>
               </li>
               <li>
                 <div>
-                  Verb: <span>做</span>
+                  Verb: <span className="text-red-500">做</span>
                 </div>
               </li>
               <li>
                 <div>
-                  Object: <span>作业</span>
+                  Object: <span className="text-red-500">作业</span>
                 </div>
               </li>
             </ul>
@@ -456,17 +456,17 @@ const ruleContent = {
             <ul className="list-disc">
               <li>
                 <div>
-                  <span>我喜欢你。</span>= I like you.
+                  <span className="text-red-500">我喜欢你。</span>= I like you.
                 </div>
               </li>
               <li>
                 <div>
-                  <span>她吃米饭。</span>= She eats rice.{" "}
+                  <span className="text-red-500">她吃米饭。</span>= She eats rice.
                 </div>
               </li>
               <li>
                 <div>
-                  <span>我学中文。</span>= I study Chinese.{" "}
+                  <span className="text-red-500">我学中文。</span>= I study Chinese.
                 </div>
               </li>
             </ul>
