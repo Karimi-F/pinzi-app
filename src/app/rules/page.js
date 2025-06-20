@@ -496,17 +496,17 @@ const ruleContent = {
           <div>
             <h2>
               Question = Statement + 吗 Turn any statement into a question by
-              adding 吗 (ma) at the end.
+              adding <span className="text-red-500">吗</span> (ma) at the end.
             </h2>
             <span>Example: </span>
-            <span>你喜欢她。→ 你喜欢她吗？</span>
+            <span className="text-red-500">你喜欢她。→ 你喜欢她吗？</span>
             <p>= Do you like her?</p>
             <h2>OR use question words like:</h2>
             <span>
               什么 (what), 谁 (who), 哪 (which), 几 (how many), 怎么 (how){" "}
             </span>
             <span>Example:</span>
-            <span>你为什么学习汉语？</span>
+            <span className="text-red-500">你为什么学习汉语？</span>
             <p>= Why do you study Chinese?</p>
           </div>
         </li>
@@ -514,12 +514,12 @@ const ruleContent = {
         <li>
           <div>
             <h2>“有” for “to have” and “there is”</h2>
-            <span>我有两个姐姐。</span>
+            <span className="text-red-500">我有两个姐姐。</span>
             <p>= I have two older sisters.</p>
-            <span>这里有人吗？</span>
+            <span className="text-red-500">这里有人吗？</span>
             <p>= Is there someone here? </p>
-            <h2>Use 没有 to negate:</h2>
-            <span>我没有钱。</span>
+            <h2>Use <span className="text-red-500">没有</span> to negate:</h2>
+            <span className="text-red-500">我没有钱。</span>
             <p>= I don’t have money.</p>
           </div>
         </li>
