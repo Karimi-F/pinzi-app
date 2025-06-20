@@ -503,7 +503,7 @@ const ruleContent = {
             <p>= Do you like her?</p>
             <h2>OR use question words like:</h2>
             <span>
-              什么 (what), 谁 (who), 哪 (which), 几 (how many), 怎么 (how){" "}
+              <span className="text-red-500">什么</span> (what), <span className="text-red-500">谁</span> (who), <span className="text-red-500">哪</span> (which), <span className="text-red-500">几</span> (how many), <span className="text-red-500">怎么</span> (how)
             </span>
             <span>Example:</span>
             <span className="text-red-500">你为什么学习汉语？</span>
@@ -513,7 +513,7 @@ const ruleContent = {
 
         <li>
           <div>
-            <h2>“有” for “to have” and “there is”</h2>
+            <h2><span className="text-red-500">“有”</span> for “to have” and “there is”</h2>
             <span className="text-red-500">我有两个姐姐。</span>
             <p>= I have two older sisters.</p>
             <span className="text-red-500">这里有人吗？</span>
