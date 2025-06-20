@@ -474,19 +474,19 @@ const ruleContent = {
         </li>
         <li>
           <div>
-            <h2>Negation: “不” or “没” comes before the verb</h2>
-            <p>不 = “not” (general / future / habitual)</p>
-            <p>没 = “didn’t” (past actions) </p>
+            <h2>Negation: <span className="text-red-500">“不”</span> or <span className="text-red-500">“没”</span> comes before the verb</h2>
+            <p><span className="text-red-500">不</span> = “not” (general / future / habitual)</p>
+            <p><span className="text-red-500">没</span> = “didn’t” (past actions) </p>
             <span>Examples: </span>
             <ul>
               <li>
                 <div>
-                  <span>我不吃肉。</span>= I don't eat meat.
+                  <span className="text-red-500">我不吃肉。</span>= I don't eat meat.
                 </div>
               </li>
               <li>
                 <div>
-                  <span>我没去学校。</span>= I didn’t go to school.
+                  <span className="text-red-500">我没去学校。</span>= I didn’t go to school.
                 </div>
               </li>
             </ul>
