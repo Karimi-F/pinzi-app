@@ -547,10 +547,15 @@ const ruleContent = {
               then describe it.
             </h2>
             <span>Example: </span>
-            <span className="text-red-500">这个电影，我不喜欢。</span>
+            <div className="flex">
+              <span className="text-red-500">这个电影，我不喜欢。</span>
             <p>= This movie, I don’t like.</p>
-            <span className="text-red-500">中文，很多人觉得难。</span>
+            </div>
+            <div className="flex">
+              <span className="text-red-500">中文，很多人觉得难。</span>
             <p>= Chinese, many people think it’s hard.</p>
+            </div>
+            
           </div>
         </li>
 
@@ -560,8 +565,11 @@ const ruleContent = {
               Serial Verb Construction Back-to-back verbs, no "and" needed.
             </h2>
             <span>Example: </span>
-            <span className="text-red-500">我去超市买菜。</span>
+            <div>
+              <span className="text-red-500">我去超市买菜。</span>
             <p>= I go to the supermarket (to) buy groceries.</p>
+            </div>
+            
             <span className="text-red-500">他回家做饭。</span>
             <p>= He goes home (to) cook.</p>
           </div>
