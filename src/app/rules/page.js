@@ -578,7 +578,7 @@ const ruleContent = {
         <li>
           <div>
             <h2>
-              <span className="font-semibold">的 / 得 / 地</span> Modifiers
+              <span className="font-semibold text-red-500">的 / 得 / 地</span> Modifiers
             </h2>
             <ol className="list-decimal pl-6 space-y-4">
               <li>
@@ -635,10 +635,10 @@ const ruleContent = {
   ),
   "Particles": (
     <div className="space-y-6">
-      <h1 className="text-lg font-bold">Mandarin Particles (助词 zhùcí)</h1>
+      <h1 className="text-lg font-bold">Mandarin Particles (<span className="text-red-500">助词</span> zhùcí)</h1>
       <p>
         Particles are function words. They don’t hold standalone meaning but
-        affect the <strong>tone</strong>, <strong>grammar</strong>, or{" "}
+        affect the <strong>tone</strong>, <strong>grammar</strong>, or
         <strong>structure</strong> of a sentence.
       </p>
 
@@ -646,7 +646,7 @@ const ruleContent = {
       <ol className="list-decimal pl-6 space-y-3">
         <li>
           <div>
-            <strong>Modal (语气助词)</strong> – affect tone/attitude
+            <strong>Modal (<span className="text-red-500"> 语气助词</span>)</strong> – affect tone/attitude
             <p className="mt-1">
               Examples:{" "}
               <span className="font-semibold text-red-500">
@@ -657,19 +657,19 @@ const ruleContent = {
         </li>
         <li>
           <div>
-            <strong>Aspect (动态助词)</strong> – indicate verb aspect
+            <strong>Aspect (<span className="text-red-500">动态助词</span>)</strong> – indicate verb aspect
             <p className="mt-1">
-              Examples:{" "}
+              Examples:
               <span className="font-semibold text-red-500">了, 过, 着</span>
             </p>
           </div>
         </li>
         <li>
           <div>
-            <strong>Structural (结构助词)</strong> – show grammatical
+            <strong>Structural (<span className="text-red-500">结构助词</span>)</strong> – show grammatical
             relationship
             <p className="mt-1">
-              Examples:{" "}
+              Examples:
               <span className="font-semibold text-red-500">的, 得, 地</span>
             </p>
           </div>
@@ -683,7 +683,7 @@ const ruleContent = {
         <li>
           <div>
             <p>
-              <strong>吗 (ma)</strong> – Yes/No question marker
+              <strong><span className="text-red-500">吗</span> (ma)</strong> – Yes/No question marker
             </p>
             <ul className="list-disc pl-6 mt-2">
               <li>
