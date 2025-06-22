@@ -708,7 +708,7 @@ const ruleContent = {
         <li>
           <div>
             <p>
-              <strong>呢 (ne)</strong> – Bounce-back question or ongoing action
+              <strong><span className="text-red-500">呢</span> (ne)</strong> – Bounce-back question or ongoing action
               marker
             </p>
             <ul className="list-disc pl-6 mt-2">
@@ -732,7 +732,7 @@ const ruleContent = {
         <li>
           <div>
             <p>
-              <strong>吧 (ba)</strong> – Suggestion, assumption, or soft command
+              <strong><span className="text-red-500">吧</span> (ba)</strong> – Suggestion, assumption, or soft command
             </p>
             <ul className="list-disc pl-6 mt-2">
               <li>
@@ -751,7 +751,9 @@ const ruleContent = {
         <li>
           <div>
             <p>
-              <strong>啊 (a) / 呀 (ya) / 嘛 (ma)</strong> – Emotive emphasis
+              <strong><span className="text-red-500">啊 </span>(a) / 
+              <span className="text-red-500">呀</span> (ya) / 
+              <span className="text-red-500">嘛</span> (ma)</strong> – Emotive emphasis
             </p>
             <ul className="list-disc pl-6 mt-2">
               <li>
@@ -780,7 +782,7 @@ const ruleContent = {
         <li>
           <div>
             <p>
-              <strong>了 (le)</strong> – Completed action or change
+              <strong><span className="text-red-500">了</span> (le)</strong> – Completed action or change
             </p>
             <ul className="list-disc pl-6 mt-2">
               <li>
@@ -802,7 +804,7 @@ const ruleContent = {
         <li>
           <div>
             <p>
-              <strong>过 (guo)</strong> – Indicates life experience
+              <strong><span className="text-red-500">过</span> (guo)</strong> – Indicates life experience
             </p>
             <ul className="list-disc pl-6 mt-2">
               <li>
@@ -821,7 +823,7 @@ const ruleContent = {
         <li>
           <div>
             <p>
-              <strong>着 (zhe)</strong> – Ongoing state or result
+              <strong><span className="text-red-500">着</span> (zhe)</strong> – Ongoing state or result
             </p>
             <ul className="list-disc pl-6 mt-2">
               <li>
@@ -847,15 +849,15 @@ const ruleContent = {
       </h2>
       <ul className="list-disc pl-6 space-y-2">
         <li>
-          <strong>的 (de)</strong> – Links nouns to adjectives (e.g.,{" "}
+          <strong><span className="text-red-500">的</span> (de)</strong> – Links nouns to adjectives (e.g.,{" "}
           <span className="text-red-500">漂亮的女孩</span> = pretty girl)
         </li>
         <li>
-          <strong>得 (de)</strong> – Links verbs to adverbs (e.g.,{" "}
+          <strong><span className="text-red-500">得</span> (de)</strong> – Links verbs to adverbs (e.g.,{" "}
           <span className="text-red-500">跑得快</span> = run fast)
         </li>
         <li>
-          <strong>地 (de)</strong> – Turns adjectives into adverbs (e.g.,{" "}
+          <strong><span className="text-red-500">地</span> (de)</strong> – Turns adjectives into adverbs (e.g.,{" "}
           <span className="text-red-500">认真地听</span> = listen attentively)
         </li>
       </ul>
