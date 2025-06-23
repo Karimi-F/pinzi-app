@@ -493,7 +493,7 @@ const ruleContent = {
             <p><span className="text-red-500">不</span> = “not” (general / future / habitual)</p>
             <p><span className="text-red-500">没</span> = “didn’t” (past actions) </p>
             <span className="italic">Examples: </span>
-            <ul>
+            <ul className="list-disc">
               <li>
                 <div>
                   <span className="text-red-500">我不吃肉。</span>= I don't eat meat.
@@ -514,10 +514,15 @@ const ruleContent = {
               adding <span className="text-red-500">吗</span> (ma) at the end.
             </h2>
             <span className="italic">Examples: </span>
-            <div className="flex">
+            <ul className="list-disc">
+              <li>
+                <div className="flex">
               <span className="text-red-500">你喜欢她。→ 你喜欢她吗？</span>
             <p>= Do you like her?</p>
-            </div>            
+            </div>
+              </li>
+            </ul>
+                        
             <h2>OR use question words like:</h2>
             <p>
               <span className="text-red-500">什么</span> (what), 
@@ -527,30 +532,48 @@ const ruleContent = {
               <span className="text-red-500">怎么</span> (how)
             </p>
             <span className="italic">Examples: </span>
-            <div className="flex">
+            <ul className="list-disc">
+              <li>
+                <div className="flex">
               <span className="text-red-500">你为什么学习汉语？</span>
             <p>= Why do you study Chinese?</p>
             </div>
-            
+              </li>
+            </ul>            
           </div>
         </li>
 
         <li>
           <div>
             <h2><span className="text-red-500">“有”</span> for “to have” and “there is”</h2>
-            <div className="flex">
+            <ul className="list-disc">
+              <span className="italic">Examples:</span>
+              <li>
+                <div className="flex">
               <span className="text-red-500">我有两个姐姐。</span>
             <p>= I have two older sisters.</p></div>
-            <div className="flex">
+              </li>
+              <li>
+                <div className="flex">
               <span className="text-red-500">这里有人吗？</span>
             <p>= Is there someone here? </p>
             </div>
+              </li>
+            </ul>
+            
+            
             
             <h2>Use <span className="text-red-500">没有</span> to negate:</h2>
-            <div className="flex">
+            <ul className="list-disc">
+              <span className="italic"> Example:</span>
+              <li>
+                <div className="flex">
               <span className="text-red-500">我没有钱。</span>
             <p>= I don’t have money.</p>
             </div>
+              </li>
+            </ul>
+            
             
           </div>
         </li>
@@ -561,16 +584,23 @@ const ruleContent = {
               Topic-Comment Structure Mandarin loves to put the topic first,
               then describe it.
             </h2>
-            <span className="italic">Examples: </span>
-            <div className="flex">
+            <ul className="list-disc">
+              
+            <span className="italic">Examples: </span> 
+              <li>
+                <div className="flex">
               <span className="text-red-500">这个电影，我不喜欢。</span>
             <p>= This movie, I don’t like.</p>
             </div>
-            <div className="flex">
+              </li>
+              <li>
+                <div className="flex">
               <span className="text-red-500">中文，很多人觉得难。</span>
             <p>= Chinese, many people think it’s hard.</p>
             </div>
-            
+                </li>
+            </ul>
+
           </div>
         </li>
 
@@ -579,14 +609,24 @@ const ruleContent = {
             <h2>
               Serial Verb Construction Back-to-back verbs, no "and" needed.
             </h2>
+            <ul className="list-disc">
             <span className="italic">Examples: </span>
-            <div>
+              <li>
+                <div className="flex">
               <span className="text-red-500">我去超市买菜。</span>
             <p>= I go to the supermarket (to) buy groceries.</p>
             </div>
-            
-            <span className="text-red-500">他回家做饭。</span>
+            </li>
+            <li>
+            <div className="flex">
+              <span className="text-red-500">他回家做饭。</span>
             <p>= He goes home (to) cook.</p>
+              </div>
+              </li>
+            </ul>
+            
+            
+            
           </div>
         </li>
 
@@ -601,25 +641,7 @@ const ruleContent = {
                   <p>
                     <span className="text-red-500"> 的 (de)</span>= connects noun adjectives
                   </p>
-                </div>
-              </li>
-              <li>
-                <div>
-                  <p>
-                    <span className="text-red-500">得 (de)</span>= connects verbs to degree complements
-                  </p>
-                </div>
-              </li>
-              <li>
-                <div>
-                  <p>
-                    <span className="text-red-500">地 (de)</span>= connects adverbs to verbs
-                  </p>
-                </div>
-              </li>
-            </ol>
-
-            <span className="italic">Examples: </span>
+                  <span className="italic">Example: </span>
             <ul className="list-disc">
               <li>
                 <div className="flex">
@@ -627,22 +649,48 @@ const ruleContent = {
                   <p>= pretty girl</p>
                 </div>
               </li>
+              </ul>
+                </div>
+              </li>
+              
               <li>
+                <div>
+                  <p>
+                    <span className="text-red-500">得 (de)</span>= connects verbs to degree complements
+                  </p>
+                  <span className="italic">Example:</span>
+                  <ul className="list-disc">
+                  <li>
                 <div className="flex">
                   <span className="text-red-500">他跑得很快</span>
                   <p>= he runs fast</p>
                 </div>
               </li>
+              </ul>
+                </div>
+              </li>
+
               <li>
+                <div>
+                  <p>
+                    <span className="text-red-500">地 (de)</span>= connects adverbs to verbs
+                  </p>
+                  <span className="italic">Example:</span>
+                  <ul className="list-disc">
+                    <li>
                 <div className="flex">
                   <span className="text-red-500">他认真地学习</span>
                   <p>
-                    = he studies seriously (They all sound the same but are
-                    written differently depending on what you're modifying)
+                    = he studies seriously 
                   </p>
                 </div>
+                </li>
+                  </ul>
+                </div>
               </li>
-            </ul>
+              <p>(They all sound the same but are
+                    written differently depending on what you're modifying)</p>
+            </ol>
           </div>
         </li>
       </ol>
@@ -662,14 +710,17 @@ const ruleContent = {
         <li>
           <div>
             <strong>Modal (<span className="text-red-500"> 语气助词</span>)</strong> – affect tone/attitude
-            <p className="mt-1">
+            <ul className="list-disc">
               <span className="italic">Examples:</span>
-              <span className="font-semibold text-red-500">
+              <li>
+                <span className="font-semibold text-red-500">
                 吗, 呢, 吧, 啊, 呀, 嘛
               </span>
-            </p>
+              </li>
+            </ul>
           </div>
         </li>
+        
         <li>
           <div>
             <strong>Aspect (<span className="text-red-500">动态助词</span>)</strong> – indicate verb aspect
