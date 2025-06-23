@@ -118,12 +118,23 @@ const ruleContent = {
         <li>
           <div>
             <strong>Tones are not optional.</strong>
-            <p className="mt-1">
-              Changing the tone = changing the meaning. Example: mā (<span className="text-red-500">妈</span>) ≠ mà
-              (<span>骂</span>).
+            <div>
+              <p>
+              Changing the tone = changing the meaning. 
+              </p>
+              <span className="italic">Example:</span> 
+              <ul className="list-disc">
+                <li>
+                  <p> mā (<span className="text-red-500">妈</span>) ≠ mà (<span className="text-red-500">骂</span>).
             </p>
+                </li>
+              </ul>
+              
+             
+            </div>
           </div>
         </li>
+
         <li>
           <div>
             <strong>Learn tones with whole words, not single syllables.</strong>
@@ -332,49 +343,54 @@ const ruleContent = {
     <li>
       <div>
         <strong>Top to Bottom:</strong> Write upper parts first.
-        <p className="mt-1">Example: 三 = 一 → 二 → 三</p>
+        <ul className="list-disc"><span className="italic">Example:</span><li>三 = 一 → 二 → 三</li></ul> 
       </div>
     </li>
     <li>
       <div>
         <strong>Left to Right:</strong> Do left components before right ones.
-        <p className="mt-1">Example: 他 = 亻 → 也</p>
+        <ul className="list-disc"><span className="italic">Example:</span><li>
+            他 = 亻 → 也
+          </li>
+        </ul>
       </div>
     </li>
     <li>
       <div>
         <strong>Horizontal before Vertical:</strong> 横 comes before 竖 if they cross.
-        <p className="mt-1">Example: 十 = 一 → 丨</p>
+        <ul className="list-disc"><span className="italic">Example:</span><li>
+            十 = 一 → 丨
+            </li></ul> 
       </div>
     </li>
     <li>
       <div>
         <strong>Center before Sides:</strong> For symmetrical characters, middle first.
-        <p className="mt-1">Example: 小 = 丨 → 丿 → ㇏</p>
+        <ul className="list-disc"><span className="italic">Example:</span><li> 小 = 丨 → 丿 → ㇏</li></ul>
       </div>
     </li>
     <li>
       <div>
         <strong>Enclosures first:</strong> Draw outer box first, then inside, then close.
-        <p className="mt-1">Example: 回 = ⿴ → 内 → bottom close</p>
+       <ul className="list-disc"><span className="italic">Example:</span><li> 回 = ⿴ → 内 → bottom close</li></ul>
       </div>
     </li>
     <li>
       <div>
         <strong>Dots and extras last:</strong> Add tiny strokes at the very end.
-        <p className="mt-1">Example: 玉 = 王 + 点</p>
+        <ul className="list-disc"><span className="italic">Example:</span><li> 玉 = 王 + 点</li></ul>
       </div>
     </li>
     <li>
       <div>
         <strong>撇 before 捺:</strong> For slants, left-falling before right-falling.
-        <p className="mt-1">Example: 人 = 丿 → ㇏</p>
+        <ul className="list-disc"><span className="italic">Example:</span><li> 人 = 丿 → ㇏</li></ul>
       </div>
     </li>
     <li>
       <div>
         <strong>One Component at a Time:</strong> Complex characters follow order within each part.
-        <p className="mt-1">Example: 谢 = 讠 → 身</p>
+        <ul className="list-disc"><span className="italic">Example:</span><li> 谢 = 讠 → 身</li></ul>
       </div>
     </li>
   </ol>
@@ -389,17 +405,17 @@ const ruleContent = {
       </tr>
     </thead>
     <tbody>
-      <tr><td className="border px-4 py-2">Left–Right</td><td className="border px-4 py-2">Two side-by-side parts</td><td className="border px-4 py-2">你, 他</td></tr>
-      <tr><td className="border px-4 py-2">Top–Bottom</td><td className="border px-4 py-2">Stacked components</td><td className="border px-4 py-2">字, 安</td></tr>
-      <tr><td className="border px-4 py-2">Enclosure</td><td className="border px-4 py-2">Outer box around content</td><td className="border px-4 py-2">国, 回</td></tr>
-      <tr><td className="border px-4 py-2">Full-Wrap</td><td className="border px-4 py-2">3-sided wrap around inner</td><td className="border px-4 py-2">医, 厂</td></tr>
-      <tr><td className="border px-4 py-2">Single</td><td className="border px-4 py-2">One-part characters</td><td className="border px-4 py-2">小, 大</td></tr>
+      <tr><td className="border px-4 py-2">Left–Right</td><td className="border px-4 py-2">Two side-by-side parts</td><td className="border px-4 py-2"><span className="text-red-500">你, 他</span></td></tr>
+      <tr><td className="border px-4 py-2">Top–Bottom</td><td className="border px-4 py-2">Stacked components</td><td className="border px-4 py-2"><span className="text-red-500">字, 安</span></td></tr>
+      <tr><td className="border px-4 py-2">Enclosure</td><td className="border px-4 py-2">Outer box around content</td><td className="border px-4 py-2"><span className="text-red-500">国, 回</span></td></tr>
+      <tr><td className="border px-4 py-2">Full-Wrap</td><td className="border px-4 py-2">3-sided wrap around inner</td><td className="border px-4 py-2"><span className="text-red-500">医, 厂</span></td></tr>
+      <tr><td className="border px-4 py-2">Single</td><td className="border px-4 py-2">One-part characters</td><td className="border px-4 py-2"><span className="text-red-500">小, 大</span></td></tr>
     </tbody>
   </table>
 
   <h2 className="text-base font-bold">Tips for Learners</h2>
   <ul className="list-disc pl-6 space-y-2">
-    <li>Use <strong>田字格</strong> "field character grid" or "Chinese character writing grid" grid paper to balance your characters.</li>
+    <li>Use <strong className="text-red-500">田字格</strong> "field character grid" or "Chinese character writing grid" grid paper to balance your characters.</li>
     <li>Practice on Skritter, Pleco, or YellowBridge for real-time stroke feedback.</li>
     <li>Even if you type, <strong>write by hand</strong> to reinforce memory.</li>
   </ul>
@@ -413,10 +429,9 @@ const ruleContent = {
           <div>
             <h2>Subject + Time + Place + Manner + Verb + Object</h2>
             <p> It’s how Mandarin flows most naturally.</p>
-            <span>Example:</span>
+            <span className="italic">Example:</span>
             <p className="text-red-500">我 昨天 在家 认真地 做 作业。</p>
-            <p>wǒ zuótiān zài jiā rènzhēn de zuò zuòyè.</p>
-            <p>= I did my homework seriously at home yesterday.</p>
+            <p>wǒ zuótiān zài jiā rènzhēn de zuò zuòyè.= I did my homework seriously at home yesterday.</p>
             <ul className="list-disc">
               <div>
                 <p>🔁 In order:</p>
@@ -452,7 +467,7 @@ const ruleContent = {
         <li>
           <div>
             <h2>Simple SVO Subject + Verb + Object </h2>
-            <span>Examples: </span>
+            <span className="italic">Examples: </span>
             <ul className="list-disc">
               <li>
                 <div>
@@ -477,7 +492,7 @@ const ruleContent = {
             <h2>Negation: <span className="text-red-500">“不”</span> or <span className="text-red-500">“没”</span> comes before the verb</h2>
             <p><span className="text-red-500">不</span> = “not” (general / future / habitual)</p>
             <p><span className="text-red-500">没</span> = “didn’t” (past actions) </p>
-            <span>Examples: </span>
+            <span className="italic">Examples: </span>
             <ul>
               <li>
                 <div>
@@ -495,23 +510,23 @@ const ruleContent = {
         <li>
           <div>
             <h2>
-              Question = Statement + 吗 Turn any statement into a question by
+              Question = Statement + <span className="text-red-500">吗</span> Turn any statement into a question by
               adding <span className="text-red-500">吗</span> (ma) at the end.
             </h2>
-            <span>Example: </span>
+            <span className="italic">Examples: </span>
             <div className="flex">
               <span className="text-red-500">你喜欢她。→ 你喜欢她吗？</span>
             <p>= Do you like her?</p>
             </div>            
             <h2>OR use question words like:</h2>
-            <span>
+            <p>
               <span className="text-red-500">什么</span> (what), 
               <span className="text-red-500">谁</span> (who), 
               <span className="text-red-500">哪</span> (which), 
               <span className="text-red-500">几</span> (how many), 
               <span className="text-red-500">怎么</span> (how)
-            </span>
-            <span>Example:</span>
+            </p>
+            <span className="italic">Examples: </span>
             <div className="flex">
               <span className="text-red-500">你为什么学习汉语？</span>
             <p>= Why do you study Chinese?</p>
@@ -546,7 +561,7 @@ const ruleContent = {
               Topic-Comment Structure Mandarin loves to put the topic first,
               then describe it.
             </h2>
-            <span>Example: </span>
+            <span className="italic">Examples: </span>
             <div className="flex">
               <span className="text-red-500">这个电影，我不喜欢。</span>
             <p>= This movie, I don’t like.</p>
@@ -564,7 +579,7 @@ const ruleContent = {
             <h2>
               Serial Verb Construction Back-to-back verbs, no "and" needed.
             </h2>
-            <span>Example: </span>
+            <span className="italic">Examples: </span>
             <div>
               <span className="text-red-500">我去超市买菜。</span>
             <p>= I go to the supermarket (to) buy groceries.</p>
@@ -604,7 +619,7 @@ const ruleContent = {
               </li>
             </ol>
 
-            <span>Examples:</span>
+            <span className="italic">Examples: </span>
             <ul className="list-disc">
               <li>
                 <div className="flex">
@@ -648,7 +663,7 @@ const ruleContent = {
           <div>
             <strong>Modal (<span className="text-red-500"> 语气助词</span>)</strong> – affect tone/attitude
             <p className="mt-1">
-              Examples:{" "}
+              <span className="italic">Examples:</span>
               <span className="font-semibold text-red-500">
                 吗, 呢, 吧, 啊, 呀, 嘛
               </span>
@@ -659,7 +674,7 @@ const ruleContent = {
           <div>
             <strong>Aspect (<span className="text-red-500">动态助词</span>)</strong> – indicate verb aspect
             <p className="mt-1">
-              Examples:
+              <span className="italic">Examples: </span>
               <span className="font-semibold text-red-500">了, 过, 着</span>
             </p>
           </div>
@@ -669,7 +684,7 @@ const ruleContent = {
             <strong>Structural (<span className="text-red-500">结构助词</span>)</strong> – show grammatical
             relationship
             <p className="mt-1">
-              Examples:
+              <span className="italic">Examples: </span>
               <span className="font-semibold text-red-500">的, 得, 地</span>
             </p>
           </div>
@@ -721,11 +736,11 @@ const ruleContent = {
                 (right now).
               </li>
             </ul>
-            <p className="mt-2 font-medium">Note:</p>
+              <span className="mt-2 font-medium">Note:</span>
             <p>
               Used to bounce back a question ("what about…?") or show something
               ongoing.
-            </p>
+            </p>            
           </div>
         </li>
 
@@ -865,7 +880,7 @@ const ruleContent = {
   ),
   "Measure Words":(
     <div className="space-y-6">
-      <h1 className="text-lg font-bold">Mandarin Measure Words (量词 liàngcí)</h1>
+      <h1 className="text-lg font-bold">Mandarin Measure Words (<span className="text-red-500">量词</span> liàngcí)</h1>
       <p>
         You <strong>can’t count nouns</strong> directly in Mandarin. You must use a measure word
         between the number and the noun.
