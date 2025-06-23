@@ -702,7 +702,7 @@ const ruleContent = {
       <p>
         Particles are function words. They don’t hold standalone meaning but
         affect the <strong>tone</strong>, <strong>grammar</strong>, or
-        <strong>structure</strong> of a sentence.
+         <strong>structure</strong> of a sentence.
       </p>
 
       <h2 className="font-semibold text-base">3 Types of Particles</h2>
@@ -720,24 +720,28 @@ const ruleContent = {
             </ul>
           </div>
         </li>
-        
+
         <li>
           <div>
             <strong>Aspect (<span className="text-red-500">动态助词</span>)</strong> – indicate verb aspect
-            <p className="mt-1">
+            <ul className="list-disc">
               <span className="italic">Examples: </span>
-              <span className="font-semibold text-red-500">了, 过, 着</span>
-            </p>
+              <li>
+                <span className="font-semibold text-red-500">了, 过, 着</span>
+              </li>
+            </ul>
           </div>
         </li>
         <li>
           <div>
             <strong>Structural (<span className="text-red-500">结构助词</span>)</strong> – show grammatical
             relationship
-            <p className="mt-1">
+            <ul className="list-disc">
               <span className="italic">Examples: </span>
+              <li>
               <span className="font-semibold text-red-500">的, 得, 地</span>
-            </p>
+              </li>
+            </ul>
           </div>
         </li>
       </ol>
@@ -761,13 +765,15 @@ const ruleContent = {
                 like Chinese?
               </li>
             </ul>
-            <p className="mt-2 font-medium">Note:</p>
+            <div className="flex">
+              <span className="font-semibold">Note: </span>
             <p>
               Add it at the end of a statement.{" "}
               <strong>Not used with question words</strong> like{" "}
               <span className="text-red-500">谁</span> (who),{" "}
               <span className="text-red-500">什么</span> (what).
             </p>
+            </div>            
           </div>
         </li>
 
@@ -787,11 +793,13 @@ const ruleContent = {
                 (right now).
               </li>
             </ul>
-              <span className="mt-2 font-medium">Note:</span>
+            <div className="flex"><span className="font-semibold">Note:</span>
             <p>
-              Used to bounce back a question ("what about…?") or show something
+               Used to bounce back a question ("what about…?") or show something
               ongoing.
-            </p>            
+            </p> 
+            </div>
+                         
           </div>
         </li>
 
@@ -809,8 +817,9 @@ const ruleContent = {
                 new student, right?
               </li>
             </ul>
-            <p className="mt-2 font-medium">Note:</p>
-            <p>Makes the sentence more casual, polite, or tentative.</p>
+            <div className="flex"><p className="font-semibold">Note:</p>
+            <p>Makes the sentence more casual, polite, or tentative.</p></div>
+            
           </div>
         </li>
 
@@ -830,13 +839,15 @@ const ruleContent = {
                 hurry up!
               </li>
             </ul>
-            <p className="mt-2 font-medium">Note:</p>
+            <div className="flex">
+            <p className="font-semibold">Note:</p>
             <p>
               These add <strong>emotion</strong> — excitement, emphasis, or
               persuasion. <span className="text-red-500">呀</span> is a soft
               “ah” after vowels. <span className="text-red-500">嘛</span> adds a
               sassy or insistent tone.
             </p>
+            </div>
           </div>
         </li>
       </ol>
@@ -859,11 +870,12 @@ const ruleContent = {
                 cold.
               </li>
             </ul>
-            <p className="mt-2 font-medium">Note:</p>
+            <div className="flex">
+            <p className="font-semibold">Note:</p>
             <p>
               Goes after the verb (for completed action) or at the sentence end
               (for change).
-            </p>
+            </p></div>
           </div>
         </li>
 
@@ -878,11 +890,12 @@ const ruleContent = {
                 to China.
               </li>
             </ul>
-            <p className="mt-2 font-medium">Note:</p>
+            <div className="flex">
+            <p className="font-semibold">Note:</p>
             <p>
               Goes after the verb. Doesn’t say *when* — just that it happened
               before.
-            </p>
+            </p></div>
           </div>
         </li>
 
@@ -901,11 +914,12 @@ const ruleContent = {
                 while smiling.
               </li>
             </ul>
-            <p className="mt-2 font-medium">Note:</p>
+            <div className="flex">
+            <p className="font-semibold">Note:</p>
             <p>
               Goes after the verb. Often paired with another verb for parallel
               actions.
-            </p>
+            </p></div>
           </div>
         </li>
       </ol>
