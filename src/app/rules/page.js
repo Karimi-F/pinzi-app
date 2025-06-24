@@ -1035,7 +1035,7 @@ const ruleContent = {
 
       <h2 className="text-base font-bold">Categories of Measure Words</h2>
       <ul className="list-disc pl-6 space-y-2">
-        <li><strong>Default / General:</strong> 个 (gè)</li>
+        <li><strong>Default / General:</strong> <span>个</span> (gè)</li>
         <li><strong>Shape-Based:</strong> 本 (books), 张 (flat), 条 (long)</li>
         <li><strong>Living Things:</strong> 只 (animals), 匹 (horses)</li>
         <li><strong>Containers:</strong> 杯 (cups), 瓶 (bottles), 碗 (bowls), 盒 (boxes)</li>
