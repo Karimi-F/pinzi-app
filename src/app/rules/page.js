@@ -1035,12 +1035,28 @@ const ruleContent = {
 
       <h2 className="text-base font-bold">Categories of Measure Words</h2>
       <ul className="list-disc pl-6 space-y-2">
-        <li><strong>Default / General:</strong> <span>个</span> (gè)</li>
-        <li><strong>Shape-Based:</strong> 本 (books), 张 (flat), 条 (long)</li>
-        <li><strong>Living Things:</strong> 只 (animals), 匹 (horses)</li>
-        <li><strong>Containers:</strong> 杯 (cups), 瓶 (bottles), 碗 (bowls), 盒 (boxes)</li>
-        <li><strong>Objects:</strong> 台 (machines), 辆 (vehicles), 把 (handle-based)</li>
-        <li><strong>Verbal:</strong> 次, 遍, 下</li>
+        <li><strong>Default / General:</strong> 
+        <span className="text-red-500">个</span> (gè)</li>
+        <li><strong>Shape-Based:</strong> 
+        <span className="text-red-500">本</span> (books), 
+        <span className="text-red-500">张</span> (flat), 
+        <span className="text-red-500">条</span> (long)</li>
+        <li><strong>Living Things:</strong> 
+        <span className="text-red-500">只</span> (animals), 
+        <span className="text-red-500">匹</span> (horses)</li>
+        <li><strong>Containers:</strong> 
+        <span className="text-red-500">杯</span> (cups), 
+        <span className="text-red-500">瓶</span> (bottles), 
+        <span className="text-red-500">碗</span> (bowls), 
+        <span className="text-red-500">盒</span> (boxes)</li>
+        <li><strong>Objects:</strong> 
+        <span className="text-red-500">台</span> (machines), 
+        <span className="text-red-500">辆</span> (vehicles), 
+        <span className="text-red-500">把</span> (handle-based)</li>
+        <li><strong>Verbal:</strong> 
+        <span className="text-red-500">次</span>, 
+        <span className="text-red-500">遍</span>, 
+        <span className="text-red-500">下</span></li>
       </ul>
 
       <h2 className="text-base font-bold">Common Mistakes</h2>
