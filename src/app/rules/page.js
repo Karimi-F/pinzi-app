@@ -973,9 +973,9 @@ const ruleContent = {
                 <tr><th className="pr-6">✅ Correct</th><th>❌ Wrong</th></tr>
               </thead>
               <tbody>
-                <tr><td>一个苹果</td><td>一苹果</td></tr>
-                <tr><td>那本书</td><td>那书</td></tr>
-                <tr><td>三条鱼</td><td>三鱼</td></tr>
+                <tr><td>一<span className="text-red-500">个</span>苹果</td><td>一苹果</td></tr>
+                <tr><td>那<span className="text-red-500">本</span>书</td><td>那书</td></tr>
+                <tr><td>三<span className="text-red-500">条</span>鱼</td><td>三鱼</td></tr>
               </tbody>
             </table>
           </div>
@@ -1000,11 +1000,11 @@ const ruleContent = {
 
         <li>
           <div>
-            <p><strong>个 is the default/general measure word</strong></p>
+            <p><strong><span className="text-red-500">个</span> is the default/general measure word</strong></p>
             <ul className="list-disc pl-6 mt-2">
-              <li>一个朋友</li>
-              <li>那个人</li>
-              <li>哪个学生</li>
+              <li>一<span className="text-red-500">个</span>朋友</li>
+              <li>那<span className="text-red-500">个</span>人</li>
+              <li>哪<span className="text-red-500">个</span>学生</li>
             </ul>
             <p className="mt-2 text-sm">Use it when unsure, but don’t overuse it.</p>
           </div>
@@ -1014,9 +1014,9 @@ const ruleContent = {
           <div>
             <p><strong>Even demonstratives need measure words</strong></p>
             <ul className="list-disc pl-6 mt-2">
-              <li>这本书 = this book</li>
-              <li>那只猫 = that cat</li>
-              <li>哪辆车 = which car</li>
+              <li>这<span className="text-red-500">本</span>书 = this book</li>
+              <li>那<span className="text-red-500">只</span>猫 = that cat</li>
+              <li>哪<span className="text-red-500">辆</span>车 = which car</li>
             </ul>
           </div>
         </li>
@@ -1025,9 +1025,9 @@ const ruleContent = {
           <div>
             <p><strong>Measure words are also used for verbs/actions</strong></p>
             <ul className="list-disc pl-6 mt-2">
-              <li>一次 = one time (次 - general)</li>
-              <li>三遍 = three times (遍 - full)</li>
-              <li>两下 = two times casually (下 - quick)</li>
+              <li>一次 = one time (<span className="text-red-500">次</span> - general)</li>
+              <li>三遍 = three times (<span className="text-red-500">遍</span> - full)</li>
+              <li>两下 = two times casually (<span className="text-red-500">下</span> - quick)</li>
             </ul>
           </div>
         </li>
@@ -1065,9 +1065,9 @@ const ruleContent = {
           <tr><th className="pr-6">Mistake</th><th className="pr-6">Why</th><th>Correction</th></tr>
         </thead>
         <tbody>
-          <tr><td>三书</td><td>No measure word</td><td>三本书</td></tr>
-          <tr><td>一狗</td><td>Animals need classifier</td><td>一只狗</td></tr>
-          <tr><td>那苹果</td><td>Missing after demonstrative</td><td>那个苹果</td></tr>
+          <tr><td>三书</td><td>No measure word</td><td>三<span className="text-red-500">只</span>本书</td></tr>
+          <tr><td>一狗</td><td>Animals need classifier</td><td>一<span className="text-red-500">只</span>狗</td></tr>
+          <tr><td>那苹果</td><td>Missing after demonstrative</td><td>那<span className="text-red-500">个</span>苹果</td></tr>
           <tr><td>我看电影两次</td><td>Wrong word order</td><td>我看了两次电影</td></tr>
         </tbody>
       </table>
@@ -1076,8 +1076,10 @@ const ruleContent = {
       <ol className="list-decimal pl-6 space-y-2">
         <li>Always use a measure word with numbers/demonstratives</li>
         <li>Choose based on category (shape, usage, etc.)</li>
-        <li>Use 个 when unsure (but avoid overuse)</li>
-        <li>Use MWs with 这 / 那 / 哪</li>
+        <li>Use <span className="text-red-500">个</span> when unsure (but avoid overuse)</li>
+        <li>Use MWs with <span className="text-red-500">这</span> / 
+        <span className="text-red-500">那</span> / 
+        <span className="text-red-500">哪</span></li>
         <li>Use verbal MWs when describing frequency</li>
       </ol>
     </div>
