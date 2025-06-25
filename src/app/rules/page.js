@@ -1210,13 +1210,13 @@ const ruleContent = {
         {/* 1. 不 */}
         <li>
           <h2 className="text-lg font-semibold">
-            Use 不 (bù) for General, Habitual, or Future Negation
+            Use <span className="text-red-500">不</span> (bù) for General, Habitual, or Future Negation
           </h2>
           <p className="font-medium">Usage Examples:</p>
           <ul className="list-disc pl-6 space-y-1">
-            <li>我不吃肉。= I don’t eat meat.</li>
-            <li>我不想去。= I don’t want to go.</li>
-            <li>明天我不上班。= I won’t work tomorrow.</li>
+            <li><span className="text-red-500">我不吃肉。</span>= I don’t eat meat.</li>
+            <li><span className="text-red-500">我不想去。</span>= I don’t want to go.</li>
+            <li><span className="text-red-500">明天我不上班。</span>= I won’t work tomorrow.</li>
           </ul>
           <p className="mt-2 font-medium">Notes:</p>
           <ul className="list-disc pl-6 space-y-1">
@@ -1225,7 +1225,7 @@ const ruleContent = {
               Used for present/future habits, refusals, or permanent truths.
             </li>
             <li>
-              <strong>Pro Tip:</strong> "不" is flat, almost firm — like drawing
+              <strong>Pro Tip:</strong> "<span className="text-red-500">不</span>" is flat, almost firm — like drawing
               a boundary.
             </li>
           </ul>
@@ -1234,20 +1234,20 @@ const ruleContent = {
         {/* 2. 没 */}
         <li>
           <h2 className="text-lg font-semibold">
-            Use 没 (méi) for Past or Nonexistence
+            Use <span className="text-red-500">没</span> (méi) for Past or Nonexistence
           </h2>
           <p className="font-medium">Usage Examples:</p>
           <ul className="list-disc pl-6 space-y-1">
-            <li>我没吃饭。= I didn’t eat.</li>
-            <li>她没来。= She didn’t come.</li>
-            <li>我没有钱。= I don’t have money.</li>
+            <li><span className="text-red-500">我没吃饭。</span>= I didn’t eat.</li>
+            <li><span className="text-red-500">她没来。</span>= She didn’t come.</li>
+            <li><span className="text-red-500">我没有钱。</span>= I don’t have money.</li>
           </ul>
           <p className="mt-2 font-medium">Notes:</p>
           <ul className="list-disc pl-6 space-y-1">
             <li>Always goes before the verb.</li>
-            <li>"没有" (méi yǒu) is the negative of "有" (have).</li>
+            <li>"<span className="text-red-500">没有</span>" (méi yǒu) is the negative of "<span className="text-red-500">有</span>" (have).</li>
             <li>
-              Think of 没 as the past-tense "nope" or “haven’t done it yet.”
+              Think of <span className="text-red-500">没</span> as the past-tense "nope" or “haven’t done it yet.”
             </li>
           </ul>
         </li>
@@ -1255,7 +1255,7 @@ const ruleContent = {
         {/* 3. 不 vs 没 */}
         <li>
           <h2 className="text-lg font-semibold">
-            Don’t Mix 不 and 没 Interchangeably
+            Don’t Mix <span className="text-red-500">不</span> and <span className="text-red-500">没</span> Interchangeably
           </h2>
           <div className="overflow-x-auto">
             <table className="min-w-full border text-sm text-left">
@@ -1268,19 +1268,20 @@ const ruleContent = {
               </thead>
               <tbody>
                 <tr>
-                  <td className="px-4 py-2 border">我没吃饭。</td>
+                  <td className="px-4 py-2 border"><span className="text-red-500">我没吃饭。</span></td>
                   <td className="px-4 py-2 border">✅</td>
                   <td className="px-4 py-2 border">Past negation</td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 border">我不吃饭。</td>
+                  <td className="px-4 py-2 border"><span className="text-red-500">我不吃饭。</span></td>
                   <td className="px-4 py-2 border">✅</td>
                   <td className="px-4 py-2 border">General/habitual</td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 border">我不有钱。</td>
+                  <td className="px-4 py-2 border"><span className="text-red-500">我不有钱。</span></td>
                   <td className="px-4 py-2 border">❌</td>
-                  <td className="px-4 py-2 border">“有” must use 没/没有</td>
+                  <td className="px-4 py-2 border">“<span className="text-red-500">有</span>” must use 
+                  <span className="text-red-500">没</span>/<span className="text-red-500">没有</span></td>
                 </tr>
               </tbody>
             </table>
@@ -1290,21 +1291,21 @@ const ruleContent = {
         {/* 4. 有 always uses 没 */}
         <li>
           <h2 className="text-lg font-semibold">
-            The Verb 有 (yǒu) is Always Negated with 没
+            The Verb <span className="text-red-500">有</span> (yǒu) is Always Negated with <span className="text-red-500">没</span>
           </h2>
           <ul className="list-disc pl-6 space-y-1">
-            <li>我没有时间。= I don’t have time.</li>
-            <li>他没有女朋友。= He doesn’t have a girlfriend.</li>
+            <li><span className="text-red-500">我没有时间。</span>= I don’t have time.</li>
+            <li><span className="text-red-500">他没有女朋友。</span>= He doesn’t have a girlfriend.</li>
           </ul>
           <p className="mt-2">
-            <strong>Note:</strong> Never use 不有 ❌. It’s not a thing.
+            <strong>Note:</strong> Never use <span className="text-red-500">不有</span> ❌. It’s not a thing.
           </p>
         </li>
 
         {/* 5. 不 + adjectives / modals */}
         <li>
           <h2 className="text-lg font-semibold">
-            Use 不 with Adjectives and Modal Verbs
+            Use <span className="text-red-500">不</span> with Adjectives and Modal Verbs
           </h2>
           <div className="overflow-x-auto">
             <table className="min-w-full border text-sm text-left">
@@ -1317,25 +1318,25 @@ const ruleContent = {
               </thead>
               <tbody>
                 <tr>
-                  <td className="px-4 py-2 border">会</td>
+                  <td className="px-4 py-2 border"><span className="text-red-500">会</span></td>
                   <td className="px-4 py-2 border">can/will</td>
-                  <td className="px-4 py-2 border">我不会说法语。</td>
+                  <td className="px-4 py-2 border"><span className="text-red-500">不我不会说法语。</span></td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 border">想</td>
+                  <td className="px-4 py-2 border"><span className="text-red-500">想</span></td>
                   <td className="px-4 py-2 border">want</td>
-                  <td className="px-4 py-2 border">我不想去。</td>
+                  <td className="px-4 py-2 border"><span className="text-red-500">我不想去。</span></td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2 border">是</td>
+                  <td className="px-4 py-2 border"><span className="text-red-500">是</span></td>
                   <td className="px-4 py-2 border">to be</td>
-                  <td className="px-4 py-2 border">他不是老师。</td>
+                  <td className="px-4 py-2 border"><span className="text-red-500">他不是老师。</span></td>
                 </tr>
               </tbody>
             </table>
           </div>
           <p className="mt-2">
-            <strong>Note:</strong> "不" is the go-to for verbs that express
+            <strong>Note:</strong> "<span className="text-red-500">不</span>" is the go-to for verbs that express
             intent, possibility, or identity.
           </p>
         </li>
@@ -1346,7 +1347,7 @@ const ruleContent = {
             Double Negatives = Positive or Emphasis
           </h2>
           <p>
-            我不是不知道。= “It’s not that I don’t know.” (aka "Of course I
+            <span className="text-red-500">我不是不知道。</span>= “It’s not that I don’t know.” (aka "Of course I
             know.")
           </p>
           <p className="mt-2">
@@ -1359,9 +1360,9 @@ const ruleContent = {
         <li>
           <h2 className="text-lg font-semibold">"了" + Negation = Tricky</h2>
           <ul className="list-disc pl-6 space-y-1">
-            <li>❌ 我没吃了</li>
-            <li>✅ 我没吃</li>
-            <li>✅ 我吃了</li>
+            <li>❌ <span className="text-red-500"></span></li>
+            <li>✅ <span className="text-red-500">我没吃</span></li>
+            <li>✅ <span className="text-red-500">我吃了</span></li>
           </ul>
         </li>
       </ol>
