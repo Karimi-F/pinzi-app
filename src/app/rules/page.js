@@ -1097,13 +1097,13 @@ const ruleContent = {
       <p>Here are the 3 tense-like markers every learner should know:</p>
       <ul className="list-disc pl-6 space-y-1">
         <li>
-          <strong>了 (le)</strong> – Completed action / change
+          <strong><span className="text-red-500">了</span> (le)</strong> – Completed action / change
         </li>
         <li>
-          <strong>过 (guo)</strong> – Past experience
+          <strong><span className="text-red-500">过</span> (guo)</strong> – Past experience
         </li>
         <li>
-          <strong>着 (zhe)</strong> – Ongoing state
+          <strong><span className="text-red-500">着</span> (zhe)</strong> – Ongoing state
         </li>
       </ul>
 
@@ -1111,7 +1111,7 @@ const ruleContent = {
         <li>
           <div>
             <h3 className="font-bold text-base mb-1">
-              了 (le) – Completion or Change
+               <span className="text-red-500">了</span> (le) – Completion or Change
             </h3>
             <p className="font-medium">Action is done:</p>
             <p>
@@ -1132,7 +1132,7 @@ const ruleContent = {
               </li>
               <li>
                 <span className="italic">
-                  Don’t overuse "了" — only use when emphasizing completion or
+                  Don’t overuse "<span className="text-red-500">了</span>" — only use when emphasizing completion or
                   change.
                 </span>
               </li>
@@ -1143,7 +1143,7 @@ const ruleContent = {
         <li>
           <div>
             <h3 className="font-bold text-base mb-1">
-              过 (guo) – Life Experience / “Ever Done It”
+              <span className="text-red-500">过</span> (guo) – Life Experience / “Ever Done It”
             </h3>
             <p className="font-medium">
               Used to show past experiences you’ve had:
@@ -1170,7 +1170,7 @@ const ruleContent = {
         <li>
           <div>
             <h3 className="font-bold text-base mb-1">
-              着 (zhe) – Ongoing Action / State
+              <span className="text-red-500">着</span> (zhe) – Ongoing Action / State
             </h3>
             <p className="font-medium">Describes ongoing or static states:</p>
             <p>
