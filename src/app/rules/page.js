@@ -1358,7 +1358,7 @@ const ruleContent = {
 
         {/* 7. Negation + 了 */}
         <li>
-          <h2 className="text-lg font-semibold">"了" + Negation = Tricky</h2>
+          <h2 className="text-lg font-semibold">'<span className="text-red-500">了</span>' + Negation = Tricky</h2>
           <ul className="list-disc pl-6 space-y-1">
             <li>❌ <span className="text-red-500"></span></li>
             <li>✅ <span className="text-red-500">我没吃</span></li>
@@ -1381,24 +1381,24 @@ const ruleContent = {
             </thead>
             <tbody>
               <tr>
-                <td className="px-4 py-2 border">别</td>
+                <td className="px-4 py-2 border text-red-500">别</td>
                 <td className="px-4 py-2 border">Don’t (command)</td>
                 <td className="px-4 py-2 border">别说话！</td>
               </tr>
               <tr>
-                <td className="px-4 py-2 border">不行</td>
+                <td className="px-4 py-2 border text-red-500">不行</td>
                 <td className="px-4 py-2 border">Not okay / won’t do</td>
-                <td className="px-4 py-2 border">这样不行！</td>
+                <td className="px-4 py-2 border text-red-500">这样不行！</td>
               </tr>
               <tr>
-                <td className="px-4 py-2 border">不要</td>
+                <td className="px-4 py-2 border text-red-500">不要</td>
                 <td className="px-4 py-2 border">Don’t want / Stop</td>
-                <td className="px-4 py-2 border">不要笑！</td>
+                <td className="px-4 py-2 border text-red-500">不要笑！</td>
               </tr>
               <tr>
-                <td className="px-4 py-2 border">没事</td>
+                <td className="px-4 py-2 border text-red-500">没事</td>
                 <td className="px-4 py-2 border">It’s nothing / I’m good</td>
-                <td className="px-4 py-2 border">没事，我没受伤。</td>
+                <td className="px-4 py-2 border text-red-500">没事，我没受伤。</td>
               </tr>
             </tbody>
           </table>
