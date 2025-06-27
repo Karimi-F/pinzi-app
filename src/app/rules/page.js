@@ -1419,19 +1419,19 @@ const ruleContent = {
             <tbody>
               <tr>
                 <td className="px-4 py-2 border">Habit / Future / General</td>
-                <td className="px-4 py-2 border">不</td>
+                <td className="px-4 py-2 border text-red-500">不</td>
               </tr>
               <tr>
                 <td className="px-4 py-2 border">Past / Not happened yet</td>
-                <td className="px-4 py-2 border">没</td>
+                <td className="px-4 py-2 border text-red-500">没</td>
               </tr>
               <tr>
                 <td className="px-4 py-2 border">Don’t have</td>
-                <td className="px-4 py-2 border">没有</td>
+                <td className="px-4 py-2 border text-red-500">没有</td>
               </tr>
               <tr>
                 <td className="px-4 py-2 border">“Don’t do that!”</td>
-                <td className="px-4 py-2 border">别</td>
+                <td className="px-4 py-2 border text-red-500">别</td>
               </tr>
               <tr>
                 <td className="px-4 py-2 border">Negative commands</td>
