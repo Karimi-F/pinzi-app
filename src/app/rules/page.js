@@ -1539,10 +1539,10 @@ const ruleContent = {
             </thead>
             <tbody>
               {[
-                ['My', '<span className="text-red-500">我的</span>', 'wǒ de = my/mine'],
-                ['Your', '<span className="text-red-500">你的</span>', 'nǐ de = your/yours'],
-                ['His', '<span className="text-red-500"><span className="text-red-500">他的</span>', 'tā de = his'],
-                ['Our', '我们的</span>', 'wǒmen de = our/ours'],
+                ['My', '我的', 'wǒ de = my/mine'],
+                ['Your', '你的', 'nǐ de = your/yours'],
+                ['His', '他的', 'tā de = his'],
+                ['Our', '我们的', 'wǒmen de = our/ours'],
               ].map(([eng, hanzi, note], i) => (
                 <tr key={i}>
                   <td className="px-4 py-2 border">{eng}</td>
@@ -1568,12 +1568,12 @@ const ruleContent = {
             </thead>
             <tbody>
               {[
-                ['<span className="text-red-500">我自己</span>', 'myself'],
-                ['<span className="text-red-500">你自己</span>', 'yourself'],
-                ['<span className="text-red-500">他们自己</span>', 'themselves'],
+                ['我自己', 'myself'],
+                ['你自己', 'yourself'],
+                ['他们自己', 'themselves'],
               ].map(([phrase, meaning], i) => (
                 <tr key={i}>
-                  <td className="px-4 py-2 border">{phrase}</td>
+                  <td className="px-4 py-2 border text-red-500">{phrase}</td>
                   <td className="px-4 py-2 border">{meaning}</td>
                 </tr>
               ))}
