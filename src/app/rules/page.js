@@ -1595,11 +1595,11 @@ const ruleContent = {
         </thead>
         <tbody>
           {[
-            ['<span className="text-red-500">我</span> (wǒ)', '<span className="text-red-500">我们</span>', '<span className="text-red-500">我的</span>', '—'],
-            ['<span className="text-red-500">你</span> (nǐ)', '<span className="text-red-500">你们</span>', '<span className="text-red-500">你的</span>', '<span className="text-red-500">您</span> (nín)'],
-            ['<span className="text-red-500">他</span> (tā)', '<span className="text-red-500">他们</span>', '<span className="text-red-500">他的</span>', '—'],
-            ['<span className="text-red-500">她</span> (tā)', '<span className="text-red-500">她们</span>', '<span className="text-red-500">她的</span>', '—'],
-            ['<span className="text-red-500">它</span>(tā)', '<span className="text-red-500">它们</span>', '<span className="text-red-500">它的</span>', '—'],
+            ['我 (wǒ)', '我们', '我的', '—'],
+            ['你 (nǐ)', '你们', '你的', '您 (nín)'],
+            ['他(tā)', '他们', '他的', '—'],
+            ['她 (tā)', '她们', '她的', '—'],
+            ['它(tā)', '它们', '它的', '—'],
           ].map(([p, pl, pos, pol], idx) => (
             <tr key={idx}>
               <td className="px-4 py-2 border text-red-500">{p}</td>
