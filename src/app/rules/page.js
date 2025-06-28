@@ -1470,20 +1470,20 @@ const ruleContent = {
         </thead>
         <tbody>
           {[
-            ['I / me', '<span className="text-red-500"> 我 </span>', 'wǒ', 'Used for both subject & object'],
-            ['You', '<span className="text-red-500">你</span>', 'nǐ', 'Informal “you”'],
-            ['He / him', '<span className="text-red-500">他</span>', 'tā', 'Male'],
-            ['She / her', '<span className="text-red-500">她</span>', 'tā', 'Female — same pronunciation as 他'],
-            ['It', '<span className="text-red-500">它</span>', 'tā', 'For animals/things'],
-            ['We / us', '<span className="text-red-500">我们</span>', 'wǒmen', 'Plural of (I)'],
-            ['You all', '<span className="text-red-500">你们</span>', 'nǐmen', 'Plural of (you)'],
-            ['They', '<span className="text-red-500">他们</span>', 'tāmen', 'All males or mixed gender group'],
-            ['They (fem.)', '<span className="text-red-500">她们</span>', 'tāmen', 'Group of only females'],
-            ['They (things)', '<span className="text-red-500">它们</span>', 'tāmen', 'Group of things/animals'],
+            ['I / me', '我', 'wǒ', 'Used for both subject & object'],
+            ['You', '你', 'nǐ', 'Informal “you”'],
+            ['He / him', '他', 'tā', 'Male'],
+            ['She / her', '她', 'tā', 'Female — same pronunciation as 他'],
+            ['It', '它', 'tā', 'For animals/things'],
+            ['We / us', '我们', 'wǒmen', 'Plural of (I)'],
+            ['You all', '你们', 'nǐmen', 'Plural of (you)'],
+            ['They', '他们', 'tāmen', 'All males or mixed gender group'],
+            ['They (fem.)', '她们', 'tāmen', 'Group of only females'],
+            ['They (things)', '它们', 'tāmen', 'Group of things/animals'],
           ].map(([eng, hanzi, pinyin, note], idx) => (
             <tr key={idx}>
               <td className="px-4 py-2 border">{eng}</td>
-              <td className="px-4 py-2 border">{hanzi}</td>
+              <td className="px-4 py-2 border text-red-500">{hanzi}</td>
               <td className="px-4 py-2 border">{pinyin}</td>
               <td className="px-4 py-2 border">{note}</td>
             </tr>
@@ -1533,7 +1533,7 @@ const ruleContent = {
             <thead className="bg-gray-100">
               <tr>
                 <th className="px-4 py-2 border">English</th>
-                <th className="px-4 py-2 border">Mandarin</th>
+                <th className="px-4 py-2 border text-red-500">Mandarin</th>
                 <th className="px-4 py-2 border">Note</th>
               </tr>
             </thead>
@@ -1546,7 +1546,7 @@ const ruleContent = {
               ].map(([eng, hanzi, note], i) => (
                 <tr key={i}>
                   <td className="px-4 py-2 border">{eng}</td>
-                  <td className="px-4 py-2 border">{hanzi}</td>
+                  <td className="px-4 py-2 border text-red-500">{hanzi}</td>
                   <td className="px-4 py-2 border">{note}</td>
                 </tr>
               ))}
@@ -1602,10 +1602,10 @@ const ruleContent = {
             ['<span className="text-red-500">它</span>(tā)', '<span className="text-red-500">它们</span>', '<span className="text-red-500">它的</span>', '—'],
           ].map(([p, pl, pos, pol], idx) => (
             <tr key={idx}>
-              <td className="px-4 py-2 border">{p}</td>
-              <td className="px-4 py-2 border">{pl}</td>
-              <td className="px-4 py-2 border">{pos}</td>
-              <td className="px-4 py-2 border">{pol}</td>
+              <td className="px-4 py-2 border text-red-500">{p}</td>
+              <td className="px-4 py-2 border text-red-500">{pl}</td>
+              <td className="px-4 py-2 border text-red-500">{pos}</td>
+              <td className="px-4 py-2 border text-red-500">{pol}</td>
             </tr>
           ))}
         </tbody>
