@@ -1435,11 +1435,11 @@ const ruleContent = {
               </tr>
               <tr>
                 <td className="px-4 py-2 border">Negative commands</td>
-                <td className="px-4 py-2 border">不要 / 别</td>
+                <td className="px-4 py-2 border text-red-500">不要 / 别</td>
               </tr>
               <tr>
                 <td className="px-4 py-2 border">Polite refusal</td>
-                <td className="px-4 py-2 border">不好意思</td>
+                <td className="px-4 py-2 border text-red-500">不好意思</td>
               </tr>
             </tbody>
           </table>
