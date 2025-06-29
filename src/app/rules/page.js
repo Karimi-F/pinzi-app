@@ -1615,7 +1615,7 @@ const ruleContent = {
   "Question Words": (
     <div className="space-y-6">
       <h1 className="text-lg font-bold">
-        Mandarin Question Words (疑问词 yíwèncí)
+        Mandarin Question Words (<span className="text-red-500">疑问词</span> yíwèncí)
       </h1>
       <p>
         In Mandarin, question words replace the part of the sentence you're
@@ -1637,32 +1637,32 @@ const ruleContent = {
       <h2 className="text-base font-bold">Essential Question Words</h2>
       <ul className="list-disc pl-6 space-y-2">
         <li>
-          <strong>什么 (shénme)</strong> – What (e.g.,{" "}
+          <strong><span classname="text-red-500">什么</span> (shénme)</strong> – What (e.g.,{" "}
           <span className="text-red-500">你在看什么？</span> = What are you
           watching?)
         </li>
         <li>
-          <strong>谁 (shéi)</strong> – Who (e.g.,{" "}
+          <strong><span className="text-red-500">谁</span> (shéi)</strong> – Who (e.g.,{" "}
           <span className="text-red-500">谁是你的老师？</span> = Who is your
           teacher?)
         </li>
         <li>
-          <strong>哪里 / 哪儿 (nǎlǐ / nǎr)</strong> – Where (e.g.,{" "}
+          <strong><span className="text-red-500">哪里</span> / <span className="text-red-500">哪儿</span> (nǎlǐ / nǎr)</strong> – Where (e.g.,{" "}
           <span className="text-red-500">你要去哪里？</span> = Where are you
           going?)
         </li>
         <li>
-          <strong>什么时候 (shénme shíhou)</strong> – When (e.g.,{" "}
+          <strong><span className="text-red-500">什么时候</span> (shénme shíhou)</strong> – When (e.g.,{" "}
           <span className="text-red-500">你什么时候来？</span> = When are you
           coming?)
         </li>
         <li>
-          <strong>为什么 (wèishénme)</strong> – Why (e.g.,{" "}
+          <strong><span className="text-red-500">为什么</span> (wèishénme)</strong> – Why (e.g.,{" "}
           <span className="text-red-500">你为什么哭？</span> = Why are you
           crying?)
         </li>
         <li>
-          <strong>怎么 (zěnme)</strong> – How / Why (e.g.,{" "}
+          <strong><span className="text-red-500">怎么</span> (zěnme)</strong> – How / Why (e.g.,{" "}
           <span className="text-red-500">你怎么去学校？</span> = How do you get
           to school?)
         </li>
