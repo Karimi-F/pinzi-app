@@ -1717,7 +1717,7 @@ const ruleContent = {
         <li>
           <div>
             <p>
-              <strong>怎么 (zěnme)</strong> has 3 uses:
+              <strong><span className="text-red-500">怎么</span> (zěnme)</strong> has 3 uses:
             </p>
             <ul className="list-disc pl-6 mt-2">
               <li>
