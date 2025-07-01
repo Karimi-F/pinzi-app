@@ -1739,7 +1739,7 @@ const ruleContent = {
         <li>
           <div>
             <p>
-              <strong>谁 (shéi)</strong> can be subject or object
+              <strong><span className="text-red-500">谁</span> (shéi)</strong> can be subject or object
             </p>
             <ul className="list-disc pl-6 mt-2">
               <li>
