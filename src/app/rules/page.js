@@ -1996,7 +1996,7 @@ const ruleContent = {
       <ul className="list-disc pl-6 space-y-1">
         <li>
           <span className="text-red-500">零</span> is used to skip digits (e.g.
-          105 = 一百零五).
+          105 = <span className="text-red-500">一百零五</span>).
         </li>
         <li>
           <span className="text-red-500">两</span> is for quantities;{" "}
