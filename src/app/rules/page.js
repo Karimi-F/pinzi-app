@@ -1865,37 +1865,48 @@ const ruleContent = {
       <h2 className="font-semibold text-base">Basic Numbers (0–10)</h2>
       <ul className="list-disc pl-6 space-y-1">
         <li>
-          <span className="text-red-500">0</span> = 零 (líng)
+          0 =
+          <span className="text-red-500"> 零 </span>(líng)
         </li>
         <li>
-          <span className="text-red-500">1</span> = 一 (yī)
+          1 =
+          <span className="text-red-500">一</span> (yī)
         </li>
         <li>
-          <span className="text-red-500">2</span> = 二 (èr)
+          2 =
+          <span className="text-red-500">二</span> (èr)
         </li>
         <li>
-          <span className="text-red-500">3</span> = 三 (sān)
+          3 =
+          <span className="text-red-500">三 </span>(sān)
         </li>
         <li>
-          <span className="text-red-500">4</span> = 四 (sì)
+          4 = 
+          <span className="text-red-500">四 </span>(sì)
         </li>
         <li>
-          <span className="text-red-500">5</span> = 五 (wǔ)
+          5 =
+          <span className="text-red-500">五</span> (wǔ)
         </li>
         <li>
-          <span className="text-red-500">6</span> = 六 (liù)
+          6 =
+          <span className="text-red-500">六 </span>(liù)
         </li>
         <li>
-          <span className="text-red-500">7</span> = 七 (qī)
+          7 =
+          <span className="text-red-500">七 </span>(qī)
         </li>
         <li>
-          <span className="text-red-500">8</span> = 八 (bā)
+          8 =
+          <span className="text-red-500">八 </span>(bā)
         </li>
         <li>
-          <span className="text-red-500">9</span> = 九 (jiǔ)
+          9 =
+          <span className="text-red-500">九 </span>(jiǔ)
         </li>
         <li>
-          <span className="text-red-500">10</span> = 十 (shí)
+          10 = 
+          <span className="text-red-500">十</span> (shí)
         </li>
       </ul>
 
