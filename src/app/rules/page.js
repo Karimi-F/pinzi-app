@@ -1916,21 +1916,26 @@ const ruleContent = {
       </p>
       <ul className="list-disc pl-6 space-y-1 mt-1">
         <li>
-          <span className="text-red-500">11</span> = 十一 (shí yī)
+          11 =
+          <span className="text-red-500">十一 </span>(shí yī)
         </li>
         <li>
-          <span className="text-red-500">24</span> = 二十四 (èr shí sì)
+          24 =
+          <span className="text-red-500">二十四 </span>(èr shí sì)
         </li>
         <li>
-          <span className="text-red-500">39</span> = 三十九 (sān shí jiǔ)
+          39 =
+          <span className="text-red-500">三十九 </span>(sān shí jiǔ)
         </li>
         <li>
-          <span className="text-red-500">99</span> = 九十九 (jiǔ shí jiǔ)
+          99 =
+          <span className="text-red-500">九十九 </span> (jiǔ shí jiǔ)
         </li>
       </ul>
       <p className="mt-2">
         <strong>Rule:</strong> If there's no ones digit, drop it. e.g.{" "}
-        <span className="text-red-500">40</span> = 四十
+        40 =
+        <span className="text-red-500">四十 </span>
       </p>
 
       <h2 className="font-semibold text-base">🔁 Special Case: 两 (liǎng)</h2>
