@@ -1938,9 +1938,9 @@ const ruleContent = {
         <span className="text-red-500">四十 </span>
       </p>
 
-      <h2 className="font-semibold text-base">🔁 Special Case: 两 (liǎng)</h2>
+      <h2 className="font-semibold text-base">🔁 Special Case: <span className="text-red-500">两</span> (liǎng)</h2>
       <p>
-        Use <span className="text-red-500">两</span> instead of 二 when talking
+        Use <span className="text-red-500">两</span> instead of <span className="text-red-500">二</span> when talking
         about quantities, time, or measure words.
       </p>
       <ul className="list-disc pl-6 mt-1 space-y-1">
