@@ -1964,20 +1964,25 @@ const ruleContent = {
       </h2>
       <ul className="list-disc pl-6 space-y-1">
         <li>
-          <span className="text-red-500">100</span> = 一百 (yī bǎi)
+          100 =
+          <span className="text-red-500">一百 </span>(yī bǎi)
         </li>
         <li>
-          <span className="text-red-500">101</span> = 一百零一 (yī bǎi líng yī)
+          101 =
+          <span className="text-red-500">一百零一</span> (yī bǎi líng yī)
         </li>
         <li>
-          <span className="text-red-500">215</span> = 二百一十五 (èr bǎi yī shí
+          215 = 
+          <span className="text-red-500">二百一十五 </span>(èr bǎi yī shí
           wǔ)
         </li>
         <li>
-          <span className="text-red-500">1,000</span> = 一千 (yī qiān)
+          1,000 =
+          <span className="text-red-500">一千</span> (yī qiān)
         </li>
         <li>
-          <span className="text-red-500">10,000</span> = 一万 (yī wàn)
+          10,000 =
+          <span className="text-red-500">一万</span> (yī wàn)
         </li>
       </ul>
       <p className="mt-2">
