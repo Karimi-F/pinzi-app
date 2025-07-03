@@ -2044,10 +2044,10 @@ const ruleContent = {
         <h2 className="text-base font-bold">Quick Summary</h2>
         <ul className="list-disc pl-6 space-y-1">
           <li>
-            <strong className="text-red-500">零</strong> fills gaps in numbers (e.g. 105 = 一百零五).
+            <strong className="text-red-500">零</strong> fills gaps in numbers (e.g. 105 = <span className="text-red-500">一百零五</span>).
           </li>
           <li>
-            <strong className="text-red-500">两</strong> = quantities/time, <strong>二</strong> =
+            <strong className="text-red-500">两</strong> = quantities/time, <strong className="text-red-500">二</strong> =
             counting/listing.
           </li>
           <li>Chinese groups large numbers by 10,000s (not 1,000s).</li>
