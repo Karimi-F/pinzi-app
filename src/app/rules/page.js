@@ -2061,7 +2061,7 @@ const ruleContent = {
   ),
   "Time & Dates": (
     <div className="space-y-6">
-      <h1 className="text-lg font-bold">日期和时间 (Dates & Time)</h1>
+      <h1 className="text-lg font-bold"><span className="text-red-500">日期和时间 </span>(Dates & Time)</h1>
       <p>
         Mandarin expresses time and dates from largest to smallest:{" "}
         <strong>year → month → day</strong>. It’s structured and simple.
@@ -2077,11 +2077,11 @@ const ruleContent = {
             </p>
             <ul className="list-disc pl-6 mt-2">
               <li>
-                <span className="text-red-500">2025年</span> = 二零二五年 (èr
+                <span className="text-red-500">2025年</span> = <span className = "text-red-500">二零二五年</span> (èr
                 líng èr wǔ nián)
               </li>
               <li>
-                <span className="text-red-500">1989年</span> = 一九八九年 (yī
+                <span className="text-red-500">1989年</span> = <span className="text-red-500">一九八九年</span> (yī
                 jiǔ bā jiǔ nián)
               </li>
             </ul>
