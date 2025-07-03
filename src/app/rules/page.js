@@ -1999,7 +1999,7 @@ const ruleContent = {
           105 = <span className="text-red-500">一百零五</span>).
         </li>
         <li>
-          <span className="text-red-500">两</span> is for quantities;{" "}
+          <span className="text-red-500">两</span> is for quantities;
           <span className="text-red-500">二</span> is for counting.
         </li>
         <li>
@@ -2033,7 +2033,7 @@ const ruleContent = {
           <strong>Not used in:</strong> Math, dates, or regular counting.
         </p>
         <p>
-          <strong>Example:</strong> 131-4151-7189 →{" "}
+          <strong>Example:</strong> 131-4151-7189 →
           <span className="text-red-500">
             yāo sān yāo – sì yāo wǔ yāo – qī yāo bā jiǔ
           </span>
@@ -2164,8 +2164,8 @@ const ruleContent = {
         </li>
       </ul>
       <p className="mt-2">
-        <strong>Note:</strong> Sunday is irregular — uses{" "}
-        <span className="text-red-500">天 (tiān)</span> or{" "}
+        <strong>Note:</strong> Sunday is irregular — uses
+        <span className="text-red-500">天 (tiān)</span> or
         <span className="text-red-500">日 (rì)</span>
       </p>
 
