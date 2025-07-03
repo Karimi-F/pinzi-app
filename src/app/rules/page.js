@@ -2207,13 +2207,13 @@ const ruleContent = {
           Say years <strong>digit-by-digit</strong>.
         </li>
         <li>
-          Weekdays follow <span className="text-red-500">星期 + number</span>{" "}
+          Weekdays follow <span className="text-red-500">星期 + number</span>
           (Sunday is irregular).
         </li>
         <li>
-          For time: use <span className="text-red-500">点</span> (hour),{" "}
-          <span className="text-red-500">分</span> (minute),{" "}
-          <span className="text-red-500">半</span> (half), and{" "}
+          For time: use <span className="text-red-500">点</span> (hour),
+          <span className="text-red-500">分</span> (minute),
+          <span className="text-red-500">半</span> (half), and
           <span className="text-red-500">上午 / 下午</span> for AM/PM.
         </li>
       </ul>
