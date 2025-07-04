@@ -78,11 +78,19 @@ export default function Home() {
   const [flashcards, setFlashcards] = useState(sampleFlashcards);
   const [selectedLevel, setSelectedLevel] = useState("All Levels");
   const [isCreateModalOpen, setIsCreateModalOpen] = useState(false);
+  const [searchQuery, setSearchQuery] = useState("");
 
-  const filteredFlashcards =
-    selectedLevel === "All Levels"
-      ? flashcards
-      : flashcards.filter((card) => card.level === selectedLevel);
+const filteredFlashcards = flashcards.filter((card) => {
+  const matchesLevel =
+    selectedLevel === "All Levels" || card.level === selectedLevel;
+
+  const matchesSearch =
+    card.hanzi.includes(searchQuery) ||
+    card.pinyin.toLowerCase().includes(searchQuery.toLowerCase()) ||
+    card.meaning.toLowerCase().includes(searchQuery.toLowerCase());
+
+  return matchesLevel && matchesSearch;
+});
 
   const groupedFlashcards = filteredFlashcards.reduce((groups, card) => {
     const level = card.level;
@@ -99,11 +107,14 @@ export default function Home() {
     setIsCreateModalOpen(false);
   };
 
+
+
+
   return (
     <div className="bg-gray-200 h-screen">
-    <main className="text-black">
-      <Navbar />
-      {/* <nav className="">
+      <main className="text-black">
+        <Navbar />
+        {/* <nav className="">
         <div className="flex items-center justify-between">
           <h1 className="text-2xl font-bold">
             <span className="text-red-600">汉字</span> Flashcards
@@ -124,87 +135,117 @@ export default function Home() {
           
         </div>
       </nav> */}
-      <div className="bg-rose-50 flex justify-between p-12 h-[25vh]">
-        <div>
-          {session ? (
-            <p className="text-2xl font-bold">
-              {session.user.name}'s Flashcards
-            </p>
-          ) : (
-            <p className="text-2xl text-center">Please log in</p>
-          )}
-          <p>Master Mandarin with your personalized flashcard collection</p>
-        </div>
-
-        <div className="flex space-x-6 h-11">
-          <div className="flex items-center">
-            <Filter className="h-5 w-5 mr-1 text-gray-500"/>
-            <select
-  value={selectedLevel}
-  onChange={(e) => setSelectedLevel(e.target.value)}
-  className="border border-gray-200 rounded-md p-2 w-[180px] text-black"
->
-  {levels.map((level) => (
-    <option key={level} value={level}>
-      {level}
-    </option>
-  ))}
-</select>
+        <div className="bg-rose-50 flex justify-between p-12 h-[25vh]">
+          <div>
+            {session ? (
+              <p className="text-2xl font-bold">
+                {session.user.name}'s Flashcards
+              </p>
+            ) : (
+              <p className="text-2xl text-center">Please log in</p>
+            )}
+            <p>Master Mandarin with your personalized flashcard collection</p>
           </div>
 
-          <Button onClick={() => setIsCreateModalOpen(true)} className="flex">
-            <Plus className="h-6 w-6 mr-2" /> 
-            Create Flashcard
-          </Button>
-        </div>
-      </div>
-
-      <section>
-        <div>
-          {Object.keys(groupedFlashcards).length === 0 ? (
-            <div className="text-center">
-              <div>
-                <div>📚</div>
-              </div>
-              <h3 className="text-xl font-semibold text-gray-600 mb-2">No flashcards found</h3>
-              <p>
-                {selectedLevel === "All Levels"
-                ? "Create your first flashcard to get started!"
-              : `No flashcards found for ${selectedLevel} level.`}
-              </p>
-              <div className="flex justify-center">
-                <Button onClick={() => setIsCreateModalOpen(true)}className="flex items-center">
-                <Plus className="h-6 w-6 mr-2"/>
-                Create Your First Flashcard
-              </Button>
-              </div>
-              
-              
+          <div className="flex space-x-6 h-11">
+            <div className="flex items-center border border-gray-200 rounded-md px-3 py-2 w-[240px] bg-white">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-4 w-4 text-gray-400 mr-2"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M21 21l-4.35-4.35m0 0A7.5 7.5 0 104.5 4.5a7.5 7.5 0 0012.15 12.15z"
+                />
+              </svg>
+              <input
+                type="text"
+                placeholder="Search Hanzi, Pinyin, or Meaning"
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                className="w-full outline-none text-sm text-black placeholder:text-gray-400 bg-transparent"
+              />
             </div>
-          ) : (
-            <div className="space-y-8 bg-gray-200">
-              {Object.entries(groupedFlashcards).map(([level, cards]) => (
-                <div key={level}>
-                  <div className="flex items-center gap-3 mb-6">
-                    <h2 className="text-2xl font-bold text-gray-900 ">{level}</h2>
-                    <span className="bg-red-100 text-red-800 text-sm font-medium px-3 py-1 rounded-full">
-                      {cards.length} {cards.length === 1 ? "card" : "cards"}</span>
-                  </div>
-                  <FlashcardGrid flashcards={cards} />
+
+            <div className="flex items-center">
+              <Filter className="h-5 w-5 mr-1 text-gray-500" />
+              <select
+                value={selectedLevel}
+                onChange={(e) => setSelectedLevel(e.target.value)}
+                className="border border-gray-200 rounded-md p-2 w-[180px] text-black"
+              >
+                {levels.map((level) => (
+                  <option key={level} value={level}>
+                    {level}
+                  </option>
+                ))}
+              </select>
+            </div>
+
+            <Button onClick={() => setIsCreateModalOpen(true)} className="flex">
+              <Plus className="h-6 w-6 mr-2" />
+              Create Flashcard
+            </Button>
+          </div>
+        </div>
+
+        <section>
+          <div>
+            {Object.keys(groupedFlashcards).length === 0 ? (
+              <div className="text-center">
+                <div>
+                  <div>📚</div>
                 </div>
-              ))}
-            </div>
-          )}
-        </div>
-      </section>
-    </main>
+                <h3 className="text-xl font-semibold text-gray-600 mb-2">
+                  No flashcards found
+                </h3>
+                <p>
+                  {selectedLevel === "All Levels"
+                    ? "Create your first flashcard to get started!"
+                    : `No flashcards found for ${selectedLevel} level.`}
+                </p>
+                <div className="flex justify-center">
+                  <Button
+                    onClick={() => setIsCreateModalOpen(true)}
+                    className="flex items-center"
+                  >
+                    <Plus className="h-6 w-6 mr-2" />
+                    Create Your First Flashcard
+                  </Button>
+                </div>
+              </div>
+            ) : (
+              <div className="space-y-8 bg-gray-200">
+                {Object.entries(groupedFlashcards).map(([level, cards]) => (
+                  <div key={level}>
+                    <div className="flex items-center gap-3 mb-6">
+                      <h2 className="text-2xl font-bold text-gray-900 ">
+                        {level}
+                      </h2>
+                      <span className="bg-red-100 text-red-800 text-sm font-medium px-3 py-1 rounded-full">
+                        {cards.length} {cards.length === 1 ? "card" : "cards"}
+                      </span>
+                    </div>
+                    <FlashcardGrid flashcards={cards} />
+                  </div>
+                ))}
+              </div>
+            )}
+          </div>
+        </section>
+      </main>
 
-    <CreateFlashcardModal 
-    isOpen={isCreateModalOpen}
-    onClose={() => setIsCreateModalOpen(false)}
-    onSubmit={handleCreateFlashcard}
-    />
-    <Footer />
+      <CreateFlashcardModal
+        isOpen={isCreateModalOpen}
+        onClose={() => setIsCreateModalOpen(false)}
+        onSubmit={handleCreateFlashcard}
+      />
+      <Footer />
     </div>
   );
 }
