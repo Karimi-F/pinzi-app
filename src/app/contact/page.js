@@ -5,6 +5,7 @@ import { Github, Mail, MapPin, Phone, Twitter } from "lucide-react";
 import Footer from "../footer/page";
 import FAQ from "@/components/FAQ";
 import Navbar from "@/components/NavBar";
+import Link from "next/link";
 
 export default function Contact() {
   return (
@@ -128,11 +129,12 @@ export default function Contact() {
           <div className="p-4">
             <h2 className="font-bold text-xl">Links</h2>
           </div>
-          <div className="p-4">
-            <h4 className="cursor-pointer hover:text-red-500">Home</h4>
-            {/* <h4 className="cursor-pointer hover:text-red-500">Features</h4> */}
-            <h4 className="cursor-pointer hover:text-red-500">About</h4>
-            <h4 className="cursor-pointer hover:text-red-500">Contact</h4>
+          <div className="p-4 flex flex-col text-sm md:text-base">
+            <Link href="/" className="cursor-pointer hover:underline text-black hover:text-red-500"><h4>Home</h4></Link>
+            <Link href="/home" className="cursor-pointer hover:underline text-black hover:text-red-500"><h4>Study</h4></Link>
+            <Link href="/rules" className="hover:underline text-black hover:text-red-500"><h4>Rules</h4></Link>
+            <Link href="/about" className="cursor-pointer hover:text-red-500"><h4>About</h4></Link>
+            <Link href="/contact"  className="cursor-pointer hover:text-red-500"><h4>Contact</h4></Link>
           </div>
         </div>
 
