@@ -119,13 +119,13 @@ export default function Landing() {
                 <div className="p-4">
                   <h2 className="font-bold text-xl">Links</h2>
                 </div>
-                <div className="p-4">
-                  <h4 className="cursor-pointer hover:text-red-500">Home</h4>
-                  <h4 className="cursor-pointer hover:text-red-500">Rules</h4>
-                  <h4 className="cursor-pointer hover:text-red-500">About</h4>
-                  <h4 className="cursor-pointer hover:text-red-500">Contact</h4>
-                  
-                </div>
+                <div className="p-4 flex flex-col text-sm md:text-base">
+            <Link href="/" className="cursor-pointer hover:underline text-black hover:text-red-500"><h4>Home</h4></Link>
+            <Link href="/home" className="cursor-pointer hover:underline text-black hover:text-red-500"><h4>Study</h4></Link>
+            <Link href="/rules" className="cursor-pointer hover:underline text-black hover:text-red-500"><h4>Rules</h4></Link>
+            <Link href="/about" className="cursor-pointer hover:underline text-black hover:text-red-500"><h4>About</h4></Link>
+            <Link href="/contact"  className="cursor-pointer hover:underline text-black hover:text-red-500"><h4>Contact</h4></Link>
+          </div>
               </div>
               <div className="p-4 w-1/4">
                 <div className="p-4">
