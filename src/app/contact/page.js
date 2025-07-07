@@ -174,9 +174,14 @@ export default function Contact() {
                     <Twitter />
                   </h4>
                   </a>
-            <h4 className="cursor-pointer hover:text-red-500">
-              <Mail />
-            </h4>
+            <a
+          href="mailto:fridah37karimi@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer">
+                  <h4 className="cursor-pointer hover:text-red-500">
+                    <Mail />
+                  </h4>
+                  </a>
           </div>
         </div>
       </div>
