@@ -166,9 +166,14 @@ export default function Contact() {
                     <Github />
                   </h4>
                   </a>
-            <h4 className="cursor-pointer hover:text-red-500">
-              <Twitter />
-            </h4>
+            <a
+          href="https://x.com/FridahK17605437"
+          target="_blank"
+          rel="noopener noreferrer">
+                  <h4 className="cursor-pointer hover:text-red-500">
+                    <Twitter />
+                  </h4>
+                  </a>
             <h4 className="cursor-pointer hover:text-red-500">
               <Mail />
             </h4>
