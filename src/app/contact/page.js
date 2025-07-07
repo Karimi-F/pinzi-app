@@ -158,9 +158,14 @@ export default function Contact() {
             <h2 className="font-bold text-xl">Connect</h2>
           </div>
           <div className="p-4 flex text-black-50 space-x-4">
-            <h4 className="cursor-pointer hover:text-red-500">
-              <Github />
-            </h4>
+            <a
+          href="https://github.com/Karimi-F"
+          target="_blank"
+          rel="noopener noreferrer">
+                  <h4 className="cursor-pointer hover:text-red-500">
+                    <Github />
+                  </h4>
+                  </a>
             <h4 className="cursor-pointer hover:text-red-500">
               <Twitter />
             </h4>
