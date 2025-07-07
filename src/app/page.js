@@ -146,20 +146,30 @@ export default function Landing() {
                 </div>
         
                 <div className="p-4 flex text-black-50 space-x-4">
-                  <Link
+                  <a
           href="https://github.com/Karimi-F"
           target="_blank"
           rel="noopener noreferrer">
                   <h4 className="cursor-pointer hover:text-red-500">
                     <Github />
                   </h4>
-                  </Link>
+                  </a>
+                  <a
+          href="https://x.com/FridahK17605437"
+          target="_blank"
+          rel="noopener noreferrer">
                   <h4 className="cursor-pointer hover:text-red-500">
                     <Twitter />
                   </h4>
+                  </a>
+                  {/* <a
+          href="mailto:fridah37karimi@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer">
                   <h4 className="cursor-pointer hover:text-red-500">
                     <Mail />
                   </h4>
+                  </a> */}
                 </div>
               </div>
             </div>
