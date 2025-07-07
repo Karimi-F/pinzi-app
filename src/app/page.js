@@ -162,14 +162,14 @@ export default function Landing() {
                     <Twitter />
                   </h4>
                   </a>
-                  {/* <a
+                  <a
           href="mailto:fridah37karimi@gmail.com"
           target="_blank"
           rel="noopener noreferrer">
                   <h4 className="cursor-pointer hover:text-red-500">
                     <Mail />
                   </h4>
-                  </a> */}
+                  </a>
                 </div>
               </div>
             </div>
