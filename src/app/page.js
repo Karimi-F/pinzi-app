@@ -7,6 +7,7 @@ import Footer from "./footer/page";
 import Contact from "./contact/page";
 import { BarChart, BookOpen, ChevronRight, Github, Mail, Twitter, User } from "lucide-react";
 import Navbar from "@/components/NavBar";
+import Link from "next/link";
 
 export default function Landing() {
   const handleClick = () => {
@@ -145,9 +146,14 @@ export default function Landing() {
                 </div>
         
                 <div className="p-4 flex text-black-50 space-x-4">
+                  <Link
+          href="https://github.com/Karimi-F"
+          target="_blank"
+          rel="noopener noreferrer">
                   <h4 className="cursor-pointer hover:text-red-500">
                     <Github />
                   </h4>
+                  </Link>
                   <h4 className="cursor-pointer hover:text-red-500">
                     <Twitter />
                   </h4>
