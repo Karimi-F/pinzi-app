@@ -2234,7 +2234,7 @@ export default function Rules() {
               <li
                 key={index}
                 className={`cursor-pointer p-2 rounded hover:bg-gray-200 ${
-          selected === rule ? 'bg-red-100 text-red-700 font-semibold' : ''
+          selected === rule ? 'bg-red-100 text-red-500 font-semibold' : ''
         }`}
                 onClick={() => setSelected(rule)}
               >
