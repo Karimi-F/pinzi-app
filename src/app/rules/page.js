@@ -2692,7 +2692,7 @@ export default function Rules() {
       <Navbar />
       <div className="flex h-screen">
         {/* Sidebar */}
-        <aside className="w-64 bg-gray-100 border-r p-4">
+        <aside className="w-64 bg-gray-100 border-r p-4 h-full">
           <ul className="space-y-2">
             {rules.map((rule, index) => (
               <li
