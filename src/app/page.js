@@ -15,7 +15,7 @@ export default function Landing() {
   };
 
   return (
-    <div className="bg-slate-50 text-black">
+    <div className="bg-slate-50 dark:bg-gray-900 text-black dark:text-white">
       <Navbar />
       <div className="wrapper flex justify-between items-center h-screen w-full p-3 bg-rose-50 text-black">
         <div className="w-1/2">
