@@ -2,7 +2,8 @@
 export default function DarkMode (){
     return(
         <div>
-           This is the daek mode toggle component 
+           This is the dark mode toggle component 
+
         </div>
     )
 }
