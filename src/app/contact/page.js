@@ -95,18 +95,19 @@ export default function Contact() {
 
       <div>
         <div className="w-full h-64 md:h-full rounded-lg overflow-hidden shadow-lg">
-          <iframe 
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1328.1129508520942!2d37.10873865326021!3d-1.7775699632940334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182fede2be180b0f%3A0x2e461af87d59b763!2sKonza!5e0!3m2!1sen!2ske!4v1749119053059!5m2!1sen!2ske" 
-          style={{ width: "100%", height: "400px", border: 0 }}
-          allowFullScreen="" 
-          loading="lazy" 
-          referrerPolicy="no-referrer-when-downgrade"></iframe>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1328.1129508520942!2d37.10873865326021!3d-1.7775699632940334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182fede2be180b0f%3A0x2e461af87d59b763!2sKonza!5e0!3m2!1sen!2ske!4v1749119053059!5m2!1sen!2ske"
+            style={{ width: "100%", height: "400px", border: 0 }}
+            allowFullScreen=""
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          ></iframe>
         </div>
       </div>
 
-<div className="m-4 p-4"><FAQ /></div>
-      
-
+      <div className="m-4 p-4">
+        <FAQ />
+      </div>
 
       <div className="text-center text-2xl">
         I’m just one person building this in between learning{" "}
@@ -130,11 +131,36 @@ export default function Contact() {
             <h2 className="font-bold text-xl">Links</h2>
           </div>
           <div className="p-4 flex flex-col text-sm md:text-base">
-            <Link href="/" className="cursor-pointer hover:underline text-black hover:text-red-500"><h4>Home</h4></Link>
-            <Link href="/home" className="cursor-pointer hover:underline text-black hover:text-red-500"><h4>Study</h4></Link>
-            <Link href="/rules" className="cursor-pointer hover:underline text-black hover:text-red-500"><h4>Rules</h4></Link>
-            <Link href="/about" className="cursor-pointer hover:underline text-black hover:text-red-500"><h4>About</h4></Link>
-            <Link href="/contact"  className="cursor-pointer hover:underline text-black hover:text-red-500"><h4>Contact</h4></Link>
+            <Link
+              href="/"
+              className="cursor-pointer hover:underline text-black hover:text-red-500"
+            >
+              <h4>Home</h4>
+            </Link>
+            <Link
+              href="/home"
+              className="cursor-pointer hover:underline text-black hover:text-red-500"
+            >
+              <h4>Study</h4>
+            </Link>
+            <Link
+              href="/rules"
+              className="cursor-pointer hover:underline text-black hover:text-red-500"
+            >
+              <h4>Rules</h4>
+            </Link>
+            <Link
+              href="/about"
+              className="cursor-pointer hover:underline text-black hover:text-red-500"
+            >
+              <h4>About</h4>
+            </Link>
+            <Link
+              href="/contact"
+              className="cursor-pointer hover:underline text-black hover:text-red-500"
+            >
+              <h4>Contact</h4>
+            </Link>
           </div>
         </div>
 
@@ -159,29 +185,32 @@ export default function Contact() {
           </div>
           <div className="p-4 flex text-black-50 space-x-4">
             <a
-          href="https://github.com/Karimi-F"
-          target="_blank"
-          rel="noopener noreferrer">
-                  <h4 className="cursor-pointer hover:text-red-500">
-                    <Github />
-                  </h4>
-                  </a>
+              href="https://github.com/Karimi-F"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h4 className="cursor-pointer hover:text-red-500">
+                <Github />
+              </h4>
+            </a>
             <a
-          href="https://x.com/FridahK17605437"
-          target="_blank"
-          rel="noopener noreferrer">
-                  <h4 className="cursor-pointer hover:text-red-500">
-                    <Twitter />
-                  </h4>
-                  </a>
+              href="https://x.com/FridahK17605437"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h4 className="cursor-pointer hover:text-red-500">
+                <Twitter />
+              </h4>
+            </a>
             <a
-          href="mailto:fridah37karimi@gmail.com"
-          target="_blank"
-          rel="noopener noreferrer">
-                  <h4 className="cursor-pointer hover:text-red-500">
-                    <Mail />
-                  </h4>
-                  </a>
+              href="mailto:fridah37karimi@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h4 className="cursor-pointer hover:text-red-500">
+                <Mail />
+              </h4>
+            </a>
           </div>
         </div>
       </div>
