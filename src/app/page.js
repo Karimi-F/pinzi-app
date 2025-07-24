@@ -16,6 +16,7 @@ import {
 } from "lucide-react";
 import Navbar from "@/components/NavBar";
 import Link from "next/link";
+import DarkModeToggle from "@/components/DarkMode";
 
 export default function Landing() {
   const handleClick = () => {
