@@ -10,6 +10,7 @@ import { useState } from "react";
 import Footer from "../footer/page";
 import CreateFlashcardModal from "../createflashcardmodal/page";
 import Navbar from "@/components/NavBar";
+import DarkModeToggle from "@/components/DarkMode";
 
 const sampleFlashcards = [
   {
