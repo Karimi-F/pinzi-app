@@ -6,6 +6,7 @@ import Footer from "../footer/page";
 import FAQ from "@/components/FAQ";
 import Navbar from "@/components/NavBar";
 import Link from "next/link";
+import DarkModeToggle from "@/components/DarkMode";
 
 export default function Contact() {
   return (
