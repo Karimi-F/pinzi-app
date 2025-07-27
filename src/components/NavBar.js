@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useSession, signIn, signOut } from "next-auth/react";
+import DarkModeToggle from "./DarkMode";
 
 export default function Navbar() {
   const { data: session } = useSession();
