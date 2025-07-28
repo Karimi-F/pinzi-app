@@ -3,6 +3,7 @@
 import Navbar from "@/components/NavBar";
 import Footer from "../footer/page";
 import { useState } from "react";
+import DarkModeToggle from "@/components/DarkMode";
 
 const rules = [
   "Tones",
