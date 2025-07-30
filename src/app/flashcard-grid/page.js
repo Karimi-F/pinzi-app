@@ -3,6 +3,7 @@
 import Button from "@/components/Button";
 import { RotateCcw, Volume2 } from "lucide-react";
 import { useState } from "react";
+import DarkModeToggle from "@/components/DarkMode";
 
 export default function FlashcardGrid({flashcards}){
     const [flippedCards, setFlippedCards] = useState(new Set ())
