@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect, useRef } from 'react';
+import DarkModeToggle from '@/components/DarkMode';
 
 export default function FlashcardModal({ isOpen, onClose, onSubmit }) {
   const [formData, setFormData] = useState({
