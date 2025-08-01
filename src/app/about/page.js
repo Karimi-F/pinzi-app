@@ -10,6 +10,7 @@ import {
   CircleUserRound,
 } from "lucide-react";
 import Footer from "../footer/page";
+import DarkModeToggle from "@/components/DarkMode";
 
 export default function About() {
   return (
