@@ -1,5 +1,6 @@
 // src/components/AuthButton.js
 import { signIn, signOut, useSession } from "next-auth/react";
+import DarkModeToggle from "./DarkMode";
 
 export default function AuthButton() {
   const { data: session } = useSession();
