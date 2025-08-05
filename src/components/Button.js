@@ -1,5 +1,7 @@
 "use client";
 
+import DarkModeToggle from "./DarkMode";
+
 export default function Button({
   children,
   onClick,
