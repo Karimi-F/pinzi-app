@@ -2,6 +2,7 @@
 
 import "./globals.css";
 import { SessionProvider } from "next-auth/react";
+import DarkModeToggle from "@/components/DarkMode";
 
 export default function RootLayout({ children }) {
   return (
