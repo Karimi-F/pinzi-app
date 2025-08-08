@@ -10,6 +10,7 @@ export default function Navbar() {
   return (
     <nav className="flex justify-between items-center sticky top-0 z-50 px-6 py-4 bg-white shadow-md text-black">
       {/* <nav className="sticky top-0 z-50  > */}
+      <DarkModeToggle />
       <h1 className="text-2xl font-bold">
         <Link href="/">
           <span className="text-red-600">汉字</span> Flashcards
