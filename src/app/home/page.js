@@ -115,6 +115,8 @@ const filteredFlashcards = flashcards.filter((card) => {
     <div className="bg-gray-200 h-screen">
       <main className="text-black">
         <Navbar />
+        <DarkModeToggle />
+        
         {/* <nav className="">
         <div className="flex items-center justify-between">
           <h1 className="text-2xl font-bold">
