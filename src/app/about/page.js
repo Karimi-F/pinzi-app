@@ -16,6 +16,7 @@ export default function About() {
   return (
     <div className="bg-white text-black h-screen">
       <Navbar />
+      <DarkModeToggle />
       <div className="p-4">
         <h1 className="text-center text-3xl font-bold p-8">About this App</h1>
         <p className="text-xl">
