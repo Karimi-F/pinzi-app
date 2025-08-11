@@ -58,6 +58,7 @@ export default function FlashcardModal({ isOpen, onClose, onSubmit }) {
       onClick={onClickOutside}
       className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50"
     >
+      <DarkModeToggle />
       <div
         ref={modalRef}
         className="bg-white dark:bg-zinc-900 rounded-lg shadow-lg p-6 w-full max-w-md"
