@@ -13,6 +13,7 @@ export default function Contact() {
     // <div className="flex justify-between border border-gray-100 bg-slate-50 text-black w-full">
     <div className="border border-gray-100 bg-slate-50 text-black w-full">
       <Navbar />
+      <DarkModeToggle />
       <div>
         <div className="flex flex-col md:flex-row w-full min-h-screen justify-between space-x-8">
           <div className="w-full md:w-1/2 p-4 space-y-4">
