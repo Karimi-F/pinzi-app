@@ -2691,6 +2691,7 @@ export default function Rules() {
   return (
     <div className="text-black bg-slate-50 min-h-screen">
       <Navbar />
+      <DarkModeToggle />
       <div className="flex h-screen">
         {/* Sidebar */}
         <aside className="w-64 bg-gray-100 border-r p-4 h-full">
